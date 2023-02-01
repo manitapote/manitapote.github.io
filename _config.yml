@@ -9,6 +9,8 @@ avatar                   : "/assets/images/bird.png"
 url                      : "https://manitapote.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/sparrow" # the subpath of your site, e.g. "/blog" leave blank if no subpath
 
+theme: sparrow-jekyll-theme
+
 # Site Author
 author:
   name                   : "Manita Pote" # appears in the footer and atom feed
