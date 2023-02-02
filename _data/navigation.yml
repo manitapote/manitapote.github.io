@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: "home"
+  - title: "Home"
     url: /
-  - title: "blog"
+  - title: "Blog"
 #    url: /blog
 #  - title: "poetry"
 #    url: /poetry

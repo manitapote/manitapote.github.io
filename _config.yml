@@ -1,32 +1,34 @@
 # Site Settings
-encoding                 : "utf-8"
-locale                   : "en"
-title                    : "Manita Pote"
-title_separator          : "-"
+encoding: "utf-8"
+locale: "en"
+title: "Manita Pote"
+title_separator: "-"
 #description              : "A clean and minimal theme for writers."
-favicon                  : "/assets/images/bird.png"
-avatar                   : "/assets/images/bird.png"
-url                      : "https://manitapote.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/sparrow" # the subpath of your site, e.g. "/blog" leave blank if no subpath
+favicon: "/assets/images/bird.png"
+avatar: "/assets/images/profile.jpg"
+url: "https://manitapote.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: "/sparrow" # the subpath of your site, e.g. "/blog" leave blank if no subpath
 
-theme: sparrow-jekyll-theme
+#theme                    : "sparrow-jekyll-theme"
 
 # Site Author
 author:
-  name                   : "Manita Pote" # appears in the footer and atom feed
+  name: "Manita Pote" # appears in the footer and atom feed
 
-comments                 : true # set it to false to disable comments
+comments: true # set it to false to disable comments
 disqus:
-  shortname              : # sparrow-theme # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  shortname: # sparrow-theme # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
 
 atom_feed:
-  path                   : # blank (default) uses feed.xml
+  path: # blank (default) uses feed.xml
 
-og_image                 : "/assets/images/bird.png" # Open Graph/Twitter default site image, optional for seo and social sharing
+og_image: "/assets/images/profile.jpg" # Open Graph/Twitter default site image, optional for seo and social sharing
 
 # Social sharing
 twitter:
-  username               : "manitapote" "# optional, for social sharing
+  username: "manitapote" #"# optional, for social sharing
+
+circular_avatar: "true"
 
 # Analytics
 analytics:
@@ -91,7 +93,7 @@ collections:
 
 # Plugins
 gems:
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-feed
 
 # mimic GitHub Pages with --safe
@@ -109,6 +111,7 @@ defaults:
     values:
       layout: page
       comments: false
+      share: true
   # _posts
   - scope:
       path: ""

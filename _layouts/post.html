@@ -1,5 +1,6 @@
 ---
 layout: default
+date: 2022-1-1
 ---
 
 {% include breadcrumbs.html %}
@@ -21,9 +22,11 @@ layout: default
       </header>
       
       <section class="post__content" itemprop="text">
-        {{ content }}
-        
-        {% if page.share %}{% include social-share.html %}{% endif %}
+          <p>this is</p>
+<!--        {{ content }}-->
+<!--        {% if page.date %}-->
+        {% include social-share.html %}
+<!--        {% endif %}-->
       
       </section>
 

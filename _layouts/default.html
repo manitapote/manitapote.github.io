@@ -29,7 +29,6 @@
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
 
     {{ content }}
-
     <div class="page__footer">
       <footer>
         <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. Built using <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="http://github.com/lingxz/sparrow" rel="nofollow">Sparrow theme</a> with <span class="page__footer-heart"><i class="fa fa-heart-o" aria-hidden="true"></i></span>.</div>
@@ -40,7 +39,7 @@
     <script src="{{ '/assets/js/plugins/rrssb.min.js' | absolute_url }}"></script>
     <script src="{{ '/assets/js/slimmenu.js' | absolute_url }}"></script>
     <script src="{{ '/assets/js/main.js' | absolute_url }}"></script>
-    {% include analytics.html %}
+<!--    {% include analytics.html %}-->
 
   </body>
 </html>
