@@ -7,7 +7,7 @@ title_separator: "-"
 favicon: "/assets/images/bird.png"
 avatar: "/assets/images/profile.jpg"
 url: "https://manitapote.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl: "/sparrow" # the subpath of your site, e.g. "/blog" leave blank if no subpath
+baseurl: "" # the subpath of your site, e.g. "/blog" leave blank if no subpath
 
 #theme                    : "sparrow-jekyll-theme"
 
