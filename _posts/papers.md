@@ -6,6 +6,14 @@
   
   ##### 
   
+</detail>
+
+<details>
+  <summary>Engaging with Others: How the IRA Coordinated Information Operation Made Friends</summary>
+  [Link](https://misinforeview.hks.harvard.edu/wp-content/uploads/2020/04/FORMATTED_article_PatrickDarren.pdf)
+  
+  ##### 
+  
 </details>
 
 <details>
