@@ -9,10 +9,23 @@
 </details>
 
 <details>
+  <summary>Content-based features predict social media influence operations</summary>
+  [Link](https://www.science.org/doi/full/10.1126/sciadv.abb5824)(file:///home/manita/carl/plots/abb5824_sm%20(1).pdf)
+  
+  ##### A machine learning framework to predict
+  Task 1: Use the activity data in month t and predict the activity over time <br />
+  Task 2: Identify social media posts from troll accounts in month t using data on troll activity in month t -1. Did not use creation date features to avoid easy detection based on user-identifiable features. <br />
+  Task 3: Find social media posts from troll accounts in month t that have not posted in month t-1 using data on troll activity in month t -1. This test how similar past content is to the content produced by new troll accounts in the current period, which is effectively an indicator of whether those operating new accounts are using the same tactics, techniques, and procedures as those operating existing accounts. <br />
+  Task 4: Detect activity across different data releases by platforms that were leveraging backend signals and manual investigation to find influence campaigns. <br />
+  Task 5: Identify social media posts from trolls in month t on a given platform using data on troll activity in month t on another platform. <br /> <br />
+  
+  Feature importance change with time indicating the strategy change with time.
+  
+</details>
+
+<details>
   <summary>Engaging with Others: How the IRA Coordinated Information Operation Made Friends</summary>
   [Link](https://misinforeview.hks.harvard.edu/wp-content/uploads/2020/04/FORMATTED_article_PatrickDarren.pdf)
-  
-  ##### 
   
   ##### Findings
   
