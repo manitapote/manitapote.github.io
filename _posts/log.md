@@ -18,3 +18,9 @@
   ##### 
   
 </details>
+
+
+| Week      | Sunday | Monday | Tuesday | Wednesday        | Thursday | Friday | Saturday |
+| :---      | :----: |  :---: |  :---:  |  :---:           |  :---:   |  :---: | ---:     |
+| 2nd week  |    a   |   b    |  c      | 16th Feb | d        | e      | f        |
+
