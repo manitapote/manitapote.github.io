@@ -26,6 +26,23 @@
   
   ##### Power
   The false negative rate is harder to compute because it depends on the actual effect size and normally we don't know that. One option is to compute a rate conditioned on a hypothetical effect size.
+  The correct positive rate is called the power of the test, or
+sometimes 'sensitivity'. It reflects the ability of the test to
+detect an effect of a given size.
+As a rule of thumb, a power of 80% is considered acceptable so
+a test with 30% power is called underpowered.
+In general a negative hypothesis test does not imply that there is
+no difference between the groups; instead it suggests that if 
+there is a difference, it is too small to detect with this sample
+size.
+
+Replication:
+If we explore larger dataset, find a surprising effect,
+and then test whether it is significant, we have good chances,
+of generating a false positive.
+
+Usually, the dataset used for exploration and testing are
+different.
   
 </details>
 
