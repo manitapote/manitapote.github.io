@@ -1,4 +1,4 @@
-# Anomaly in time series
+_# Anomaly in time series
 Anomaly detection in time series can be done in three main ways: <br />
 1) By Predictive Confidence Level Approach
 2) Statistial Profiling Approach
