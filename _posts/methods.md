@@ -46,6 +46,16 @@ different.
   
 </details>
 
+<details>
+  <summary>Statistics</summary>
+  [Link]()
+  
+  There are two school of thoughts in statistics:
+  - **Frequentist**: The frequentist viewpoint holds that the parameters of probabilistic models are fixed, but we just don't know them. 
+  - **Bayesian**: The Bayesian viewpoint holds that model parameters are  not only unkown, but also random. In this case, we'll encode our prior belief about them using a probability distribution.
+  
+</details>
+
 ### Cohen's Kappa
 ### Fleiss K
 ### Welch's t-test
