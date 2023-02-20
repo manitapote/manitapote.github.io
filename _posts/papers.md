@@ -15,6 +15,30 @@
   ##### Purpose
   The main purpose of the paper is to detect and track the political memes (here memes means hastags, mentions, tweets etc) are being astroturfed. The difference between astroturfed and spam is : primary object of spammer is to persuade users to click a link, someone interested in promoting an astroturf message wants to establish a false sense of group consesus about a particular idea. Related to this process is the fact that users are more likely to believe a message that they perceive as coming from several independent sources, or from an acquaintance. Spam detection systems often focus on the content of a potential spam message - for instance to see if the messages contains a certain link or set of tags. 
   
+  ##### System
+  - Construct a directed graph in which nodes are individual user accounts. 
+  - Use graph features: 
+    - Features:
+      nodes (Number of nodes) <br />
+      edges (Number of edges) <br />
+      mean k (Mean degree) <br />
+      mean s (Mean strength) <br />
+      mean w (Mean edge weight in largest connected component) <br />
+      max k(i,o) (Maximum (in,out)-degree) <br />
+      max k(i,o) user (User with max. (in,out)-degree) <br />
+      max s(i,o) (Maximum (in,out)-strength) <br />
+      max s(i,o) user (User with max. (in,out)-strength) <br />
+      std k(i,o) (Std. dev. of (in,out)-degree) <br />
+      std s(i,o) (Std. dev. of (in,out)-strength) <br />
+      skew k(i,o) (Skew of (in,out)-degree distribution) <br />
+      skew s(i,o) (Skew of (in,out)-strength distribution) <br />
+      mean cc (Mean size of connected components) <br />
+      max cc (Size of largest connected component) <br />
+      entry nodes (Number of unique injections) <br />
+      num truthy (Number of times ‘truthy’ button was clicked) (?) <br />
+      sentiment scores (Six GPOMS sentiment dimensions)
+  - Binary Classification based on AdaBoost, SVM
+  
 </details>
 
 <details>
