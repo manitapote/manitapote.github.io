@@ -12,7 +12,8 @@
   <summary>Detecting and Tracking Political Abuse in Social Medias</summary>
   [Link](https://ojs.aaai.org/index.php/ICWSM/article/view/14127/13976)
   
-  ##### 
+  ##### Purpose
+  The main purpose of the paper is to detect and track the political memes (here memes means hastags, mentions, tweets etc) are being astroturfed. The difference between astroturfed and spam is : primary object of spammer is to persuade users to click a link, someone interested in promoting an astroturf message wants to establish a false sense of group consesus about a particular idea. Related to this process is the fact that users are more likely to believe a message that they perceive as coming from several independent sources, or from an acquaintance. Spam detection systems often focus on the content of a potential spam message - for instance to see if the messages contains a certain link or set of tags. 
   
 </details>
 
