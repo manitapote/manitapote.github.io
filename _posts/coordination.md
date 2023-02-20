@@ -1,6 +1,24 @@
 ## Resources for coordination detection
 
 <details>
+  <summary></summary>
+  [Link]()
+  
+  ##### 
+  
+</details>
+
+
+<details>
+  <summary>Coordinated amplification strategies</summary>
+  [Link](https://link.springer.com/article/10.1007/s13278-021-00815-2/tables/2)
+  
+  ##### 
+  
+</details>
+
+
+<details>
   <summary>Temporal Dynamics of Coordinated Online Behavior: Stability, Archetypes, and Influence</summary>
   [Link](https://arxiv.org/abs/2301.06774) <br /><br />
   **Methodologies:** Use of multiplex temporal network and dynamic commmunity detection to identify groups of users that exhibit coordinated behavior in time. <br />
