@@ -8,6 +8,14 @@
 </details>
 
 <details>
+  <summary>How weighted degree works?</summary>
+  [Link]()
+  
+  ##### 
+  
+</details>
+
+<details>
   <summary>Hypothesis Testing</summary>
   [Link](Think Stats)
   
