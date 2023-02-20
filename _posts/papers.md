@@ -9,6 +9,14 @@
 </details>
 
 <details>
+  <summary>Detecting and Tracking Political Abuse in Social Medias</summary>
+  [Link](https://ojs.aaai.org/index.php/ICWSM/article/view/14127/13976)
+  
+  ##### 
+  
+</details>
+
+<details>
   <summary>Content-based features predict social media influence operations</summary>
   [Link](https://www.science.org/doi/full/10.1126/sciadv.abb5824)(file:///home/manita/carl/plots/abb5824_sm%20(1).pdf)
   
