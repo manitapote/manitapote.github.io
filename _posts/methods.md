@@ -62,7 +62,23 @@ different.
   - **Frequentist**: The frequentist viewpoint holds that the parameters of probabilistic models are fixed, but we just don't know them. 
   - **Bayesian**: The Bayesian viewpoint holds that model parameters are  not only unkown, but also random. In this case, we'll encode our prior belief about them using a probability distribution.
   
-  ### T-test
+  ### T-test: Inferetial statistics
+  - Assumption: Normal distribution
+    - Similar vairance
+    - Datapoints: same number in two groups (20-30)
+  
+  - Compare two groups
+  - Issue with considering mean: variation in distribution can produce statistically significant result
+  - ratio of signal/noise = (difference group mean)/(variablity of groups itself) = $\frac{|\overline{x}_1 - \overline{x}_2|}{\sqrt{\frac{S^1_1}{n_1} + \frac{S^2_2}{n_2}}}$ where $\frac{S}{n}$ is variance
+  - Higher values of the t-score indicate that a large difference exists between the two sample sets. The smaller the t-value, the more similarity exists between the two sample sets.
+  
+  Problem with T-test:
+  When to use:
+  
+  ### Paired T-test or correlated t-test
+  This T-test is performed when the samples consist of similar units or when there are repeated measures. For example: there 
+  
+  ### Z-test
   ### F-test
   ### Welch's t-test
 </details>
