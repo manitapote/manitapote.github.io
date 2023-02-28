@@ -94,6 +94,11 @@ different.
   [What if it is not normally distributed?](https://www.jmp.com/en_us/statistics-knowledge-portal/t-test/paired-t-test.html) <br />
   "What if you know the underlying measurements are not normally distributed? Or what if your sample size is large and the test for normality is rejected? In this situation, you can use nonparametric analyses. These types of analyses do not depend on an assumption that the data values are from a specific distribution. For the paired t­-test, a nonparametric test is the Wilcoxon signed-rank test. "
   
+  <details>
+  <summary>Non-parameteric methods</summary>
+  [Link]() <br />
+   ### Wilcoxon signed-rank test
+  </details>
   
   ### Z-test
   ### F-test
