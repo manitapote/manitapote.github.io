@@ -75,8 +75,25 @@ different.
   Problem with T-test:
   When to use:
   
-  ### Paired T-test or correlated t-test
-  This T-test is performed when the samples consist of similar units or when there are repeated measures. For example: there 
+  ### Paired T-test or correlated t-test (dependent samples t-test, the paired difference t-test, the matched pairs t-test and the repeated-samples t-test)
+  This T-test is performed when the samples consist of similar units or when there are repeated measures. For example: before and after measurements for a group of people. 
+  Assumption: 
+  - The distribution of differencess between the paired measurements should b normally distributed.
+  - Subjects in the study should be independent.
+  - Each of the paired measurements must be obtained from same subject.
+  
+ Formula:
+  $\overline{x_d} =$ average of differences <br />
+  Standard Error = $\frac{s_d}{\sqrt{n}}$ <br />
+  Degree of freedom (df) = n -1
+  
+  $t = \frac{\text{Average difference}}{\text{Standard Error}}$ <br />
+  
+  The conclusion: If value lower than the t-table statistics, it means it might have occured by chance. If the difference is greater that means it is not by chance. <br />
+  
+  [What if it is not normally distributed?](https://www.jmp.com/en_us/statistics-knowledge-portal/t-test/paired-t-test.html) <br />
+  "What if you know the underlying measurements are not normally distributed? Or what if your sample size is large and the test for normality is rejected? In this situation, you can use nonparametric analyses. These types of analyses do not depend on an assumption that the data values are from a specific distribution. For the paired t­-test, a nonparametric test is the Wilcoxon signed-rank test. "
+  
   
   ### Z-test
   ### F-test
