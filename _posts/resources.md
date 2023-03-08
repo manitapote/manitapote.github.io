@@ -10,3 +10,7 @@ Several approaches have been proposed to extract numerical features associated w
 ### Data Sources
 
 1) News headlines and news articles: [LexisNexis](https://www.lexisnexis.com/)
+
+
+### Visualization
+[3D heatmap](https://github.com/marcharper/python-ternary/blob/master/readme_images/heatmap_shannon.png)
