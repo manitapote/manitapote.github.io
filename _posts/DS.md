@@ -1,6 +1,20 @@
+
+<details>
+  <summary>Resoures</summary>
+  
+  [Data Science Interview Resources: rbhatia46](https://github.com/rbhatia46/Data-Science-Interview-Resources)* <br />
+  [Data Science Interview Resources : cdeweyx](https://github.com/cdeweyx/DS-Career-Resources/blob/master/Interview-Resources.md)  
+</details>
+
+
 <details>
   <summary></summary>
-  [Link]()
+</details>
+
+
+<details>
+  <summary>Probability and Statistics explained in the context of deep learning</summary>
+  [Source](https://towardsdatascience.com/probability-and-statistics-explained-in-the-context-of-deep-learning-ed1509b2eb3f)
   
   ##### 
   
