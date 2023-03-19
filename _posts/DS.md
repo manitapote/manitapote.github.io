@@ -1,6 +1,17 @@
-### Understanding Descriptive Statistics (other kind is Understanding Descriptive Statistics)
+<details>
+  <summary></summary>
+  [Link]()
+  
+  ##### 
+  
+</details>
 
 
+<details>
+  <summary> Understanding Descriptive Statistics (other kind is Understanding Descriptive Statistics)</summary>
+
+[Link](https://towardsdatascience.com/understanding-descriptive-statistics-c9c2b0641291)
+  
 Descriptive Statistics seeks to describe the data especially samples. It is not developed on the basis of probability theory.
 Types: <br />
 - The measure of Central Tendency: Central Tendency refers to the idea that there is one number that best summarizes the entire  set of measurements.
@@ -26,4 +37,25 @@ Types: <br />
     IQR = Q3 - Q2
   - Skewness: The measure of the asymmetry of the probability distribution of a real-valued random variable about the mean. The value can be positive or negative or undefined.
     When a distribution is skewed to the left, the tail on the curve's left-hand side is longer than the tail on the right-hand side, and the mean is less than the mode. This situation is negative skewness.
+    Formulas to calulate skewness:
+    1) Pearson First Coefficient of Skewness (Mode skewness)
+      $$\frac{mean - mode}{Standard Deviation}$$
+    2) Pearson second coefficient of skewness (Median skewness)
+      $$\frac{3(mean - median)}{Standard Deviation}$$
+  
+  Interpretations: 
+    - The direction of skewness is given by the sign. A zero means no skewness at all.
+    - A negative value means the distribution is negatively skewed. A positive value means the distribution is positively skewed.
+    - The coefficient compares the sample distribution with a normal distribution. The larger the value, the larger the distribution differs from a normal distribution.
+  
+  - Kurtosis: Its about the existence of outliers. Kurtosis is a measure of whether the data are heavy-tailed (profusion of outliers) or light-tailed (lack of outliers) relative to a normal distribution.
+    There are three types of kurtosis:
+    - Mesokurtic: The disribution that has similar kurtosis as normal distribution kurtosis, which is zero.
+    - Leptokurtic: The distribution that has kurtosis greater than a Mesokurtic distribution. Tails of such distributions are thick and heavy. If the curve of distribtuion is more peaked than the Mesokurtic curve, it is referred to as a Leptokurtic curve.
+    - Platykurtic: The distribution that has kurtosis lesser than a Mesokurtic distribution. Tails of such distributions are thinner. If a curve of a distribution is less peaked than Mesokurtic curve, it is referred to as a Platykurtic curve.
+  
+  The main difference between skewness and kurtosis is that the skewness refers to the degree of symmetry whereas the kurtosis refers to the degree of presence of outliers in the distribution.
+  
+ - Correlation: Statistical technique that can show whether and how strongly pairs of variables are related. The result range from -1 to 1. The closer *r* (correlation coefficient) is to +1 or -1, the more closely the two variables are related.
+ </details>
     
