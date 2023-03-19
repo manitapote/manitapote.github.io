@@ -14,6 +14,7 @@
 
 <details>
   <summary>Probability and Statistics explained in the context of deep learning</summary>
+  
   [Source](https://towardsdatascience.com/probability-and-statistics-explained-in-the-context-of-deep-learning-ed1509b2eb3f)
   
   ##### 
