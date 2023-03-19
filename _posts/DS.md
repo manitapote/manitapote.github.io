@@ -10,7 +10,7 @@
 <details>
   <summary> Understanding Descriptive Statistics (other kind is Understanding Descriptive Statistics)</summary>
 
-[Link](https://towardsdatascience.com/understanding-descriptive-statistics-c9c2b0641291)
+[Source](https://towardsdatascience.com/understanding-descriptive-statistics-c9c2b0641291)
   
 Descriptive Statistics seeks to describe the data especially samples. It is not developed on the basis of probability theory.
 Types: <br />
