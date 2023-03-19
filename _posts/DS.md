@@ -30,10 +30,10 @@ Types: <br />
     
   - **Mean Deviation/Mean Absolute Deviation**: It is an average of absolute differences between each value in a set of values and the average of all values of that set.
     $$MD = \frac{1}{n}\sum_{i=0}^{n}{|x_i - \overline{x}|}$$
-  - *Variance*: square of average distance between each quantity and mean.
-  - *Range *: The difference between the lowest and highest value.
-  - *Percentile*: The way to represent position of values in dataseet. In general, if *k* is *nth* percentile, it implies that *n%* of the total terms are less than *k*.
-  - *Quartiles*: Quartiles are values that divides your data into quarters provided data is sorted in an ascending order.
+  - **Variance**: square of average distance between each quantity and mean.
+  - **Range**: The difference between the lowest and highest value.
+  - **Percentile**: The way to represent position of values in dataseet. In general, if *k* is *nth* percentile, it implies that *n%* of the total terms are less than *k*.
+  - **Quartiles**: Quartiles are values that divides your data into quarters provided data is sorted in an ascending order.
     IQR = Q3 - Q2
   - **Skewness**: The measure of the asymmetry of the probability distribution of a real-valued random variable about the mean. The value can be positive or negative or undefined.
     When a distribution is skewed to the left, the tail on the curve's left-hand side is longer than the tail on the right-hand side, and the mean is less than the mode. This situation is negative skewness.
