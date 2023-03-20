@@ -17,7 +17,14 @@
   
   [Source](https://towardsdatascience.com/probability-and-statistics-explained-in-the-context-of-deep-learning-ed1509b2eb3f)
   
-  ##### 
+  **Discrete and Continuous probability**: The matrices in intermediate layers of Neural Network are randomly initialized from certain probability distributions. Some of the distributions that are used are as follows: <br />
+  - **Binomial Distribution** <br />
+  - **Continuous distributions**: In continuous distribution, we describe the distribution using probability density functions(pdf) denoted by p(x) <br />
+  
+  Variance = $$Var(X) = E[(x - E(x))^2]$$
+ 
+  Covariance: It shows how two variables are linearly related to each other. 
+  $$Cov(X,Y)=E(X-\overline{X}).E(Y-\overline{Y})$$ where $\overline{X}$ and $\overline{Y}$ are mean values of X and Y.
   
 </details>
 
