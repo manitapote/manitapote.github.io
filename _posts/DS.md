@@ -19,7 +19,20 @@
   
   **Discrete and Continuous probability**: The matrices in intermediate layers of Neural Network are randomly initialized from certain probability distributions. Some of the distributions that are used are as follows: <br />
   - **Binomial Distribution** <br />
-  - **Continuous distributions**: In continuous distribution, we describe the distribution using probability density functions(pdf) denoted by p(x) <br />
+  - **Continuous distributions**: In continuous distribution, we describe the distribution using probability density functions(pdf) denoted by p(x).<br />
+  $$\int_{}^{} p(x)dx=1$$
+  - **Uniform distribution**: Continuous distribution with every element equally likely. <br />
+  pdf $$f(x) = \frac{1}{b-a}$$ x belongs to [a,b] <br />
+  mean $$E(X) = \frac{(a+b)}{2}$$ <br />
+  variance $$var(x) = \frac{(b-a)^2}{12}$$
+  - **Normal Distribution**: “Order from Chaos” <br /> 
+  In the absence of prior knowledge about what form a distribution over the real numbers should take, the normal distribution is a good choice because, it has high entropy and central limit theorem suggests that sum of several independent random variables is normally distributed.
+  - **Exponential distribution**
+  - **Poisson distribution**
+  - **Softmax distribution**
+  
+##### Model accuracy measurement tools:
+  
   
   Variance = $$Var(X) = E[(x - E(x))^2]$$
  
