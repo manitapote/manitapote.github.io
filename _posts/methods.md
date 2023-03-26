@@ -8,6 +8,26 @@
 </details>
 
 <details>
+  <summary>Burstiness measure</summary>
+  [Link]()
+  
+  ### Inter-spike intervals (ISIs): 
+  Inter-spike interval (ISI) analysis, which is a common technique in neuroscience, can also be used in computational social science to study the dynamics and patterns of social media activity. Specifically, ISI analysis can be used to analyze the temporal patterns of individual users' behavior on social media platforms. ISI analysis can also be used to investigate the regularity of behavior, such as identifying users who have highly regular posting patterns or who exhibit irregular activity. 
+  
+  
+  Interpreting ISI:
+  
+  Mean and standard deviation: The mean and standard deviation of the ISIs can provide information about the regularity of the event timing. If the mean ISI is small and the standard deviation is also small, it suggests that the events are occurring at a regular interval. On the other hand, if the mean ISI is large and the standard deviation is also large, it suggests that the events are occurring at an irregular interval.
+
+Coefficient of variation (CV): The CV is a measure of the relative variability of the ISIs. A low CV indicates that the ISIs are relatively consistent, while a high CV suggests that the ISIs are more variable. The CV is a useful measure when comparing different time series, as it allows you to assess the relative regularity of the event timing.
+
+Fano factor: The Fano factor is a measure of the variability in the number of events that occur within a given time interval. If the Fano factor is close to 1, it suggests that the events are occurring at a relatively constant rate. If the Fano factor is greater than 1, it suggests that the event rate is more variable than would be expected by chance, while a Fano factor less than 1 suggests that the event rate is less variable than expected by chance.
+  
+  ##### 
+  
+</details>
+
+<details>
   <summary>How weighted degree works?</summary>
   [Link]()
   
