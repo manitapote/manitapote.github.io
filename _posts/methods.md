@@ -115,6 +115,14 @@ different.
   "What if you know the underlying measurements are not normally distributed? Or what if your sample size is large and the test for normality is rejected? In this situation, you can use nonparametric analyses. These types of analyses do not depend on an assumption that the data values are from a specific distribution. For the paired t­-test, a nonparametric test is the Wilcoxon signed-rank test. "
   
   <details>
+  <summary>Chi-squared test</summary>
+  [Link]() <br />
+   Chi-square test is used to check if observed frequencies in one or more categories match expected frequencies. If we have single measurement variable, we use a chi-square goodness of fit test. If we have two measurement variables, we use a chi-square test of independence.
+    The basic idea behind the test is to compare the observed values in your data to the expected values that we would see if the null hypothesis is true.
+    
+  </details>
+  
+  <details>
   <summary>Non-parameteric methods</summary>
   [Link]() <br />
    ### Wilcoxon signed-rank test
@@ -128,6 +136,6 @@ different.
 ### Cohen's Kappa
 ### Fleiss K
 
-### Chi-squared test
+
 
 
