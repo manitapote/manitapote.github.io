@@ -125,7 +125,12 @@ different.
   <details>
   <summary>Non-parameteric methods</summary>
   [Link]() <br />
-   ### Wilcoxon signed-rank test
+   ### Wilcoxon signed-rank test or Mann-Whitney U test
+   
+   No assumption about the distribution of population. The null hypothesis for the test is that the probability is 50% that a randomly drawn member of the first population will exceed a member of the second population.
+    Another null hypothesis: The two samples come from the same population i.e they both have the same median.
+    
+    
   </details>
   
   ### Z-test
