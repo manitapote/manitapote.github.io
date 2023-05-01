@@ -3,6 +3,13 @@
 Different way to deal with multiple languages for comparison is to convert them into same space of embedding or to translate the multi language into one common language.
 
 <details>
+  <summary></summary>
+  
+  [Link]()
+  
+</details>
+
+<details>
   <summary>mBART-50</summary>
   
   [Link](https://github.com/sdhilip200/Machine-Translation-using-mBART-50-and-HuggingFace/blob/main/Machine_Translation.ipynb)
@@ -68,3 +75,5 @@ Different way to deal with multiple languages for comparison is to convert them 
 }
   
 </details>
+
+
