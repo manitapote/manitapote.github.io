@@ -10,6 +10,128 @@ Different way to deal with multiple languages for comparison is to convert them 
 </details>
 
 <details>
+  <summary>Language-agnostic BERT Sentence Encoder (LaBSE)</summary>
+  
+  [Model](https://huggingface.co/setu4993/LaBSE) <br />
+  [Paper](https://arxiv.org/abs/2007.01852)
+  
+  This model gives the embedding of multiple different languages (109 langues).
+  Languages supported: <br />
+  labse = {<br />
+    'af': 'AFRIKAANS', <br />
+    'ht': 'HAITIAN CREOLE', <br />
+    'pt': 'PORTUGUESE', <br />
+    'am': 'AMHARIC', <br />
+    'hu': 'HUNGARIAN', <br />
+    'ro': 'ROMANIAN', <br />
+    'ar': 'ARABIC', <br />
+    'hy': 'ARMENIAN', <br />
+    'ru': 'RUSSIAN', <br />
+    'as': 'ASSAMESE', <br />
+    'id': 'INDONESIAN', <br />
+    'rw': 'KINYARWANDA', <br />
+    'az': 'AZERBAIJANI', <br />
+    'ig': 'IGBO', <br />
+    'si': 'SINHALESE', <br />
+    'be': 'BELARUSIAN', <br />
+    'is': 'ICELANDIC', <br />
+    'sk': 'SLOVAK', <br />
+    'bg': 'BULGARIAN', <br />
+    'it': 'ITALIAN', <br />
+    'sl': 'SLOVENIAN', <br />
+    'bn': 'BENGALI',<br />
+    'ja': 'JAPANESE',<br />
+    'sm': 'SAMOAN',<br />
+    'bo': 'TIBETAN',<br />
+    'jv': 'JAVANESE',<br />
+    'sn': 'SHONA',<br />
+    'bs': 'BOSNIAN',<br />
+    'ka': 'GEORGIAN',<br />
+    'so': 'SOMALI',<br />
+    'ca': 'CATALAN',<br />
+    'kk': 'KAZAKH',<br />
+    'sq': 'ALBANIAN',<br />
+    'ceb': 'CEBUANO',<br />
+    'km': 'KHMER',<br />
+    'sr': 'SERBIAN',<br />
+    'co': 'CORSICAN',<br />
+    'kn': 'KANNADA',<br />
+    'st': 'SESOTHO',<br />
+    'cs': 'CZECH',<br />
+    'ko': 'KOREAN',<br />
+    'su': 'SUNDANESE',<br />
+    'cy': 'WELSH',<br />
+    'ku': 'KURDISH',<br />
+    'sv': 'SWEDISH',<br />
+    'da': 'DANISH',<br />
+    'ky': 'KYRGYZ',<br />
+    'sw': 'SWAHILI',<br />
+    'de': 'GERMAN',<br />
+    'la': 'LATIN',<br />
+    'ta': 'TAMIL',<br />
+    'el': 'GREEK',<br />
+    'lb': 'LUXEMBOURGISH',<br />
+    'te': 'TELUGU',<br />
+    'en': 'ENGLISH',<br />
+    'lo': 'LAOTHIAN',<br />
+    'tg': 'TAJIK',<br />
+    'eo': 'ESPERANTO',<br />
+    'lt': 'LITHUANIAN',<br />
+    'th': 'THAI',<br />
+    'es': 'SPANISH',<br />
+    'lv': 'LATVIAN',<br />
+    'tk': 'TURKMEN',<br />
+    'et': 'ESTONIAN',<br />
+    'mg': 'MALAGASY',<br />
+    'tl': 'TAGALOG',<br />
+    'eu': 'BASQUE',<br />
+    'mi': 'MAORI',<br />
+    'tr': 'TURKISH',<br />
+    'fa': 'PERSIAN',<br />
+    'mk': 'MACEDONIAN',<br />
+    'tt': 'TATAR',<br />
+    'fi': 'FINNISH',<br />
+    'ml': 'MALAYALAM',<br />
+    'ug': 'UIGHUR',<br />
+    'fr': 'FRENCH',<br />
+    'mn': 'MONGOLIAN',<br />
+    'uk': 'UKRAINIAN',<br />
+    'fy': 'FRISIAN',<br />
+    'mr' : 'MARATHI',<br />
+    'ur' : 'URDU',<br />
+    'ga' : 'IRISH',<br />
+    'ms' : 'MALAY',<br />
+    'uz' : 'UZBEK',<br />
+    'gd' : 'SCOTS_GAELIC',<br />
+    'mt' : 'MALTESE',<br />
+    'vi' : 'VIETNAMESE',<br />
+    'gl' : 'GALICIAN',<br />
+    'my' : 'BURMESE',<br />
+    'wo' : 'WOLOF', <br />
+    'gu' : 'GUJARATI', <br />
+    'ne' : 'NEPALI', <br />
+    'xh' : 'XHOSA', <br />
+    'ha' : 'HAUSA', <br />
+    'nl' : 'DUTCH', <br />
+    'yi' : 'YIDDISH', <br />
+    'haw': 'HAWAIIAN', <br />
+    'no' : 'NORWEGIAN', <br />
+    'yo' : 'YORUBA', <br />
+    'he' : 'HEBREW', <br />
+    'ny' : 'NYANJA', <br />
+    'zh' : 'CHINESE', <br />
+    'hi' : 'HINDI', <br />
+    'or' : 'ORIYA', <br />
+    'zu' : 'ZULU', <br />
+    'hmn': 'HMONG', <br />
+    'pa' : 'PUNJABI', <br />
+    'hr' : 'CROATIAN', <br />
+    'pl' : 'POLISH', <br />
+} <br />
+  
+</details>
+
+<details>
   <summary>mBART-50</summary>
   
   [Link](https://github.com/sdhilip200/Machine-Translation-using-mBART-50-and-HuggingFace/blob/main/Machine_Translation.ipynb)
