@@ -5,7 +5,7 @@ share: true
 ---
 
 Hi, I'm [Manita Pote](https://cnets.indiana.edu/groups/nan/people/). I am a PhD student in Informatics, Complex Networks and System 
-at [Indian University, Bloomington](https://www.indiana.edu/)
+at [Indiana University, Bloomington](https://www.indiana.edu/)
 supervised by [Prof. Fil Menczer](https://cnets.indiana.edu/fil/), 
 [Prof. Alessandro Flammini](https://cnets.indiana.edu/aflammin/) and 
 [Prof. Zoran Tiganj](https://homes.luddy.indiana.edu/ztiganj/). 
