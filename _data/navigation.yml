@@ -4,6 +4,8 @@ main:
     url: /
   - title: "Blog"
     url: /blog
+  - title: 'Twitter'
+    url: https://twitter.com/manitapote
 #  - title: "poetry"
 #    url: /poetry
 #  - title: "submenu"
