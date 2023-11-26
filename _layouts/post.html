@@ -23,18 +23,17 @@ date: 2022-1-1
       
       <section class="post__content" itemprop="text">
           <p>this is</p>
-<!--        {{ content }}-->
-<!--        {% if page.date %}-->
-        {% include social-share.html %}
-<!--        {% endif %}-->
+        {{ content }}
+        {% if page.date %}
+        {% endif %}
       
       </section>
 
     </div>
 
-    {% if site.comments and page.comments != false %}
-      {% include comments.html %}
-    {% endif %}
+<!--    {% if site.comments and page.comments != false %}-->
+<!--      {% include comments.html %}-->
+<!--    {% endif %}-->
 
 
   </article>

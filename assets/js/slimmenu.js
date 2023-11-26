@@ -28,120 +28,120 @@
         this.init();
     }
 
-    Plugin.prototype = {
-
-        init: function () {
-            var $window = $(window),
-                options = this.options,
-                $menu = this.$elem,
-                $collapser = '<div class="menu-collapser">' + options.collapserTitle + '<div class="collapse-button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></div></div>',
-                $menuCollapser;
-
-            $menu.before($collapser);
-            $menuCollapser = $menu.prev('.menu-collapser');
-
-            $menu.on('click', '.sub-toggle', function (e) {
-                e.preventDefault();
-                e.stopPropagation();
-
-                var $parentLi = $(this).closest('li');
-
-                if ($(this).hasClass('expanded')) {
-                    $(this).removeClass('expanded').html(options.expandIcon);
-                    $parentLi.find('>ul').slideUp(options.animSpeed, options.easingEffect);
-                } else {
-                    $(this).addClass('expanded').html(options.collapseIcon);
-                    $parentLi.find('>ul').slideDown(options.animSpeed, options.easingEffect);
-                }
-            });
-
-            $menuCollapser.on('click', '.collapse-button', function (e) {
-                e.preventDefault();
-                $menu.slideToggle(options.animSpeed, options.easingEffect);
-            });
-
-            this.resizeMenu();
-            $window.on('resize', this.resizeMenu.bind(this));
-            $window.trigger('resize');
-        },
-
-        resizeMenu: function () {
-            var self = this,
-                $window = $(window),
-                windowWidth = $window.width(),
-                $options = this.options,
-                $menu = $(this.element),
-                $menuCollapser = $('body').find('.menu-collapser'),
-                availableSpace = $menu.width() - 15,
-                requiredSpace = 0;
-
-            // Get initial state
-            $menu.children().outerWidth(function(i, w) {
-                requiredSpace += w;
-            });
-
-            if (window['innerWidth'] !== undefined) {
-                if (window['innerWidth'] > windowWidth) {
-                    windowWidth = window['innerWidth'];
-                }
-            }
-
-            if (windowWidth != oldWindowWidth) {
-                oldWindowWidth = windowWidth;
-
-                $menu.find('li').each(function () {
-                    if ($(this).has('ul').length) {
-                        if ($(this).addClass('has-submenu').has('.sub-toggle').length) {
-                            $(this).children('.sub-toggle').html($options.expandIcon);
-                        } else {
-                            $(this).addClass('has-submenu').append('<span class="sub-toggle">' + $options.expandIcon + '</span>');
-                        }
-                    }
-
-                    $(this).children('ul').hide().end().find('.sub-toggle').removeClass('expanded').html($options.expandIcon);
-                });
-
-                if (requiredSpace >= availableSpace) {
-                    if ($options.indentChildren) {
-                        $menu.find('ul').each(function () {
-                            var $depth = $(this).parents('ul').length;
-                            if (!$(this).children('li').children('a').has('i').length) {
-                                $(this).children('li').children('a').prepend(self.indent($depth, $options));
-                            }
-                        });
-                    }
-
-                    $menu.addClass('collapsed').find('li').has('ul').off('mouseenter mouseleave');
-                    $menuCollapser.show();
-
-                    if (!$options.initiallyVisible) {
-                        $menu.hide();
-                    }
-                } else {
-                    $menu.find('li').has('ul')
-                        .on('mouseenter', function () {
-                            $(this).find('>ul').stop().slideDown($options.animSpeed, $options.easingEffect);
-                        })
-                        .on('mouseleave', function () {
-                            $(this).find('>ul').stop().slideUp($options.animSpeed, $options.easingEffect);
-                        });
-
-                    $menu.find('li > a > i').remove();
-                    $menu.removeClass('collapsed').show();
-                    $menuCollapser.hide();
-                }
-            }
-        },
-
-        indent: function (num, options) {
-            var i = 0,
-                $indent = '';
-            for (; i < num; i++) {
-                $indent += options.childrenIndenter;
-            }
-            return '<i>' + $indent + '</i> ';
-        }
-    };
+//    Plugin.prototype = {
+//
+//        init: function () {
+//            var $window = $(window),
+//                options = this.options,
+//                $menu = this.$elem,
+//                $collapser = '<div class="menu-collapser">' + options.collapserTitle + '<div class="collapse-button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></div></div>',
+//                $menuCollapser;
+//
+//            $menu.before($collapser);
+//            $menuCollapser = $menu.prev('.menu-collapser');
+//
+//            $menu.on('click', '.sub-toggle', function (e) {
+//                e.preventDefault();
+//                e.stopPropagation();
+//
+//                var $parentLi = $(this).closest('li');
+//
+//                if ($(this).hasClass('expanded')) {
+//                    $(this).removeClass('expanded').html(options.expandIcon);
+//                    $parentLi.find('>ul').slideUp(options.animSpeed, options.easingEffect);
+//                } else {
+//                    $(this).addClass('expanded').html(options.collapseIcon);
+//                    $parentLi.find('>ul').slideDown(options.animSpeed, options.easingEffect);
+//                }
+//            });
+//
+//            $menuCollapser.on('click', '.collapse-button', function (e) {
+//                e.preventDefault();
+//                $menu.slideToggle(options.animSpeed, options.easingEffect);
+//            });
+//
+//            this.resizeMenu();
+//            $window.on('resize', this.resizeMenu.bind(this));
+//            $window.trigger('resize');
+//        },
+//
+//        resizeMenu: function () {
+//            var self = this,
+//                $window = $(window),
+//                windowWidth = $window.width(),
+//                $options = this.options,
+//                $menu = $(this.element),
+//                $menuCollapser = $('body').find('.menu-collapser'),
+//                availableSpace = $menu.width() - 15,
+//                requiredSpace = 0;
+//
+//            // Get initial state
+//            $menu.children().outerWidth(function(i, w) {
+//                requiredSpace += w;
+//            });
+//
+//            if (window['innerWidth'] !== undefined) {
+//                if (window['innerWidth'] > windowWidth) {
+//                    windowWidth = window['innerWidth'];
+//                }
+//            }
+//
+//            if (windowWidth != oldWindowWidth) {
+//                oldWindowWidth = windowWidth;
+//
+//                $menu.find('li').each(function () {
+//                    if ($(this).has('ul').length) {
+//                        if ($(this).addClass('has-submenu').has('.sub-toggle').length) {
+//                            $(this).children('.sub-toggle').html($options.expandIcon);
+//                        } else {
+//                            $(this).addClass('has-submenu').append('<span class="sub-toggle">' + $options.expandIcon + '</span>');
+//                        }
+//                    }
+//
+//                    $(this).children('ul').hide().end().find('.sub-toggle').removeClass('expanded').html($options.expandIcon);
+//                });
+//
+//                if (requiredSpace >= availableSpace) {
+//                    if ($options.indentChildren) {
+//                        $menu.find('ul').each(function () {
+//                            var $depth = $(this).parents('ul').length;
+//                            if (!$(this).children('li').children('a').has('i').length) {
+//                                $(this).children('li').children('a').prepend(self.indent($depth, $options));
+//                            }
+//                        });
+//                    }
+//
+//                    $menu.addClass('collapsed').find('li').has('ul').off('mouseenter mouseleave');
+//                    $menuCollapser.show();
+//
+//                    if (!$options.initiallyVisible) {
+//                        $menu.hide();
+//                    }
+//                } else {
+//                    $menu.find('li').has('ul')
+//                        .on('mouseenter', function () {
+//                            $(this).find('>ul').stop().slideDown($options.animSpeed, $options.easingEffect);
+//                        })
+//                        .on('mouseleave', function () {
+//                            $(this).find('>ul').stop().slideUp($options.animSpeed, $options.easingEffect);
+//                        });
+//
+//                    $menu.find('li > a > i').remove();
+//                    $menu.removeClass('collapsed').show();
+//                    $menuCollapser.hide();
+//                }
+//            }
+//        },
+//
+//        indent: function (num, options) {
+//            var i = 0,
+//                $indent = '';
+//            for (; i < num; i++) {
+//                $indent += options.childrenIndenter;
+//            }
+//            return '<i>' + $indent + '</i> ';
+//        }
+//    };
 
     $.fn[pluginName] = function (options) {
         return this.each(function () {

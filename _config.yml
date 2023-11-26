@@ -97,7 +97,7 @@ collections:
 
 # Plugins
 gems:
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-feed
 
 # mimic GitHub Pages with --safe

@@ -4,12 +4,12 @@ main:
     url: /
   - title: "Blog"
     url: /blog
+  - title: "Projects"
+    url: /
+  - title: "CV"
+    url: /
 
-social:
-  - title: 'Twitter'
-    url: https://twitter.com/manitapote
-  - title: 'Google Scholar'
-    url: https://scholar.google.com/citations?user=ukS-vPcAAAAJ&hl=en&oi=ao
+
 #  - title: "poetry"
 #    url: /poetry
 #  - title: "submenu"
