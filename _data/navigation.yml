@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: /
   - title: "Blog"
-#    url: /blog
+    url: /blog
 #  - title: "poetry"
 #    url: /poetry
 #  - title: "submenu"
