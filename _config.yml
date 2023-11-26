@@ -35,6 +35,10 @@ analytics:
   google:
     tracking_id          : # add your google tracking id here
 
+social_links:
+  twitter: https://twitter.com/manitapote
+  github: your_github_username
+  linkedin: your_linkedin_profile
 # Reading Files
 include:
   - _pages

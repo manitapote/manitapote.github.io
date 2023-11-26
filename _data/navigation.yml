@@ -6,6 +6,8 @@ main:
     url: /blog
   - title: 'Twitter'
     url: https://twitter.com/manitapote
+  - title: 'Google Scholar'
+    url: https://scholar.google.com/citations?user=ukS-vPcAAAAJ&hl=en&oi=ao
 #  - title: "poetry"
 #    url: /poetry
 #  - title: "submenu"
