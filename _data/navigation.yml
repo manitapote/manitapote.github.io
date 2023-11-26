@@ -4,6 +4,8 @@ main:
     url: /
   - title: "Blog"
     url: /blog
+
+social:
   - title: 'Twitter'
     url: https://twitter.com/manitapote
   - title: 'Google Scholar'
