@@ -16,7 +16,8 @@ If the proccesses need to communicate, standard protool called MPI (pyton module
 
 
 
-:fire: Few definitions :fire:
+:fire: Few definitions :fire: <br />
+
 -----------------------------
 
 :octopus: **COMM**: Communication <br />
@@ -25,3 +26,5 @@ If the proccesses need to communicate, standard protool called MPI (pyton module
 :octopus: **BROADCAST**: one-to-many communication <br />
 :octopus: **SCATTER**: One-to-many data distribution <br />
 :octopus: **GATHER**: Many-to-one data distribution <br />
+
+--------------------------
