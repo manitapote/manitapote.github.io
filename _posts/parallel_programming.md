@@ -4,7 +4,7 @@ This is the note of the parallel programming with python from Yale Computing Cen
 [Source](https://github.com/ycrc/parallel_python) <br />
 [youtube](https://www.youtube.com/watch?v=AG1soUh4-nU) <br /> <br />
 
-### Map Vs Multiprocessing.Process <br />
+### :women_wrestling: Map Vs Multiprocessing.Process <br />
 - Map is running in serial loop with same PID while multiprocessing genereates different processes with different PID. The results of multiprocessing may not be in order of execution.
 - The parallel execution has some overhead in setting up the threads so in some cases the time of execution for parallel could be more than serial.
 
