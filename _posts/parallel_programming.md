@@ -17,10 +17,11 @@ If the proccesses need to communicate, standard protool called MPI (pyton module
 
 
 :fire: Few definitions :fire:
+-----------------------------
 
-**COMM**: Communication <br />
-**RANK**: an ID number given to each internal process to define communication <br />
-**SIZE**: total number of processes allocated <br />
-**BROADCAST**: one-to-many communication <br />
-**SCATTER**: One-to-many data distribution <br />
-**GATHER**: Many-to-one data distribution <br />
+:octopus: **COMM**: Communication <br />
+:octopus: **RANK**: an ID number given to each internal process to define communication <br />
+:octopus: **SIZE**: total number of processes allocated <br />
+:octopus: **BROADCAST**: one-to-many communication <br />
+:octopus: **SCATTER**: One-to-many data distribution <br />
+:octopus: **GATHER**: Many-to-one data distribution <br />
