@@ -2,7 +2,7 @@
 <details>
   <summary>Resoures</summary>
   
-  [Data Science Interview Resources: rbhatia46](https://github.com/rbhatia46/Data-Science-Interview-Resources)* <br />
+  [Data Science Interview Resources: rbhatia46](https://github.com/rbhatia46/Data-Science-Interview-Resources) <br />
   [Data Science Interview Resources : cdeweyx](https://github.com/cdeweyx/DS-Career-Resources/blob/master/Interview-Resources.md)  
   [Forms PhD](https://luddy.indiana.edu/academics/grad-programs/graduate-forms/index.html)
 </details>
@@ -12,9 +12,34 @@
   <summary></summary>
 </details>
 
+<details>
+  <summary>Handling Class Imbalance </summary>
+  
+  1) **Resampling method** <br />
+  
+  - We can **oversample** the minority classs until certain ratio is reached. The model might overfit in this case. <br />
+  - Another method is **SMOTE (Synthetic Minority Oversampling Technique)**. In this method new examples are generated from minority class using 'k' nearest neighbors. SMOTE first selects a minority class instance 'a' at random, finds its 'k' nearest minority class neighbors and then create a new instance by convex combination of 'a' and anyone of the neighbor at random. This basically means new instance is created along the line segments connecting 'a' and the selected neighbor. The new instance is created without considering the majority class therefor the resulting example might be ambiguous if there is a strong overlap for the classes.<br /> <br />
+  **What is convex combination?** <br />
+  - In a given set of points in a convex set, a convex combination is a way to express a new point as a weighted average of those points where weights are non-negative and sum to 1.
+  The combination of SMOTE and under-sampling performs better than plain under-sampling. <br /> <br />
+  - **Undersampling the majority class** : If there are not enough instances in minority class, the model in this approach might not learn the pattern. <br /> <br />
+  
+- **Tomek links** : We find a pair of examples from opposite class that are close in proximity and remove the sample of majority class in each pair. This might lead to case where the model can not learn the subtle decision boundary.<br /><br />
+
+2) **Model level method** :
+  - This method makes model more robust to class imbalance. We can update loss function by weighting the loss inverse of the class ratio.
+  - **Tree-based models** and **logistic regression** work well on tasks involving small and imbalanced datasets. <br />
+  - We can combine multiple techniques, example: under sampling and ensemble, under-sampling and update loss function <br /><br />
+  
+  3) **Evaluation metric method** :
+  - AUC of ROC curve, Precision-Recall curve <br />
+  - Precision, Recall and F1 for positive class. <br /><br />
+  
+</details>
+
 
 <details>
-  <summary>Probability and Statistics explained in the context of deep learning</summary>
+  <summary> Probability and Statistics explained in the context of deep learning </summary>
   
   [Source](https://towardsdatascience.com/probability-and-statistics-explained-in-the-context-of-deep-learning-ed1509b2eb3f)
   
