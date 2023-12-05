@@ -9,7 +9,7 @@ avatar: "/assets/images/profile.jpg"
 url: "https://manitapote.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog" leave blank if no subpath
 
-#theme                    : "sparrow-jekyll-theme"
+theme                    : "sparrow-jekyll-theme"
 
 # Site Author
 author:
@@ -52,7 +52,7 @@ exclude:
 
 # Conversion
 markdown: kramdown
-highlighter: rouge
+syntax_highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
@@ -62,7 +62,9 @@ incremental: false
 kramdown:
   input: GFM
   hard_wrap: false
+  parse_block_html: true
   auto_ids: true
+  math_engine: mathjax
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
@@ -77,7 +79,7 @@ sass:
 
 
 # Outputting
-permalink: /blog/:title/
+permalink: /posts/:title/
 
 pagination:
   enabled: true
@@ -104,7 +106,6 @@ gems:
 whitelist:
   - jekyll-paginate
   - jekyll-feed
-
 
 # Front matter defaults
 defaults:

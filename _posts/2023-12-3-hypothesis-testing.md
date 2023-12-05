@@ -1,17 +1,11 @@
-
-<details>
-  <summary></summary>
-  [Link]()
-  
-  ##### 
-  
-</details>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 
 <details>
   <summary>Burstiness measure</summary>
-  [Link]()
-  
-  ### Inter-spike intervals (ISIs): 
+
+  ### Inter-spike intervals (ISIs): <br />
   Inter-spike interval (ISI) analysis, which is a common technique in neuroscience, can also be used in computational social science to study the dynamics and patterns of social media activity. Specifically, ISI analysis can be used to analyze the temporal patterns of individual users' behavior on social media platforms. ISI analysis can also be used to investigate the regularity of behavior, such as identifying users who have highly regular posting patterns or who exhibit irregular activity. 
   
   
@@ -28,15 +22,8 @@ Fano factor: The Fano factor is a measure of the variability in the number of ev
 </details>
 
 <details>
-  <summary>How weighted degree works?</summary>
-  [Link]()
-  
-  ##### 
-  
-</details>
-
-<details>
   <summary>Hypothesis Testing</summary>
+
   [Link](Think Stats)
   
   ##### Classical Hypothesis Testing

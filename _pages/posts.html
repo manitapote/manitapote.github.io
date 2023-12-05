@@ -1,0 +1,11 @@
+---
+layout: page
+title: "Blogs"
+permalink: /posts/
+subtitle: Some of my blog or logs on topics of my interest. Happy Learning!
+---
+
+
+{% for post in site.posts %}
+  {% include post-entry.html %}
+{% endfor %}

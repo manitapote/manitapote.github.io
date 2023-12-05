@@ -2,9 +2,9 @@
 <details>
   <summary>Resoures</summary>
   
-  [Data Science Interview Resources: rbhatia46](https://github.com/rbhatia46/Data-Science-Interview-Resources)* <br />
-  [Data Science Interview Resources : cdeweyx](https://github.com/cdeweyx/DS-Career-Resources/blob/master/Interview-Resources.md)  
-  [Forms PhD](https://luddy.indiana.edu/academics/grad-programs/graduate-forms/index.html)
+  - [Data Science Interview Resources: rbhatia46](https://github.com/rbhatia46/Data-Science-Interview-Resources)*
+  - [Data Science Interview Resources : cdeweyx](https://github.com/cdeweyx/DS-Career-Resources/blob/master/Interview-Resources.md) 
+  - [Forms PhD](https://luddy.indiana.edu/academics/grad-programs/graduate-forms/index.html)
 </details>
 
 

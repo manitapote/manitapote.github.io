@@ -18,7 +18,8 @@
   ##### 
   
 </details>
-
+https://github.com/jekyll/jekyll \n
+https://github.com/mmistakes/minimal-mistakes \n
 
 | Week      | Sunday | Monday | Tuesday | Wednesday        | Thursday | Friday | Saturday |
 | :---      | :----: |  :---: |  :---:  |  :---:           |  :---:   |  :---: | ---:     |

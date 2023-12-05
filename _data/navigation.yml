@@ -3,15 +3,13 @@ main:
   - title: "Home"
     url: /
   - title: "Blog"
-    url: /blog
+    url: /posts
   - title: "Projects"
     url: /
   - title: "CV"
     url: /
-
-
-#  - title: "poetry"
-#    url: /poetry
+  - title: "poetry"
+    url: /poetry
 #  - title: "submenu"
 #    url: /
 #    children:
