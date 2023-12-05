@@ -26,13 +26,13 @@ Fano factor: The Fano factor is a measure of the variability in the number of ev
 
   [Link](Think Stats)
   
-  ##### Classical Hypothesis Testing
+##### Classical Hypothesis Testing
   - The first step is to quantify the size of the apparent effect by choosing a test statistis. For example: test statistics could be difference in mean between two group, Chi square test statistics
   - Define null hypothesis, which is a model of the system based on the assumption that the apparent effect is not real.
   - Third step is to compute a p-value which is the probability of seeing the apparent effect if the null hypothesis is true. (the probability of seeing a difference as big or bigger under the null hypothesis)
   - Interpret the result, if the p-value is low the effect is said to be statistically significant.
   
-  ##### Error 
+##### Error 
   An effect is considered statistically significant if the p-value is below some threshold, commonly 5%. This procedure raises two questions. 
   - If the effect is actually due to chance what is the probability that we will wrongly consider it significant? The probability is the **false positive rate**.
   - If the effect is real, what is the chance that the hypothesis test will fail? This probability is the **false negative rate**.
@@ -69,20 +69,21 @@ different.
   - **Frequentist**: The frequentist viewpoint holds that the parameters of probabilistic models are fixed, but we just don't know them. 
   - **Bayesian**: The Bayesian viewpoint holds that model parameters are  not only unkown, but also random. In this case, we'll encode our prior belief about them using a probability distribution.
   
-  ### T-test: Inferetial statistics
+### T-test: Inferetial statistics
   - Assumption: Normal distribution
     - Similar vairance
     - Datapoints: same number in two groups (20-30)
-  
   - Compare two groups
   - Issue with considering mean: variation in distribution can produce statistically significant result
-  - ratio of signal/noise = (difference group mean)/(variablity of groups itself) = $\frac{|\overline{x}_1 - \overline{x}_2|}{\sqrt{\frac{S^1_1}{n_1} + \frac{S^2_2}{n_2}}}$ where $\frac{S}{n}$ is variance
+  - ratio of signal/noise = (difference group mean)/(variablity of groups itself) =
+    $$\frac{|\overline{x}_1 - \overline{x}_2|}{\sqrt{\frac{S^1_1}{n_1} + \frac{S^2_2}{n_2}}}$$ 
+where $$\frac{S}{n}$$ is variance
   - Higher values of the t-score indicate that a large difference exists between the two sample sets. The smaller the t-value, the more similarity exists between the two sample sets.
   
-  Problem with T-test:
+  Problem with T-test: <br />
   When to use:
   
-  ### Paired T-test or correlated t-test (dependent samples t-test, the paired difference t-test, the matched pairs t-test and the repeated-samples t-test)
+### Paired T-test or correlated t-test (dependent samples t-test, the paired difference t-test, the matched pairs t-test and the repeated-samples t-test)
   This T-test is performed when the samples consist of similar units or when there are repeated measures. For example: before and after measurements for a group of people. 
   Assumption: 
   - The distribution of differencess between the paired measurements should b normally distributed.
@@ -90,44 +91,39 @@ different.
   - Each of the paired measurements must be obtained from same subject.
   
  Formula:
-  $\overline{x_d} =$ average of differences <br />
-  Standard Error = $\frac{s_d}{\sqrt{n}}$ <br />
+  $$\overline{x_d} =$$ average of differences <br />
+  Standard Error = $$\frac{s_d}{\sqrt{n}}$$ <br />
   Degree of freedom (df) = n -1
   
-  $t = \frac{\text{Average difference}}{\text{Standard Error}}$ <br />
+  $$t = \frac{\text{Average difference}}{\text{Standard Error}}$$ <br />
   
   The conclusion: If value lower than the t-table statistics, it means it might have occured by chance. If the difference is greater that means it is not by chance. <br />
   
   [What if it is not normally distributed?](https://www.jmp.com/en_us/statistics-knowledge-portal/t-test/paired-t-test.html) <br />
-  "What if you know the underlying measurements are not normally distributed? Or what if your sample size is large and the test for normality is rejected? In this situation, you can use nonparametric analyses. These types of analyses do not depend on an assumption that the data values are from a specific distribution. For the paired t­-test, a nonparametric test is the Wilcoxon signed-rank test. "
+  "What if you know the underlying measurements are not normally distributed? Or what if your sample size is large and the test for normality is rejected?" <br />
+  In this situation, you can use nonparametric analyses. These types of analyses do not depend on an assumption that the data values are from a specific distribution. For the paired t­-test, a nonparametric test is the Wilcoxon signed-rank test. "
   
-  <details>
-  <summary>Chi-squared test</summary>
-  [Link]() <br />
+### Chi-squared test
+  
    Chi-square test is used to check if observed frequencies in one or more categories match expected frequencies. If we have single measurement variable, we use a chi-square goodness of fit test. If we have two measurement variables, we use a chi-square test of independence.
     The basic idea behind the test is to compare the observed values in your data to the expected values that we would see if the null hypothesis is true.
     
-  </details>
-  
-  <details>
-  <summary>Non-parameteric methods</summary>
-  [Link]() <br />
-   ### Wilcoxon signed-rank test or Mann-Whitney U test
+#### Non-parameteric methods
+  ***Wilcoxon signed-rank test or Mann-Whitney U test***
    
-   No assumption about the distribution of population. The null hypothesis for the test is that the probability is 50% that a randomly drawn member of the first population will exceed a member of the second population.
-    Another null hypothesis: The two samples come from the same population i.e they both have the same median.
+  No assumption about the distribution of population. The null hypothesis for the test is that the probability is 50% that a randomly drawn member of the first population will exceed a member of the second population.
+  Another null hypothesis: The two samples come from the same population i.e they both have the same median.
+
     
-    
-  </details>
-  
   ### Z-test
   ### F-test
   ### Welch's t-test
-</details>
 
-### Cohen's Kappa
-### Fleiss K
+[//]: # (### Cohen's Kappa)
 
+[//]: # (### Fleiss K)
 
+[//]: # ()
+[//]: # ()
 
 
