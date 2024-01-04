@@ -26,7 +26,7 @@
             {% assign domain = site.url | append: site.baseurl %}
           {% endif %}
           <li class="menu-item">
-            <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+            <a href="{{ domain }}{{ link.url }}" target="_blank">{{ link.title }}</a>
             {% if link.children %}
               <ul>
                 {% for child in link.children %}

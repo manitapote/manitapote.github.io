@@ -5,10 +5,10 @@ main:
   - title: "Blog"
     url: /posts
   - title: "Projects"
-    url: /
+    url: /projects
   - title: "CV"
     url: https://drive.google.com/file/d/1ACg6oUhwOTk6WhBXanLSDs2_jr1rhVSQ/view?usp=sharing
-  - title: "poetry"
+  - title: "Hobbies"
     url: /poetry
 #  - title: "submenu"
 #    url: /

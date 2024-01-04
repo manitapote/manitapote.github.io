@@ -1,0 +1,10 @@
+---
+layout: page
+title: "Projects"
+permalink: /projects/
+subtitle: Here are some of the projects I undertook during my Ph.D. and throughout my industry experience.
+---
+
+{% for project in site.projects %}
+  {% include project-entry.html %}
+{% endfor %}
