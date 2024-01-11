@@ -9,7 +9,8 @@ at [Indiana University, Bloomington](https://www.indiana.edu/)
 supervised by [Prof. Fil Menczer](https://cnets.indiana.edu/fil/), 
 [Prof. Alessandro Flammini](https://cnets.indiana.edu/aflammin/) and 
 [Prof. Zoran Tiganj](https://homes.luddy.indiana.edu/ztiganj/). 
-My research interests lie in social media data mining to understand abusive user behavior for platform integrity and
+My research interests lie in social media data mining, computational social science, network science
+to understand abusive user behavior for platform integrity and
 in developing machine learning/deep learning tools to 
 curb those behaviors. I primarily focus on the detection 
 of inauthentic coordination, identifying coordinated 
