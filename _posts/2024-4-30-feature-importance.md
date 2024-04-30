@@ -5,7 +5,13 @@
 
 
 **Decision Trees:** Decision trees learn how to best split the dataset into smaller and smaller subsets to predict the target value. The condition, or test, is represented as the 'leaf' (node) and the possible outcomes as 'branches' (edges). This splitting process continues until no further gain can be made or a preset rule is met, eg. the maximum depth of the tree is reached. <br /><br />
-**Decision Tree Algorithms:** 
+
+**Decision Tree Algorithms:** <br />
+A decision tree is a greedy algorithm we use for supervised machine learning tasks such as classification and regression. <br /> <br />
+1) Splitting in Decision Trees <br />
+- 
+<br /><br />
+
 **ID3**:
 **CART**:
 **Random Forests(RF):** RF construct many individual decision trees at training. Predictions from all trees are  pooled to make the final prediciton; the mode of the classes for classification or the mean prediciton for regression. As they use a collection of results to make a final decision, they are referred to an Ensemble techniques. <br /><br />
