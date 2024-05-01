@@ -9,7 +9,20 @@
 **Decision Tree Algorithms:** <br />
 A decision tree is a greedy algorithm we use for supervised machine learning tasks such as classification and regression. <br /> <br />
 1) Splitting in Decision Trees <br />
-- 
+- Firstly, the decision tree nodes are split based on all the variables. During the training phase, the data are passed from a root node to leaves for training. A decision tree uses different algorithms to decide whether to split a node into two or more sub-nodes. The algorithm chooses the partition maximizing the purity of the split (i.e. minimizing the impurity). Informationally, impurity is a measure of homogeneity of the labels at the node at hand. For classification task, Gini impurity index and entropy are used. <br /><br />
+**Gini Impurity** <br />
+Let's assume that a dataset $T$ contains examples from $n$ classes. Its Gini Index, $gini(T)$, is defined as: <br />
+$gini(T) = 1 - \sum_{j=1}^{n} p_j^2$
+
+<br /><br />
+Example: For a sample of 4 balls of two colors, red and blue: <br />
+4 red and 0 blue balls:
+$gini = 1 - (P(ball=red)^2 + P(ball=blue)^2) = 1 - (1+0) = 0$ <br />
+2 red and 2 blue balls:
+$gini = 1 - (P(ball=red)^2 + P(ball=blue)^2) = 1 - ((\frac{1}_{2})^2 +(\frac{1}_{2})^2) = 0.5$ <br />
+3 red and 1 blue balls: 
+$gini = 1 - (P(ball=red)^2 + P(ball=blue)^2) = 1 - ((\frac{3}_{4})^2 +(\frac{1}_{4})^2) = 0.375$ <br /> <br />
+The intuition behind the gini impurity is same as entropy. Higher the uncertainity higher is the impurity.
 <br /><br />
 
 **ID3**:
@@ -40,6 +53,16 @@ Assuming only two child nodes (binary tree): $ni_j = w_jC_j - w_{left(j)}C_{left
 - $w_j$ = weighted number of samples reaching node j <br />
 - $C_j$ = impurity value of node j <br />
 - $left(j)$ = child node from left split on node j <br />
-- $right(j)$ = child node from right split on node j <br />
+- $right(j)$ = child node from right split on node j <br /><br />
+  The importance for each feature on a decision tree is then calculated as: <br />
+  $fi_i = \frac{\sum{j:node} (j split on feature i ni_j)}_{\sum{k E all nodes}_{ni_k}}$
+
+  - fi sub(i) = the importance of feature i
+  - ni sub(j) = the importance of node j
+ 
+    <br /><br />
+    Impurity-based importance are biased towards high-cardinality and numerical features: <br />
+    - High-Cardinality features: High-cardinality features are those with a large number of unique values. These features tend to have more levels or categories, leading to more opportunities for splitting the data and reducing impurity. As a result, decision trees may assign higher importance to high-cardinality features because they have the potential to provide more information gain. <br />
+    - Numerical Features: Numerical features with wide range of values tend to be assigned higher importance in impurity-based calculations. This is because numerical features can be split at multiple points along their range, leading to finer-grained partitions of the data and potentially greater reductions in impurity.
 
 - Permutation importance: 
