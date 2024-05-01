@@ -64,5 +64,7 @@ Assuming only two child nodes (binary tree): $ni_j = w_jC_j - w_{left(j)}C_{left
     Impurity-based importance are biased towards high-cardinality and numerical features: <br />
     - High-Cardinality features: High-cardinality features are those with a large number of unique values. These features tend to have more levels or categories, leading to more opportunities for splitting the data and reducing impurity. As a result, decision trees may assign higher importance to high-cardinality features because they have the potential to provide more information gain. <br />
     - Numerical Features: Numerical features with wide range of values tend to be assigned higher importance in impurity-based calculations. This is because numerical features can be split at multiple points along their range, leading to finer-grained partitions of the data and potentially greater reductions in impurity.
+    -  It simply reflects the way impurity-based feature importance calculations prioritize features that lead to greater reductions in impurity when making splits in the decision tree. In some cases, other types of features (such as categorical features with a small number of levels) may still be highly predictive, even if they are not assigned as high importance scores in impurity-based calculations.
+
 
 - Permutation importance: 
