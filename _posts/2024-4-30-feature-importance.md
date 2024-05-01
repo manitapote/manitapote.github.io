@@ -12,7 +12,7 @@ A decision tree is a greedy algorithm we use for supervised machine learning tas
 - Firstly, the decision tree nodes are split based on all the variables. During the training phase, the data are passed from a root node to leaves for training. A decision tree uses different algorithms to decide whether to split a node into two or more sub-nodes. The algorithm chooses the partition maximizing the purity of the split (i.e. minimizing the impurity). Informationally, impurity is a measure of homogeneity of the labels at the node at hand. For classification task, Gini impurity index and entropy are used. <br /><br />
 **Gini Impurity** <br />
 Let's assume that a dataset $T$ contains examples from $n$ classes. Its Gini Index, $gini(T)$, is defined as: <br />
-$gini(T) = 1 - \sum_{j=1}^{n} p_j^2$
+$$gini(T) = 1 - \sum_{j=1}^{n} p_j^2$$
 
 <br /><br />
 Example: For a sample of 4 balls of two colors, red and blue: <br />
@@ -24,6 +24,8 @@ $gini = 1 - (P(ball=red)^2 + P(ball=blue)^2) = 1 - ((\frac{1}_{2})^2 +(\frac{1}_
 $gini = 1 - (P(ball=red)^2 + P(ball=blue)^2) = 1 - ((\frac{3}_{4})^2 +(\frac{1}_{4})^2) = 0.375$ <br /> <br />
 The intuition behind the gini impurity is same as entropy. Higher the uncertainity higher is the impurity.
 <br /><br />
+**Entropy:** It is a measure of information. Let's assume that a dataset $T$ associated with a node contains examples from $n$ classes. Then, its entropy is:
+$entropy(T) = - \sum{j=1}_{n} p_j*log(p_j)$
 
 **ID3**:
 **CART**:
