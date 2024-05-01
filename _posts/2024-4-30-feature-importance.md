@@ -17,25 +17,31 @@ $$gini(T) = 1 - \sum_{j=1}^{n} p_j^2$$
 <br /><br />
 Example: For a sample of 4 balls of two colors, red and blue: <br />
 4 red and 0 blue balls:
-$gini = 1 - (P(ball=red)^2 + P(ball=blue)^2) = 1 - (1+0) = 0$ <br />
+$$gini = 1 - (P(ball=red)^2 + P(ball=blue)^2) = 1 - (1+0) = 0$$ <br />
 2 red and 2 blue balls:
-$gini = 1 - (P(ball=red)^2 + P(ball=blue)^2) = 1 - ((\frac{1}_{2})^2 +(\frac{1}_{2})^2) = 0.5$ <br />
+$$gini = 1 - (P(ball=red)^2 + P(ball=blue)^2) = 1 - ((\frac{1}_{2})^2 +(\frac{1}_{2})^2) = 0.5$$ <br />
 3 red and 1 blue balls: 
-$gini = 1 - (P(ball=red)^2 + P(ball=blue)^2) = 1 - ((\frac{3}_{4})^2 +(\frac{1}_{4})^2) = 0.375$ <br /> <br />
+$$gini = 1 - (P(ball=red)^2 + P(ball=blue)^2) = 1 - ((\frac{3}_{4})^2 +(\frac{1}_{4})^2) = 0.375$$ <br /> <br />
 The intuition behind the gini impurity is same as entropy. Higher the uncertainity higher is the impurity.
 <br /><br />
 **Entropy:** It is a measure of information. Let's assume that a dataset $T$ associated with a node contains examples from $n$ classes. Then, its entropy is:
-$entropy(T) = - \sum{j=1}_{n} p_j*log(p_j)$
+$$entropy(T) = - \sum{j=1}_{n} p_j*log(p_j)$$
+where $p_j$ is the relative frequency of class $j$ in $T$. Entropy takes values from $[0,1]$. As is the case with the Gini index, a node is pure when $entropy(T)$ takes its minimum values, zero, and impure when it takes its highest value 1. <br />
 
 **ID3**:
 **CART**:
 **Random Forests(RF):** RF construct many individual decision trees at training. Predictions from all trees are  pooled to make the final prediciton; the mode of the classes for classification or the mean prediciton for regression. As they use a collection of results to make a final decision, they are referred to an Ensemble techniques. <br /><br />
 
-**Information Gain**: $Gain(T,X) = Entropy(T) - Entropy(T,X)$ <br />
+**Information Gain**: The infromation gain is the difference between a parent node's entropy and the weighted sum of its child node entropies. $$Gain(T,X) = Entropy(T) - Entropy(T,X)$$ <br />
 It is calcualted as the decrease in entropy after the dataset is split on an attribute. <br />
 T = Target Variable <br />
 X = Feature to be split on <br />
 Entropy(T,X) = The entropy calculated after the data is split on feature X <br />
+
+If it is in case of splitting the datasets: Let's assume a dataset $T$ with $N$ objects is partitioned into two datasets: $T_1$ and $T_2$ of sizes $N_1$ and $N_2$. Then, the split's infromation gain $(Gain_split)$ is: <br />
+
+$$Gain_{split}(T) = entropy(T) - \frac{N_1}_{N}. entropy(T_1) - \frac{N_2}_{N}. entropy(T_2)$$ <br />
+We choose attribute with high information gain.
 
 **Feature Importance** <br />
 Feature importance is calcuated as the decrease in node impurity weighted by the probability of reaching that node. The node probability can be calculated by the number of samples that reach the node, divide by the total number of samples. The higher the value the more important the feature. <br /><br />
@@ -49,14 +55,14 @@ Feature importance is calcuated as the decrease in node impurity weighted by the
 
 **Methods of Feature Importance:**
 - **Gini Importance:** <br /><br />
-Assuming only two child nodes (binary tree): $ni_j = w_jC_j - w_{left(j)}C_{left(j)} - w_{right(j)}C_{right(j)}$ <br /><br />
+Assuming only two child nodes (binary tree): $$ni_j = w_jC_j - w_{left(j)}C_{left(j)} - w_{right(j)}C_{right(j)}$$ <br /><br />
 - $ni_j$ = importance of node j <br />
 - $w_j$ = weighted number of samples reaching node j <br />
 - $C_j$ = impurity value of node j <br />
 - $left(j)$ = child node from left split on node j <br />
 - $right(j)$ = child node from right split on node j <br /><br />
   The importance for each feature on a decision tree is then calculated as: <br />
-  $fi_i = \frac{\sum{j:node} (j split on feature i ni_j)}_{\sum{k E all nodes}_{ni_k}}$
+  $$fi_i = \frac{\sum{j:node} (j split on feature i ni_j)}_{\sum{k E all nodes}_{ni_k}}$$
 
 - fi sub(i) = the importance of feature i
 - ni sub(j) = the importance of node j
