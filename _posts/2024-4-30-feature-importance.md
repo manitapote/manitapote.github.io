@@ -33,12 +33,11 @@ The intuition behind the gini impurity is same as entropy. Higher the uncertaini
 It is calcualted as the decrease in entropy after the dataset is split on an attribute. <br />
 T = Target Variable <br />
 X = Feature to be split on <br />
-Entropy(T,X) = The entropy calculated after the data is split on feature X <br /> <br />
+Entropy(T,X) = The entropy calculated after the data is split on feature X <br />
 
 **Feature Importance** <br />
 Feature importance is calcuated as the decrease in node impurity weighted by the probability of reaching that node. The node probability can be calculated by the number of samples that reach the node, divide by the total number of samples. The higher the value the more important the feature. <br /><br />
 **Feature importance** is a step ofmachine learning that involves calculating the score for each feature to establish importance of  each feature in prediciton. The higher the score for a feature, the larger effect it has on the model to predict a certain variables.<br /><br />
-<br /><br />
 
 **Why is feature importance is needed?** <br />
 - It helps to find irrelevant features of the model.
@@ -57,14 +56,14 @@ Assuming only two child nodes (binary tree): $ni_j = w_jC_j - w_{left(j)}C_{left
   The importance for each feature on a decision tree is then calculated as: <br />
   $fi_i = \frac{\sum{j:node} (j split on feature i ni_j)}_{\sum{k E all nodes}_{ni_k}}$
 
-  - fi sub(i) = the importance of feature i
-  - ni sub(j) = the importance of node j
+- fi sub(i) = the importance of feature i
+- ni sub(j) = the importance of node j
  
-    <br /><br />
-    Impurity-based importance are biased towards high-cardinality and numerical features: <br />
-    - High-Cardinality features: High-cardinality features are those with a large number of unique values. These features tend to have more levels or categories, leading to more opportunities for splitting the data and reducing impurity. As a result, decision trees may assign higher importance to high-cardinality features because they have the potential to provide more information gain. <br />
-    - Numerical Features: Numerical features with wide range of values tend to be assigned higher importance in impurity-based calculations. This is because numerical features can be split at multiple points along their range, leading to finer-grained partitions of the data and potentially greater reductions in impurity.
-    -  It simply reflects the way impurity-based feature importance calculations prioritize features that lead to greater reductions in impurity when making splits in the decision tree. In some cases, other types of features (such as categorical features with a small number of levels) may still be highly predictive, even if they are not assigned as high importance scores in impurity-based calculations.
+<br />
+Impurity-based importance are biased towards high-cardinality and numerical features: <br />
+- High-Cardinality features: High-cardinality features are those with a large number of unique values. These features tend to have more levels or categories, leading to more opportunities for splitting the data and reducing impurity. As a result, decision trees may assign higher importance to high-cardinality features because they have the potential to provide more information gain. <br />
+- Numerical Features: Numerical features with wide range of values tend to be assigned higher importance in impurity-based calculations. This is because numerical features can be split at multiple points along their range, leading to finer-grained partitions of the data and potentially greater reductions in impurity.
+-  It simply reflects the way impurity-based feature importance calculations prioritize features that lead to greater reductions in impurity when making splits in the decision tree. In some cases, other types of features (such as categorical features with a small number of levels) may still be highly predictive, even if they are not assigned as high importance scores in impurity-based calculations. <br /><br />
 
 
-- Permutation importance: 
+- **Permutation importance:**
