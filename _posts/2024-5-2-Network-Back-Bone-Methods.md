@@ -33,10 +33,16 @@ This process is different than graph summarization. In graph summarization, we t
    Doubly stochastic matrix: If all the elements in row adds to 1 as well as all the elements in column also adds to 1 then it is doubly stochastic matrix.<br /><br />
    After we convert the matrix into doubly stochastic, we break the local correlations. We can now threshold the edges. We should pick the threshold that allows for the graph to be single connected component. The problem with this method is not all matrix can be converted into doubly stochastic. Only positive non zero matrix can converted. A real network has alot of zeros. Adding a small noise could be a trick but as $\epsilon -> 0, A+ \epsilon -> A$ but the normalization of $A + \epsilon$ does not converge. Also doubly stochastic matrix must be square.
 
-3) High-salience Skeletion
-4) Convex Network Reduction
-5) Disparity Filter:
-6) Noise-Corrected
+3) High-salience Skeletion (HSS):<br />
+For some network, the structure faciliting the exchange of information or goods are more important, connections that keep  the network together in a single component as well as the have the high throughput is important. To build a HSS network, we loop over the nodes and we build their shortest path tree: a tree originating from a node, touching all other nodes in the minimum number of hops possible and maximum amount of edge weight possible. In practice we start exploring the graph with a BFS and note down the total edge weight of each path. When we reach an node that we already visited we consider the edge weights of the two paths and the one with the highest one wins. Reminder a tree can not have a triangle. We perform this operation for all nodes in the network and we obtain a set of shortest path trees. We sum them so that each edge now has a new weight: the number of shortest path trees in which it appears. The network can now be thresholded with these new weights. We could have used betweenness centrality but it is  global measure. Forbidding the creation of cycles in shortest path trees causes the main difference with the edge betweenness measure. One could think that the edge are simply sorted according to their contributions to all shortest paths in the network, but that is not the case. By forcing the substructures to be trees, we are counting the edges that are salient from each node's local perspective, rather than the network's global perspective. 
+<br /><br />
+   
+5) Convex Network Reduction: <br />
+A subgraph of a network $G$ is convex if it contains all shortest paths existing in the main network $G$ between its $V' \subseteq V$ nodes.
+
+7) Disparity Filter:
+   This method
+9) Noise-Corrected
 
 
 Bi-partite;
