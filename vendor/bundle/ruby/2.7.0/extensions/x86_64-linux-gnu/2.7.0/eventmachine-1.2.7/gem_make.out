@@ -1,0 +1,19 @@
+current directory: /home/manita/Program/manitapote.github.io/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/usr/bin/ruby2.7 -I /usr/local/lib/site_ruby/2.7.0 extconf.rb
+creating Makefile
+
+current directory: /home/manita/Program/manitapote.github.io/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250326-1054761-70l2ww sitelibdir\=./.gem.20250326-1054761-70l2ww clean
+
+current directory: /home/manita/Program/manitapote.github.io/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250326-1054761-70l2ww sitelibdir\=./.gem.20250326-1054761-70l2ww
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /home/manita/Program/manitapote.github.io/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250326-1054761-70l2ww sitelibdir\=./.gem.20250326-1054761-70l2ww install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20250326-1054761-70l2ww
+
+current directory: /home/manita/Program/manitapote.github.io/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250326-1054761-70l2ww sitelibdir\=./.gem.20250326-1054761-70l2ww clean
