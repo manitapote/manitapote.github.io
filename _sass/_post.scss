@@ -33,7 +33,7 @@
   margin-top: 0;
   line-height: 1;
   padding-bottom: 0.2em;
-  font-size: $type-size-1;
+  font-size: $type-size-3  ; //   $type-size-1;
   margin-bottom: 0;
 
   & + .post__meta {
@@ -44,7 +44,9 @@
 .post__content {
 
   p, li, dl {
-    font-size: 1em;
+    font-size: 12px; //$type-size-6;
+//     font-size: 1em;
+
   }
 
   /* blockquote citations */
