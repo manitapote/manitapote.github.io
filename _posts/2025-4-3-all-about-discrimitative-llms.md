@@ -3,7 +3,7 @@ Models that can understand and replicate the underlying distribution of data. Th
 
 #### Types of generative algorithms
 1) Classical
-   - Classical algorithms are good at learning patterns from structured data. They struggle to learn from more complex or unstructured data. Some classical generative algorithms include <br/ >
+   - Classical algorithms are good at learning patterns from structured data. They struggle to learn from more complex or unstructured data. Some classical generative algorithms include <br />
 a) Naive Byes: <br />
 b) Gaussian Mixture Models (GMMs): <br />
 c) Hidden Markov Models (HMMs): <br />
