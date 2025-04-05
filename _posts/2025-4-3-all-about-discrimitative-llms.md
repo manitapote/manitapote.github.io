@@ -1,5 +1,5 @@
 ## Generative Models
-Models that can understand and replicate the underlying distribution of data. They mainly aim to model the distribution P(X) when focusing solely on the input data or the joint probability distribution P(X,Y) when considering both the input data and the target variable. This allows them to generate new data inst##ances by sampling from these learned distribution.
+Models that can understand and replicate the underlying distribution of data. They mainly aim to model the distribution P(X) when focusing solely on the input data or the joint probability distribution P(X,Y) when considering both the input data and the target variable. This allows them to generate new data instances by sampling from these learned distribution.
 
 Key applications:
 1) Augmentation: Creating additional training instances to improve model robustness.
@@ -10,8 +10,8 @@ Key applications:
 #### Types of generative algorithms
 1) Classical
    - Classical algorithms are good at learning patterns from structured data. They struggle to learn from more complex or unstructured data. Some classical generative algorithms include <br />
-a) Naive Byes: <br />
-- 
+a) Gaussian Naive Byes: <br />
+      - It is a variation of Naive Bayes algorithm and is specifically tailored for datasets with continuous and numerical features. It assumes that the features follow a Gaussian (normal) distribution and is based on same fundamental principles of Bayes' theorem. 
 
 
 b) Gaussian Mixture Models (GMMs): <br />
