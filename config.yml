@@ -12,22 +12,16 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
+        - name: Blogs
+          url: blogs/
           weight: 5 
         - name: Papers
           url: papers/
           weight: 2
-        - name: Courses
-          url: courses/
+        - name: Projects
+          url: projects/
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
-
+       
 params:
     description: "This website hosts Manita Pote's research papers, blogs, projects, curriculum vitae, and contact information."
     author: Manita Pote
@@ -92,7 +86,7 @@ params:
         hiddenInSingle: true
     label:
       text: "Manita Pote"
-      icon: favicon.ico
+      icon: profile.png
       iconHeight: 18
 
 markup:
