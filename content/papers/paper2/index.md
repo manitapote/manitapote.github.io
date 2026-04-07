@@ -4,7 +4,7 @@ date: 2025-06-07
 tags: ["machine learning","random forest model","user behavior","detection","characterization"]
 author: ["Manita Pote*", "Tuğrulcan Elmas", "Alessandro Flammini", "Filippo Menczer"]
 description: "This study presents a framework to detect the user accounts involved in coordinated attack on targets based on replies/comments." 
-summary: "This paper presents a 'Random Forest' model to detect tweets that get coordinated replies as well as repliers involved in such attacks." 
+summary: "This paper presents a machine learning framework to detect tweets that get coordinated replies as well as repliers involved in such attacks." 
 cover:
     image: "dataset.png"
     alt: "Dataset"
@@ -53,4 +53,4 @@ Pote, M., Elmas, T., Flammini, A., & Menczer, F. (2025). Coordinated Reply Attac
 ##### Related material
 
 + [Presentation slides](https://drive.google.com/file/d/1Fw9McxHlMwhCX70HQeYfySsm-56i1HoD/view?usp=drive_link)
-+ [Datasheets and datasets] (https://doi.org/10.5281/zenodo.13896308)
++ [Datasheets and datasets](https://doi.org/10.5281/zenodo.13896308)
