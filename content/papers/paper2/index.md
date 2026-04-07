@@ -1,17 +1,17 @@
 ---
-title: "The Finer Points of Sausage Dogs" 
-date: 2004-12-28
-tags: ["zoology","sausage dogs","canine pulmonary efficiency","canine science","experimental zoology"]
-author: ["Florianus Prinzel", "Moritz-Maria von Igelfeld"]
-description: "This paper studies the pulmonary efficiency of sausage dogs. Published in the Journal of Canine Science, 2004." 
-summary: "This paper studies the pulmonary efficiency of sausage dogs through several experiments." 
+title: "Coordinated Reply Attacks in Influence Operations: Characterization and Detection" 
+date: 2025-06-07
+tags: ["machine learning","random forest model","user behavior","detection","characterization"]
+author: ["Manita Pote*", "Tuğrulcan Elmas", "Alessandro Flammini", "Filippo Menczer"]
+description: "This study presents a framework to detect the user accounts involved in coordinated attack on targets based on replies/comments." 
+summary: "This paper presents a 'Random Forest' model to detect tweets that get coordinated replies as well as repliers involved in such attacks." 
 cover:
-    image: "paper2.png"
-    alt: "Dimensions of a sausage dog"
+    image: "dataset.png"
+    alt: "Dataset"
     relative: true
 editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Canine Science"
+    URL: "https://ojs.aaai.org/index.php/ICWSM/article/view/35889"
+    Text: "ICWSM, AAAI"
 
 ---
 
@@ -19,43 +19,38 @@ editPost:
 
 ##### Download
 
-+ [Paper](paper2.pdf)
-+ [Online appendix](appendix2.pdf)
-+ [Code and data](https://github.com/pmichaillat/wunk-model)
++ [Paper](https://ojs.aaai.org/index.php/ICWSM/article/view/35889)
++ [Code](https://github.com/osome-iu/io-coordinated-replies)
 
 ---
 
 ##### Abstract
 
-This paper studies the pulmonary efficiency of sausage dogs. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur: $\sin(\theta) = x^2 - \exp(1+\chi)$. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor $\zeta$ incididunt ut labore et dolore magna aliqua: $p(x) = \int \cos(\zeta) d\zeta - \theta$. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
----
-
-##### Figure 2: Dimensions of a sausage dog
-
-![](paper2.png)
+Coordinated reply attacks are a tactic observed in online influence operations and other coordinated campaigns to support or harass targeted individuals, or influence them or their followers. Despite its potential to influence the public, past studies have yet to analyze or provide a methodology to detect this tactic. In this study, we characterize coordinated reply attacks in the context of influence operations on Twitter. Our analysis reveals that the primary targets of these attacks are influential people such as journalists, news media, state officials, and politicians. We propose two supervised machine-learning models, one to classify tweets to determine whether they are targeted by a reply attack, and one to classify accounts that reply to a targeted tweet to determine whether they are part of a coordinated attack. The classifiers achieve AUC scores of 0.88 and 0.97, respectively. These results indicate that accounts involved in reply attacks can be detected, and the targeted accounts themselves can serve as sensors for influence operation detection.
 
 ---
 
 ##### Citation
 
-Prinzel, Florianus, and Moritz-Maria von Igelfeld. 2004. "The Finer Points of Sausage Dogs." *Journal of Canine Science* 43 (2): 89–109. http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs.
+Pote, M., Elmas, T., Flammini, A., & Menczer, F. (2025). Coordinated Reply Attacks in Influence Operations: Characterization and Detection. Proceedings of the International AAAI Conference on Web and Social Media, 19(1), 1586-1598. https://doi.org/10.1609/icwsm.v19i1.35889
 
 ```latex
-@article{PI04,
-author = {Florianus Prinzel and Moritz-Maria von Igelfeld},
-year = {2004},
-title ={The Finer Points of Sausage Dogs},
-journal = {Journal of Canine Science},
-volume = {43},
-number = {2},
-pages = {89--109},
-url = {http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs}}
+@article{pote2025coordinated,
+  title     = {Coordinated Reply Attacks in Influence Operations: Characterization and Detection},
+  author    = {Pote, Manita and Elmas, Tu{\u{g}}rulcan and Flammini, Alessandro and Menczer, Filippo},
+  journal   = {Proceedings of the International AAAI Conference on Web and Social Media},
+  volume    = {19},
+  number    = {1},
+  pages     = {1586--1598},
+  year      = {2025},
+  doi       = {10.1609/icwsm.v19i1.35889},
+  url       = {https://doi.org/10.1609/icwsm.v19i1.35889}
+}
 ```
 
 ---
 
 ##### Related material
 
-+ [Presentation slides](presentation2.pdf)
-+ [Wikipedia entry](https://en.wikipedia.org/wiki/The_Finer_Points_of_Sausage_Dogs)
++ [Presentation slides](https://drive.google.com/file/d/1Fw9McxHlMwhCX70HQeYfySsm-56i1HoD/view?usp=drive_link)
++ [Datasheets and datasets] (https://doi.org/10.5281/zenodo.13896308)
