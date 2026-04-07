@@ -56,7 +56,7 @@ params:
           enabled: true
           title: Manita Pote
           subtitle: "I am a PhD candidate in Informatics at Indiana University, Bloomington. My research investigates the mechanisms behind manipulation in online information spaces, leveraging behavioral data alongside methods from network science, machine learning, and statistical modeling. I am driven by the challenge of transforming large-scale, complex behavioral signals into meaningful insights, bridging the rigor of academic inquiry with the demands of real-world impact."
-          imageUrl: "picture.jpeg"
+          imageUrl: "profile.png"
           imageWidth: 160
           imageHeight: 160
           buttons:
