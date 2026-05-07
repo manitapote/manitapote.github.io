@@ -66,6 +66,8 @@ params:
               url: tags/
             - name: Archive
               url: archive/
+    customCSS:
+      - css/custom.css
 
     socialIcons:
         - name: CV
