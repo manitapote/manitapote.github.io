@@ -388,7 +388,32 @@
 
   &lt;header class=&#34;page-header&#34;&gt;
     &lt;h1&gt;Research &amp; Publications&lt;/h1&gt;
-    &lt;p&gt;&lt;p&gt;I study how manipulation happens in online spaces — and how we can detect and stop it.&lt;/p&gt;</description>
+  &lt;/header&gt;
+
+  &lt;div class=&#34;filter-bar&#34;&gt;
+    &lt;button class=&#34;filter-btn active&#34; onclick=&#34;filterPapers(&#39;all&#39;, this)&#34;&gt;All&lt;/button&gt;
+    &lt;button class=&#34;filter-btn&#34; onclick=&#34;filterPapers(&#39;social-media&#39;, this)&#34;&gt;Social Media&lt;/button&gt;
+    &lt;button class=&#34;filter-btn&#34; onclick=&#34;filterPapers(&#39;misinformation&#39;, this)&#34;&gt;Misinformation&lt;/button&gt;
+    &lt;button class=&#34;filter-btn&#34; onclick=&#34;filterPapers(&#39;network-science&#39;, this)&#34;&gt;Network Science&lt;/button&gt;
+    &lt;button class=&#34;filter-btn&#34; onclick=&#34;filterPapers(&#39;machine-learning&#39;, this)&#34;&gt;Machine Learning&lt;/button&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;paper-list&#34; id=&#34;paper-list&#34;&gt;
+    &lt;!-- PAPER 2 — placeholder, update with your real paper --&gt;
+    &lt;article class=&#34;paper-card&#34; style=&#34;font-size: 1rem;&#34; data-tags=&#34;network-science misinformation&#34;&gt;
+      &lt;div class=&#34;paper-year&#34;&gt;2026&lt;/div&gt;
+      &lt;div class=&#34;paper-body&#34;&gt;
+        &lt;div class=&#34;paper-venue-row&#34;&gt;
+          &lt;span class=&#34;venue-tag&#34;&gt;Under review, EPJ Data science&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;a class=&#34;paper-title&#34; href=&#34;#&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+          Israel-Hamas War on X: A Case Study of Coordinated Campaigns and Information Integrity
+        &lt;/a&gt;
+        &lt;p class=&#34;paper-authors&#34;&gt;
+          Tuğrulcan Elmas, Filipi Nascimento Silva, &lt;u&gt;Manita Pote&lt;/u&gt;, Priyanka Dey, 
+          Keng-Chi Chang, Jinyi Ye, Luca Luceri, Cody Buntain, 
+          Emilio Ferrara, Alessandro Flammini, Fil Menczer
+        &lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
