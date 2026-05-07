@@ -1,0 +1,51 @@
+.main {
+  max-width: 900px !important;
+  padding: 0 2rem !important;
+}
+
+body {
+  font-size: 16px !important;
+  line-height: 1.7 !important;
+}
+.post-content {
+  max-width: 100% !important;
+}
+
+.post-content p {
+  line-height: 1.8 !important;
+}
+
+.post-content h1 {
+  font-size: 2.5rem !important;
+}
+
+.post-content h2 {
+  font-size: 1.8rem !important;
+}
+
+.post-content h3 {
+  font-size: 1.4rem !important;
+}
+
+/* nav links */
+.nav-links a {
+  font-size: 1rem !important;
+}
+
+.nav-brand {
+  font-size: 1.3rem !important;
+}
+
+body, .post-content, p, h1, h2, h3, h4 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  font-size: 20px !important;
+}
+
+body, p, li, span {
+  font-size: 16px !important;
+}
+
+.main {
+  max-width: 900px !important;
+  padding: 0 2rem !important;
+}

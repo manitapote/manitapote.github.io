@@ -66,8 +66,10 @@ params:
               url: tags/
             - name: Archive
               url: archive/
-    customCSS:
-      - css/custom.css
+    assets:
+      disableScrollBarStyle: true
+      customCSS:
+          - css/custom.css
 
     socialIcons:
         - name: CV
