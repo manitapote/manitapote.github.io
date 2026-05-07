@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Manita Pote</title>
+<meta name="keywords" content="">
+<meta name="description" content="How to handle extremely imbalanced dataset?
+
+Undersampling
+One way of handling imbalanced dataset is to reduce the number of observations from all classes but the minority class. The most well known algorithm in this group is random undersampling, where samples from the targeted classes are removed at random. There are more ways to do so, they can be grouped based on their undersampling strategy into:
+
+
+Prototype generation methods
+Prototype selection methods
+
+Prototype Generation
+Given original data set $S$, prototype generation algorithms will generate a new set $S&rsquo;$ where $|S&rsquo;| &lt; |S|$ and $|S|$&amp;#8836$S$. The prototype generation techniques will reduce the number of samples in the targeted classes but the remaining samples are generated - and not selected - from the original set.
+Some of the methods are :
+ClusterCentroids makes use of K-means to reduce the number of samples. Therefore, each class will be synthesized with the centroids of the K-means method instead of the original samples.">
+<meta name="author" content="Manita Pote">
+<link rel="canonical" href="http://localhost:1313/blogs/2024-5-22-imbalanced-dataset/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.ac30954b7ea20660ca1cb473400ecede9e601f17674446536180d3ca00f03328.css" integrity="sha256-rDCVS36iBmDKHLRzQA7O3p5gHxdnREZTYYDTygDwMyg=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/blogs/2024-5-22-imbalanced-dataset/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:url" content="http://localhost:1313/blogs/2024-5-22-imbalanced-dataset/">
+  <meta property="og:site_name" content="Manita Pote">
+  <meta property="og:title" content="Manita Pote">
+  <meta property="og:description" content="How to handle extremely imbalanced dataset? Undersampling One way of handling imbalanced dataset is to reduce the number of observations from all classes but the minority class. The most well known algorithm in this group is random undersampling, where samples from the targeted classes are removed at random. There are more ways to do so, they can be grouped based on their undersampling strategy into: Prototype generation methods Prototype selection methods Prototype Generation Given original data set $S$, prototype generation algorithms will generate a new set $S’$ where $|S’| &lt; |S|$ and $|S|$&amp;#8836$S$. The prototype generation techniques will reduce the number of samples in the targeted classes but the remaining samples are generated - and not selected - from the original set. Some of the methods are : ClusterCentroids makes use of K-means to reduce the number of samples. Therefore, each class will be synthesized with the centroids of the K-means method instead of the original samples.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blogs">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content="How to handle extremely imbalanced dataset?
+
+Undersampling
+One way of handling imbalanced dataset is to reduce the number of observations from all classes but the minority class. The most well known algorithm in this group is random undersampling, where samples from the targeted classes are removed at random. There are more ways to do so, they can be grouped based on their undersampling strategy into:
+
+
+Prototype generation methods
+Prototype selection methods
+
+Prototype Generation
+Given original data set $S$, prototype generation algorithms will generate a new set $S&rsquo;$ where $|S&rsquo;| &lt; |S|$ and $|S|$&amp;#8836$S$. The prototype generation techniques will reduce the number of samples in the targeted classes but the remaining samples are generated - and not selected - from the original set.
+Some of the methods are :
+ClusterCentroids makes use of K-means to reduce the number of samples. Therefore, each class will be synthesized with the centroids of the K-means method instead of the original samples.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blog",
+      "item": "http://localhost:1313/blogs/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "",
+      "item": "http://localhost:1313/blogs/2024-5-22-imbalanced-dataset/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "",
+  "name": "",
+  "description": "How to handle extremely imbalanced dataset? Undersampling One way of handling imbalanced dataset is to reduce the number of observations from all classes but the minority class. The most well known algorithm in this group is random undersampling, where samples from the targeted classes are removed at random. There are more ways to do so, they can be grouped based on their undersampling strategy into: Prototype generation methods Prototype selection methods Prototype Generation Given original data set $S$, prototype generation algorithms will generate a new set $S\u0026rsquo;$ where $|S\u0026rsquo;| \u0026lt; |S|$ and $|S|$\u0026amp;#8836$S$. The prototype generation techniques will reduce the number of samples in the targeted classes but the remaining samples are generated - and not selected - from the original set. Some of the methods are : ClusterCentroids makes use of K-means to reduce the number of samples. Therefore, each class will be synthesized with the centroids of the K-means method instead of the original samples.\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "How to handle extremely imbalanced dataset? Undersampling One way of handling imbalanced dataset is to reduce the number of observations from all classes but the minority class. The most well known algorithm in this group is random undersampling, where samples from the targeted classes are removed at random. There are more ways to do so, they can be grouped based on their undersampling strategy into: Prototype generation methods Prototype selection methods Prototype Generation Given original data set $S$, prototype generation algorithms will generate a new set $S’$ where $|S’| \u003c |S|$ and $|S|$\u0026#8836$S$. The prototype generation techniques will reduce the number of samples in the targeted classes but the remaining samples are generated - and not selected - from the original set. Some of the methods are : ClusterCentroids makes use of K-means to reduce the number of samples. Therefore, each class will be synthesized with the centroids of the K-means method instead of the original samples.\nPrototype Selection This algorithms select samples from the original set $S$ generating a dataset $S’$ where $|S’| \u003c |S|$ and $S’ \\subset S$. $S’$ is subset of $S$. Prototype selection algorithms can be divided into two groups: (i) controlled under-sampling techniques and (ii) cleaning under-sampling techniques. Controlled under-sampling methods reduce the number of observations in the majority class or classes to an arbitrary number of samples specified by the user. Typically, they reduce the number of observations to the number of samples observed in the minority class. In contrast, cleaning under-sampling techniques ‘clean’ the feature space by removing either ’noisy’ or ’too easy to classify’ observations, depending on the method. The final number of observations in each class varies with the cleaning method and can’t be specified by the user.\nControlled under-sampling techniques It involves random undersampling to match the data size of minority class.\nCleaning under-sampling techniques Cleaning under-sampling methods ‘clean’ the feature space by removing either noisy observations or observations that are ’too easy to classify’, depending on the method. The final number of observations in each targeted class varies with the cleaning method and cannot be specified by the user. Some of these algorithms are:\nTomek Links: Tomek Links are pairs of instances from different classes that are each other’s nearest neighbors. Removing the majority class instance from these pairs can help in creating a clearer decision boundary between classes. Algorithm: Identify all pairs of nearest neighbors from different classes. If an instance from the majority class is part of a Tomek Links, remove it. Condensed Nearest Neighbor (CNN) CNN aims to retain a subset of instances from the majority class that are crucial for defining the decision boundary. Algorithm: Start with an empty set ‘S’ Add all minority class instances to ‘S’ For each majority class instance: If the instance is misclassified by the current set ‘S’, add it to ‘S’ One-sided selection (OSS) OSS combines Tomek Links and CNN to remove both noisy instances and redundant instances from the majority class. Algorithm: Apply CNN to reduce the majority class Apply Tomek Links to the reduced set to remove noisy instances Edited Nearest Neighbor (ENN) For each instance, find its k-nearest neighbors If the instance is misclassified by the majority of its neighbors, remove it. Neighborhood Cleaning Rule (NCL) NCL combines ENN and Tomek Links to clean the dataset by removing misclassified instances and borderline instances. Algorithms: Apply ENN to remove misclassified instances Apply Tomek Links to remove borderline instances. ",
+  "wordCount" : "571",
+  "inLanguage": "en",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Manita Pote"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/blogs/2024-5-22-imbalanced-dataset/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Manita Pote",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Manita Pote">
+                <img src="http://localhost:1313/profile.png" alt="" aria-label="logo"
+                    height="18"
+                    width="18">Manita Pote</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/papers/" title="Papers">
+                    <span>Papers</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/projects/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/blogs/" title="Blogs">
+                    <span>Blogs</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      
+    </h1>
+    <div class="post-meta">Manita Pote
+
+</div>
+  </header> 
+  <div class="post-content"><h4 id="how-to-handle-extremely-imbalanced-dataset">How to handle extremely imbalanced dataset?</h4>
+<ol>
+<li>Undersampling
+One way of handling imbalanced dataset is to reduce the number of observations from all classes but the minority class. The most well known algorithm in this group is random undersampling, where samples from the targeted classes are removed at random. There are more ways to do so, they can be grouped based on their undersampling strategy into:</li>
+</ol>
+<ul>
+<li>Prototype generation methods</li>
+<li>Prototype selection methods</li>
+</ul>
+<h4 id="prototype-generation">Prototype Generation</h4>
+<p>Given original data set $S$, prototype generation algorithms will generate a new set $S&rsquo;$ where $|S&rsquo;| &lt; |S|$ and $|S|$&amp;#8836$S$. The prototype generation techniques will reduce the number of samples in the targeted classes but the remaining samples are generated - and not selected - from the original set.
+Some of the methods are :
+<strong>ClusterCentroids</strong> makes use of K-means to reduce the number of samples. Therefore, each class will be synthesized with the centroids of the K-means method instead of the original samples.</p>
+<h4 id="prototype-selection">Prototype Selection</h4>
+<p>This algorithms select samples from the original set $S$ generating a dataset $S&rsquo;$ where $|S&rsquo;| &lt; |S|$ and $S&rsquo; \subset S$. $S&rsquo;$ is subset of $S$. Prototype selection algorithms can be divided into two groups:
+(i) controlled under-sampling techniques and (ii) cleaning under-sampling techniques. <br /><br /></p>
+<p>Controlled under-sampling methods reduce the number of observations in the majority class or classes to an arbitrary number of samples specified by the user. Typically, they reduce the number of observations to the number of samples observed in the minority class. <br /><br />
+In contrast, cleaning under-sampling techniques &lsquo;clean&rsquo; the feature space by removing either &rsquo;noisy&rsquo; or &rsquo;too easy to classify&rsquo; observations, depending on the method. The final number of observations in each class varies with the cleaning method and can&rsquo;t be specified by the user.</p>
+<h5 id="controlled-under-sampling-techniques">Controlled under-sampling techniques</h5>
+<p>It involves random undersampling to match the data size of minority class.</p>
+<h5 id="cleaning-under-sampling-techniques">Cleaning under-sampling techniques</h5>
+<p>Cleaning under-sampling methods &lsquo;clean&rsquo; the feature space by removing either noisy observations or observations that are &rsquo;too easy to classify&rsquo;, depending on the method. The final number of observations in each targeted class varies with the cleaning method and cannot be specified by the user. Some of these algorithms are:</p>
+<ol>
+<li>Tomek Links: Tomek Links are pairs of instances from different classes that are each other&rsquo;s nearest neighbors. Removing the majority class instance from these pairs can help in creating a clearer decision boundary between classes. <br />
+Algorithm:</li>
+</ol>
+<ul>
+<li>Identify all pairs of nearest neighbors from different classes.</li>
+<li>If an instance from the majority class is part of a Tomek Links, remove it. <br /><br /></li>
+</ul>
+<ol start="2">
+<li>Condensed Nearest Neighbor (CNN)
+CNN aims to retain a subset of instances from the majority class that are crucial for defining the decision boundary. <br />
+Algorithm:</li>
+</ol>
+<ul>
+<li>Start with an empty set &lsquo;S&rsquo;</li>
+<li>Add all minority class instances to &lsquo;S&rsquo;</li>
+<li>For each majority class instance:
+<ul>
+<li>If the instance is misclassified by the current set &lsquo;S&rsquo;, add it to &lsquo;S&rsquo;</li>
+</ul>
+</li>
+</ul>
+<ol start="3">
+<li>One-sided selection (OSS)</li>
+</ol>
+<ul>
+<li>OSS combines Tomek Links and CNN to remove both noisy instances and redundant instances from the majority class. <br />
+Algorithm: <br /></li>
+<li>Apply CNN to reduce the majority class</li>
+<li>Apply Tomek Links to the reduced set to remove noisy instances</li>
+</ul>
+<ol start="4">
+<li>Edited Nearest Neighbor (ENN)</li>
+</ol>
+<ul>
+<li>For each instance, find its k-nearest neighbors</li>
+<li>If the instance is misclassified by the majority of its neighbors, remove it.</li>
+</ul>
+<ol start="5">
+<li>Neighborhood Cleaning Rule (NCL)
+NCL combines ENN and Tomek Links to clean the dataset by removing misclassified instances and borderline instances. <br />
+Algorithms: <br /></li>
+</ol>
+<ul>
+<li>Apply ENN to remove misclassified instances</li>
+<li>Apply Tomek Links to remove borderline instances.</li>
+</ul>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2026 Manita Pote</span> ·     
+    <span>
+    Made with 
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">hugo</a>, <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">papermod</a>, &amp;
+        <a href="https://github.com/pmichaillat/hugo-website/" rel="noopener" target="_blank">hugo-website</a>.
+    </span>
+</footer>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>

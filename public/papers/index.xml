@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Papers on Manita Pote</title>
+    <link>http://localhost:1313/papers/</link>
+    <description>Recent content in Papers on Manita Pote</description>
+    <generator>Hugo -- 0.147.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 07 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/papers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coordinated Reply Attacks in Influence Operations: Characterization and Detection</title>
+      <link>http://localhost:1313/papers/paper2/</link>
+      <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/paper2/</guid>
+      <description>This study presents a framework to detect the user accounts involved in coordinated attack on targets based on replies/comments.</description>
+    </item>
+    <item>
+      <title>Manipulating Twitter Through Deletions</title>
+      <link>http://localhost:1313/papers/paper1/</link>
+      <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/paper1/</guid>
+      <description>This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013.</description>
+    </item>
+    <item>
+      <title>Your Inner Hedgehog</title>
+      <link>http://localhost:1313/papers/paper3/</link>
+      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/paper3/</guid>
+      <description>This paper describes the inner hedgehog, a psychological condition widespread in academia. Published in the Journal of Socio-Experimental Psychology, 2021.</description>
+    </item>
+  </channel>
+</rss>
