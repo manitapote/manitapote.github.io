@@ -24,7 +24,7 @@ menu:
        
 params:
     description: "This website hosts Manita Pote's research papers, blogs, projects, curriculum vitae, and contact information."
-    author: Manita Pote
+    author:
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
