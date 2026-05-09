@@ -1,1 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Manita Pote</title><link>https://manitapote.github.io/papers/</link><description>Recent content on Manita Pote</description><generator>Hugo -- 0.147.2</generator><language>en</language><lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://manitapote.github.io/papers/index.xml" rel="self" type="application/rss+xml"/><item><title>Coordinated Campaigns and Information Integrity During the 2023 Israel-Hamas War on Twitter</title><link>https://manitapote.github.io/papers/paper7/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><guid>https://manitapote.github.io/papers/paper7/</guid><description>This study uncovers how coordinated campaigns shaped the information environment on Twitter during the 2023 Israel-Hamas War, analyzing 4.5 million tweets across 11 coordinated groups using multimodal methods.</description></item><item><title>Coordinated Reply Attacks in Influence Operations: Characterization and Detection</title><link>https://manitapote.github.io/papers/paper5/</link><pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate><guid>https://manitapote.github.io/papers/paper5/</guid><description>This study presents a framework to detect the user accounts involved in coordinated attack on targets based on replies/comments.</description></item><item><title>Labeled Datasets for Research on Information Operations</title><link>https://manitapote.github.io/papers/paper6/</link><pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate><guid>https://manitapote.github.io/papers/paper6/</guid><description>This paper presents labeled datasets covering 26 information operation campaigns to support development and benchmarking of IO detection algorithms.</description></item><item><title>Survey on Embedding Models for Knowledge Graph and its Applications</title><link>https://manitapote.github.io/papers/paper4/</link><pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate><guid>https://manitapote.github.io/papers/paper4/</guid><description>A survey of knowledge graph embedding models covering translation-based and neural network-based approaches and their applications.</description></item><item><title>Computational Propaganda Theory and Bot Detection System: Critical Literature Review</title><link>https://manitapote.github.io/papers/paper3/</link><pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate><guid>https://manitapote.github.io/papers/paper3/</guid><description>A critical literature review of computational propaganda theory and bot detection systems on social media platforms.</description></item><item><title>A Multi-Platform Collection of Social Media Posts about the 2022 U.S. Midterm Elections</title><link>https://manitapote.github.io/papers/paper2/</link><pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate><guid>https://manitapote.github.io/papers/paper2/</guid><description>This paper introduces MEIU22, a multi-platform dataset of social media posts about the 2022 U.S. Midterm Elections spanning Twitter, Facebook, Instagram, Reddit, and 4chan.</description></item><item><title>Manipulating Twitter Through Deletions</title><link>https://manitapote.github.io/papers/paper1/</link><pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate><guid>https://manitapote.github.io/papers/paper1/</guid><description>Presents a method to estimate user deletion behavior on social media and investigates online manipulation tactics observed through deletion patterns, revealing coordinated inauthentic activity on Twitter.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Manita Pote</title>
+    <link>http://localhost:1313/papers/</link>
+    <description>Recent content on Manita Pote</description>
+    <generator>Hugo -- 0.147.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/papers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coordinated Campaigns and Information Integrity During the 2023 Israel-Hamas War on Twitter</title>
+      <link>http://localhost:1313/papers/paper7/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/paper7/</guid>
+      <description>This study uncovers how coordinated campaigns shaped the information environment on Twitter during the 2023 Israel-Hamas War, analyzing 4.5 million tweets across 11 coordinated groups using multimodal methods.</description>
+    </item>
+    <item>
+      <title>Coordinated Reply Attacks in Influence Operations: Characterization and Detection</title>
+      <link>http://localhost:1313/papers/paper5/</link>
+      <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/paper5/</guid>
+      <description>This study presents a framework to detect the user accounts involved in coordinated attack on targets based on replies/comments.</description>
+    </item>
+    <item>
+      <title>Labeled Datasets for Research on Information Operations</title>
+      <link>http://localhost:1313/papers/paper6/</link>
+      <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/paper6/</guid>
+      <description>This paper presents labeled datasets covering 26 information operation campaigns to support development and benchmarking of IO detection algorithms.</description>
+    </item>
+    <item>
+      <title>Survey on Embedding Models for Knowledge Graph and its Applications</title>
+      <link>http://localhost:1313/papers/paper4/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/paper4/</guid>
+      <description>A survey of knowledge graph embedding models covering translation-based and neural network-based approaches and their applications.</description>
+    </item>
+    <item>
+      <title>Computational Propaganda Theory and Bot Detection System: Critical Literature Review</title>
+      <link>http://localhost:1313/papers/paper3/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/paper3/</guid>
+      <description>A critical literature review of computational propaganda theory and bot detection systems on social media platforms.</description>
+    </item>
+    <item>
+      <title>A Multi-Platform Collection of Social Media Posts about the 2022 U.S. Midterm Elections</title>
+      <link>http://localhost:1313/papers/paper2/</link>
+      <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/paper2/</guid>
+      <description>This paper introduces MEIU22, a multi-platform dataset of social media posts about the 2022 U.S. Midterm Elections spanning Twitter, Facebook, Instagram, Reddit, and 4chan.</description>
+    </item>
+    <item>
+      <title>Manipulating Twitter Through Deletions</title>
+      <link>http://localhost:1313/papers/paper1/</link>
+      <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/paper1/</guid>
+      <description>Presents a method to estimate user deletion behavior on social media and investigates online manipulation tactics observed through deletion patterns, revealing coordinated inauthentic activity on Twitter.</description>
+    </item>
+  </channel>
+</rss>

@@ -54,8 +54,9 @@ params:
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Latest News
+            - name: News
               url: news/
+              weight: 1
             # - name: Publications
             #   url: publications/
             - name: Papers
@@ -97,6 +98,10 @@ params:
 
 markup:
     goldmark:
+      extensions:
+        extras:
+          strikethrough:
+            enable: true
         renderer:
             unsafe: true
     highlight:
