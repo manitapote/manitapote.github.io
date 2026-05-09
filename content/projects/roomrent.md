@@ -5,10 +5,10 @@ tags: ["Laravel", "PHP", "REST API", "mobile backend", "Android", "iOS", "reposi
 author: ["Manita Pote"]
 description: "A RESTful web service built with Laravel and PHP serving as the backend for a room rental mobile application."
 summary: "A Laravel-based REST API backend for a cross-platform room rental app, enabling users to list, search, and request rooms for rent on Android and iOS."
-cover:
-    image: "roomrent.png"
-    alt: "RoomRent Web Service"
-    relative: true
+# cover:
+#     image: "roomrent.png"
+#     alt: "RoomRent Web Service"
+#     relative: true
 editPost:
     URL: "https://github.com/manitapote/RoomRent-webservice"
     Text: "GitHub"

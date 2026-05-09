@@ -5,10 +5,10 @@ tags: ["C#", "quiz", "GRE", "web app", "ASP.NET"]
 author: ["Manita Pote"]
 description: "A web-based quiz application built with C# and ASP.NET to help students practice GRE vocabulary and questions."
 summary: "A C# web application designed to help GRE aspirants practice vocabulary, verbal reasoning, and quantitative questions through an interactive browser-based quiz interface."
-cover:
-    image: "quizapp.png"
-    alt: "GRE Quiz App"
-    relative: true
+# cover:
+#     image: "quizapp.png"
+#     alt: "GRE Quiz App"
+#     relative: true
 editPost:
     URL: "https://github.com/manitapote/QuizeApp"
     Text: "GitHub"
@@ -18,7 +18,7 @@ editPost:
 
 ##### Overview
 
-A browser-based quiz application built with C# and ASP.NET to help students prepare for the GRE (Graduate Record Examination). The app delivers an interactive interface for practicing GRE-style vocabulary, verbal reasoning, and quantitative questions with instant feedback — accessible from any browser without installation.
+A browser-based quiz application built with C# and ASP.NET to help students prepare for the GRE (Graduate Record Examination). The app delivers an interactive interface for practicing GRE-style vocabulary, verbal reasoning, and quantitative questions accessible from any browser without installation.
 
 ---
 
