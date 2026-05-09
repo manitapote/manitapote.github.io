@@ -75,8 +75,8 @@
   "keywords": [
     "BERT", "hate speech", "NLP", "deep learning", "classification"
   ],
-  "articleBody": " Overview This project fine-tunes a BERT (Bidirectional Encoder Representations from Transformers) model for fine-grained hate speech detection on social media. Focusing on identity-based targeted hate — including Islamophobic and antisemitic content — the model is trained on labeled datasets and classifies text into hate speech, offensive, or neutral categories.\nFeatures Fine-tuned bert-base-uncased on hate speech dataset Multi-class classification: hate speech / offensive / neutral Preprocessing pipeline for social media text Evaluation with accuracy, F1, precision, and recall Dataset Trained on the Davidson et al. (2017) hate speech dataset containing 24,802 tweets labeled across three categories.\nResults Usage git clone https://github.com/manitapote/llm-projects cd llm-projects/bert_hatespeech pip install -r requirements.txt python train.py Code GitHub Repository ",
-  "wordCount" : "111",
+  "articleBody": " Overview This project fine-tunes a BERT (Bidirectional Encoder Representations from Transformers) model for fine-grained hate speech detection on social media. Focusing on identity-based targeted hate — including Islamophobic and antisemitic content — the model is trained on labeled datasets and classifies text into hate speech, offensive, or neutral categories.\nFeatures Fine-tuned bert-base-uncased on hate speech dataset Multi-class classification: hate speech / offensive / neutral Preprocessing pipeline for social media text Evaluation with accuracy, F1, precision, and recall Dataset This project uses two datasets:\nWaseem \u0026 Hovy Dataset — cleaned text data from the original hate speech paper by Waseem \u0026 Hovy, a benchmark dataset widely used for hate speech detection research.\nAnnotated Dataset — tweets collected using the Twitter API from 07-01-2021 to 11-29-2021 using a list of hashtags adopted from Waseem \u0026 Hovy’s paper. Tweets were manually annotated for hate speech categories.\nFile Description data/waseem/ Cleaned text from Waseem \u0026 Hovy data/annotated/FINAL_cleaned_annotated.parquet Full dataframe with tweets and labels data/annotated/FINAL_X.txt Cleaned text data/annotated/FINAL_Y.txt Corresponding labels Results Model F1 Score Precision@F1 Recall@F1 BERT fine-tuned - Waseem test dataset 0.87 0.76 0.87 BERT fine-tuned - Annotated dataset 0.92 0.91 0.93 Usage git clone https://github.com/manitapote/llm-projects cd llm-projects/bert_hatespeech pip install -r requirements.txt python train.py Code GitHub Repository ",
+  "wordCount" : "203",
   "inLanguage": "en",
   "datePublished": "2024-04-01T00:00:00Z",
   "dateModified": "2024-04-01T00:00:00Z",
@@ -197,9 +197,67 @@ labeled datasets and classifies text into hate speech, offensive, or neutral cat
 </ul>
 <hr>
 <h5 id="dataset">Dataset</h5>
-<p>Trained on the <a href="https://arxiv.org/abs/1703.04009" target="_blank">Davidson et al. (2017)</a> hate speech dataset containing 24,802 tweets labeled across three categories.</p>
+<p>This project uses two datasets:</p>
+<ul>
+<li>
+<p><strong>Waseem &amp; Hovy Dataset</strong> — cleaned text data from the original hate speech paper by <a href="https://github.com/zeeraktalat/hatespeech" target="_blank">Waseem &amp; Hovy</a>, a benchmark dataset widely used for hate speech detection research.</p>
+</li>
+<li>
+<p><strong>Annotated Dataset</strong> — tweets collected using the Twitter API from 07-01-2021 to 11-29-2021 using a list of hashtags adopted from Waseem &amp; Hovy&rsquo;s paper. Tweets were manually annotated for hate speech categories.</p>
+</li>
+</ul>
+<table>
+  <thead>
+      <tr>
+          <th>File</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>data/waseem/</code></td>
+          <td>Cleaned text from Waseem &amp; Hovy</td>
+      </tr>
+      <tr>
+          <td><code>data/annotated/FINAL_cleaned_annotated.parquet</code></td>
+          <td>Full dataframe with tweets and labels</td>
+      </tr>
+      <tr>
+          <td><code>data/annotated/FINAL_X.txt</code></td>
+          <td>Cleaned text</td>
+      </tr>
+      <tr>
+          <td><code>data/annotated/FINAL_Y.txt</code></td>
+          <td>Corresponding labels</td>
+      </tr>
+  </tbody>
+</table>
 <hr>
 <h5 id="results">Results</h5>
+<table>
+  <thead>
+      <tr>
+          <th>Model</th>
+          <th>F1 Score</th>
+          <th>Precision@F1</th>
+          <th>Recall@F1</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>BERT fine-tuned - Waseem test dataset</td>
+          <td>0.87</td>
+          <td>0.76</td>
+          <td>0.87</td>
+      </tr>
+      <tr>
+          <td>BERT fine-tuned - Annotated dataset</td>
+          <td>0.92</td>
+          <td>0.91</td>
+          <td>0.93</td>
+      </tr>
+  </tbody>
+</table>
 <hr>
 <h5 id="usage">Usage</h5>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/manitapote/llm-projects

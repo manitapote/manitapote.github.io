@@ -36,16 +36,28 @@ labeled datasets and classifies text into hate speech, offensive, or neutral cat
 
 ##### Dataset
 
-Trained on the [Davidson et al. (2017)](https://arxiv.org/abs/1703.04009) hate speech dataset containing 24,802 tweets labeled across three categories.
+This project uses two datasets:
+
+- **Waseem & Hovy Dataset** — cleaned text data from the original hate speech paper by [Waseem & Hovy](https://github.com/zeeraktalat/hatespeech), a benchmark dataset widely used for hate speech detection research.
+
+- **Annotated Dataset** — tweets collected using the Twitter API from 07-01-2021 to 11-29-2021 using a list of hashtags adopted from Waseem & Hovy's paper. Tweets were manually annotated for hate speech categories.
+
+| File | Description |
+|------|-------------|
+| `data/waseem/` | Cleaned text from Waseem & Hovy |
+| `data/annotated/FINAL_cleaned_annotated.parquet` | Full dataframe with tweets and labels |
+| `data/annotated/FINAL_X.txt` | Cleaned text |
+| `data/annotated/FINAL_Y.txt` | Corresponding labels |
 
 ---
 
 ##### Results
 
-<!-- | Model | Accuracy | F1 Score |
-|-------|----------|----------|
-| BERT fine-tuned | 92% | 0.91 |
-| Baseline (SVM) | 90% | 0.76 | -->
+| Model | F1 Score | Precision@F1 | Recall@F1 |
+|-------|----------|--------------|-----------|
+| BERT fine-tuned - Waseem test dataset | 0.87 | 0.76 | 0.87 |
+| BERT fine-tuned - Annotated dataset | 0.92 | 0.91 | 0.93 |
+
 
 ---
 
