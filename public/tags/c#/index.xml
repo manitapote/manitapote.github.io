@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>C# on Manita Pote</title>
+    <link>http://localhost:1313/tags/c%23/</link>
+    <description>Recent content in C# on Manita Pote</description>
+    <generator>Hugo -- 0.147.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/c%23/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GRE Quiz App</title>
+      <link>http://localhost:1313/projects/quizeapp/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/quizeapp/</guid>
+      <description>A web-based quiz application built with C# and ASP.NET to help students practice GRE vocabulary and questions.</description>
+    </item>
+  </channel>
+</rss>

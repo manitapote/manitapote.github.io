@@ -6,14 +6,35 @@
     <description>Recent content on Manita Pote</description>
     <generator>Hugo -- 0.147.2</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coordinated Reply Attacks: Characterization and Detection</title>
+      <link>http://localhost:1313/projects/coordinated_replies/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/coordinated_replies/</guid>
+      <description>Replication code for detecting and characterizing coordinated reply attacks in online influence operations on Twitter.</description>
+    </item>
     <item>
       <title>Targeted Hate Speech Classification on Social Media</title>
       <link>http://localhost:1313/projects/hatespeech/</link>
       <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/hatespeech/</guid>
       <description>Fine-tuned BERT model for hate speech detection on social media posts.</description>
+    </item>
+    <item>
+      <title>RoomRent Web Service</title>
+      <link>http://localhost:1313/projects/roomrent/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/roomrent/</guid>
+      <description>A RESTful web service built with Laravel and PHP serving as the backend for a room rental mobile application.</description>
+    </item>
+    <item>
+      <title>GRE Quiz App</title>
+      <link>http://localhost:1313/projects/quizeapp/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/quizeapp/</guid>
+      <description>A web-based quiz application built with C# and ASP.NET to help students practice GRE vocabulary and questions.</description>
     </item>
   </channel>
 </rss>

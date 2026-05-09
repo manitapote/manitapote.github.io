@@ -30,6 +30,13 @@
       <description>This paper presents labeled datasets covering 26 information operation campaigns to support development and benchmarking of IO detection algorithms.</description>
     </item>
     <item>
+      <title>Coordinated Reply Attacks: Characterization and Detection</title>
+      <link>http://localhost:1313/projects/coordinated_replies/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/coordinated_replies/</guid>
+      <description>Replication code for detecting and characterizing coordinated reply attacks in online influence operations on Twitter.</description>
+    </item>
+    <item>
       <title>Location</title>
       <link>http://localhost:1313/location/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
@@ -72,6 +79,13 @@
       <description>A guide to undersampling techniques for handling imbalanced datasets, including prototype generation, prototype selection, and cleaning methods.</description>
     </item>
     <item>
+      <title>RoomRent Web Service</title>
+      <link>http://localhost:1313/projects/roomrent/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/roomrent/</guid>
+      <description>A RESTful web service built with Laravel and PHP serving as the backend for a room rental mobile application.</description>
+    </item>
+    <item>
       <title>A Multi-Platform Collection of Social Media Posts about the 2022 U.S. Midterm Elections</title>
       <link>http://localhost:1313/papers/paper2/</link>
       <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
@@ -84,6 +98,13 @@
       <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/papers/paper1/</guid>
       <description>Presents a method to estimate user deletion behavior on social media and investigates online manipulation tactics observed through deletion patterns, revealing coordinated inauthentic activity on Twitter.</description>
+    </item>
+    <item>
+      <title>GRE Quiz App</title>
+      <link>http://localhost:1313/projects/quizeapp/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/quizeapp/</guid>
+      <description>A web-based quiz application built with C# and ASP.NET to help students practice GRE vocabulary and questions.</description>
     </item>
     <item>
       <title>List of Irregular Verbs Across Romance Languages</title>

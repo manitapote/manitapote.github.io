@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>RoomRent Web Service | Manita Pote</title>
+<meta name="keywords" content="Laravel, PHP, REST API, mobile backend, Android, iOS, repository pattern">
+<meta name="description" content="A RESTful web service built with Laravel and PHP serving as the backend for a room rental mobile application.">
+<meta name="author" content="Manita Pote">
+<link rel="canonical" href="http://localhost:1313/projects/roomrent/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.ac30954b7ea20660ca1cb473400ecede9e601f17674446536180d3ca00f03328.css" integrity="sha256-rDCVS36iBmDKHLRzQA7O3p5gHxdnREZTYYDTygDwMyg=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/projects/roomrent/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:url" content="http://localhost:1313/projects/roomrent/">
+  <meta property="og:site_name" content="Manita Pote">
+  <meta property="og:title" content="RoomRent Web Service">
+  <meta property="og:description" content="A RESTful web service built with Laravel and PHP serving as the backend for a room rental mobile application.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2024-01-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-01-01T00:00:00+00:00">
+    <meta property="article:tag" content="Laravel">
+    <meta property="article:tag" content="PHP">
+    <meta property="article:tag" content="REST API">
+    <meta property="article:tag" content="Mobile Backend">
+    <meta property="article:tag" content="Android">
+    <meta property="article:tag" content="IOS">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="RoomRent Web Service">
+<meta name="twitter:description" content="A RESTful web service built with Laravel and PHP serving as the backend for a room rental mobile application.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "",
+      "item": "http://localhost:1313/projects/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "RoomRent Web Service",
+      "item": "http://localhost:1313/projects/roomrent/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "RoomRent Web Service",
+  "name": "RoomRent Web Service",
+  "description": "A RESTful web service built with Laravel and PHP serving as the backend for a room rental mobile application.",
+  "keywords": [
+    "Laravel", "PHP", "REST API", "mobile backend", "Android", "iOS", "repository pattern"
+  ],
+  "articleBody": " Overview RoomRent is a RESTful web service built with Laravel and PHP, designed as the backend for a cross-platform mobile application on Android and iOS. The API follows the Repository Design Pattern, decoupling the business logic from data access layers for clean, maintainable, and testable code. It enables users to list available rooms for rent and submit rental requests, connecting landlords and tenants through a scalable backend architecture.\nArchitecture The project follows the Repository Design Pattern:\nController — handles HTTP requests and responses Repository Interface — defines the contract for data operations Repository Implementation — handles all database queries via Eloquent ORM Service Layer — contains business logic, sits between controller and repository This separation of concerns makes the codebase easy to test, extend, and maintain.\nFeatures 🏠 List and browse available rooms for rent 📱 RESTful API endpoints for Android and iOS clients 🔐 User authentication and authorization 📋 Room request and booking management 🔍 Search and filter rooms by location and price 👤 Separate roles for landlords and tenants 🏗️ Repository design pattern for clean architecture Tech Stack Language: PHP Framework: Laravel Database: MySQL API: RESTful JSON API Architecture: Repository Design Pattern Auth: Laravel Sanctum / Passport Usage git clone https://github.com/manitapote/RoomRent-webservice cd RoomRent-webservice composer install cp .env.example .env php artisan key:generate php artisan migrate php artisan serve Code GitHub Repository ",
+  "wordCount" : "222",
+  "inLanguage": "en",
+  "datePublished": "2024-01-01T00:00:00Z",
+  "dateModified": "2024-01-01T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Manita Pote"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/projects/roomrent/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Manita Pote",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class="" id="top"><nav>
+  <a class="nav-brand" href="/">Manita Pote</a>
+  <ul class="nav-links">
+    <li><a href="/news/">News</a></li>
+    <li><a href="/papers/">Papers</a></li>
+    <li><a href="/projects/">Projects</a></li>
+    <li><a href="/blogs/">Blogs</a></li>
+  </ul>
+</nav>
+
+<style>
+  nav {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+  }
+  .nav-brand {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.15rem;
+    color: #1a1a1a;
+    text-decoration: none;
+  }
+  .nav-links {
+    display: flex;
+    gap: 1.8rem;
+    list-style: none;
+  }
+  .nav-links a {
+    font-size: 0.82rem;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #555550;
+    text-decoration: none;
+  }
+  .nav-links a:hover { color: #8b6914; }
+</style>
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      RoomRent Web Service
+    </h1>
+    <div class="post-meta"><span title='2024-01-01 00:00:00 +0000 UTC'>January 2024</span>&nbsp;&middot;&nbsp;Manita Pote&nbsp;&middot;&nbsp;<a href="https://github.com/manitapote/RoomRent-webservice" rel="noopener noreferrer" target="_blank">GitHub</a>
+
+</div>
+  </header> 
+<div class="post-content"><hr>
+<h5 id="overview">Overview</h5>
+<p>RoomRent is a RESTful web service built with Laravel and PHP, designed as the backend for a cross-platform mobile application on Android and iOS. The API follows the <strong>Repository Design Pattern</strong>, decoupling the business logic from data access layers for clean, maintainable, and testable code. It enables users to list available rooms for rent and submit rental requests, connecting landlords and tenants through a scalable backend architecture.</p>
+<hr>
+<h5 id="architecture">Architecture</h5>
+<p>The project follows the <strong>Repository Design Pattern</strong>:</p>
+<ul>
+<li><strong>Controller</strong> — handles HTTP requests and responses</li>
+<li><strong>Repository Interface</strong> — defines the contract for data operations</li>
+<li><strong>Repository Implementation</strong> — handles all database queries via Eloquent ORM</li>
+<li><strong>Service Layer</strong> — contains business logic, sits between controller and repository</li>
+</ul>
+<p>This separation of concerns makes the codebase easy to test, extend, and maintain.</p>
+<hr>
+<h5 id="features">Features</h5>
+<ul>
+<li>🏠 List and browse available rooms for rent</li>
+<li>📱 RESTful API endpoints for Android and iOS clients</li>
+<li>🔐 User authentication and authorization</li>
+<li>📋 Room request and booking management</li>
+<li>🔍 Search and filter rooms by location and price</li>
+<li>👤 Separate roles for landlords and tenants</li>
+<li>🏗️ Repository design pattern for clean architecture</li>
+</ul>
+<hr>
+<h5 id="tech-stack">Tech Stack</h5>
+<ul>
+<li><strong>Language:</strong> PHP</li>
+<li><strong>Framework:</strong> Laravel</li>
+<li><strong>Database:</strong> MySQL</li>
+<li><strong>API:</strong> RESTful JSON API</li>
+<li><strong>Architecture:</strong> Repository Design Pattern</li>
+<li><strong>Auth:</strong> Laravel Sanctum / Passport</li>
+</ul>
+<hr>
+<h5 id="usage">Usage</h5>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/manitapote/RoomRent-webservice
+</span></span><span style="display:flex;"><span><span style="color:#0aa">cd</span> RoomRent-webservice
+</span></span><span style="display:flex;"><span>composer install
+</span></span><span style="display:flex;"><span>cp .env.example .env
+</span></span><span style="display:flex;"><span>php artisan key:generate
+</span></span><span style="display:flex;"><span>php artisan migrate
+</span></span><span style="display:flex;"><span>php artisan serve
+</span></span></code></pre></div><hr>
+<h5 id="code">Code</h5>
+<ul>
+<li><a href="https://github.com/manitapote/RoomRent-webservice" target="_blank">GitHub Repository</a></li>
+</ul>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/laravel/">Laravel</a></li>
+      <li><a href="http://localhost:1313/tags/php/">PHP</a></li>
+      <li><a href="http://localhost:1313/tags/rest-api/">REST API</a></li>
+      <li><a href="http://localhost:1313/tags/mobile-backend/">Mobile Backend</a></li>
+      <li><a href="http://localhost:1313/tags/android/">Android</a></li>
+      <li><a href="http://localhost:1313/tags/ios/">IOS</a></li>
+      <li><a href="http://localhost:1313/tags/repository-pattern/">Repository Pattern</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2026 Manita Pote</span> ·     
+    <span>
+    Made with 
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">hugo</a>, <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">papermod</a>, &amp;
+        <a href="https://github.com/pmichaillat/hugo-website/" rel="noopener" target="_blank">hugo-website</a>.
+    </span>
+</footer>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>

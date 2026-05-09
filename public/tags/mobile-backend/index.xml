@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mobile Backend on Manita Pote</title>
+    <link>http://localhost:1313/tags/mobile-backend/</link>
+    <description>Recent content in Mobile Backend on Manita Pote</description>
+    <generator>Hugo -- 0.147.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mobile-backend/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RoomRent Web Service</title>
+      <link>http://localhost:1313/projects/roomrent/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/roomrent/</guid>
+      <description>A RESTful web service built with Laravel and PHP serving as the backend for a room rental mobile application.</description>
+    </item>
+  </channel>
+</rss>

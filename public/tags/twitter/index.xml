@@ -16,6 +16,13 @@
       <description>This study uncovers how coordinated campaigns shaped the information environment on Twitter during the 2023 Israel-Hamas War, analyzing 4.5 million tweets across 11 coordinated groups using multimodal methods.</description>
     </item>
     <item>
+      <title>Coordinated Reply Attacks: Characterization and Detection</title>
+      <link>http://localhost:1313/projects/coordinated_replies/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/coordinated_replies/</guid>
+      <description>Replication code for detecting and characterizing coordinated reply attacks in online influence operations on Twitter.</description>
+    </item>
+    <item>
       <title>A Multi-Platform Collection of Social Media Posts about the 2022 U.S. Midterm Elections</title>
       <link>http://localhost:1313/papers/paper2/</link>
       <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>

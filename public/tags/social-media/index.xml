@@ -16,6 +16,13 @@
       <description>This paper presents labeled datasets covering 26 information operation campaigns to support development and benchmarking of IO detection algorithms.</description>
     </item>
     <item>
+      <title>Coordinated Reply Attacks: Characterization and Detection</title>
+      <link>http://localhost:1313/projects/coordinated_replies/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/coordinated_replies/</guid>
+      <description>Replication code for detecting and characterizing coordinated reply attacks in online influence operations on Twitter.</description>
+    </item>
+    <item>
       <title>Computational Propaganda Theory and Bot Detection System: Critical Literature Review</title>
       <link>http://localhost:1313/papers/paper3/</link>
       <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>

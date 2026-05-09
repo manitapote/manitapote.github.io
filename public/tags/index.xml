@@ -114,6 +114,13 @@
       <description></description>
     </item>
     <item>
+      <title>Random Forest</title>
+      <link>http://localhost:1313/tags/random-forest/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/random-forest/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Deep Learning</title>
       <link>http://localhost:1313/tags/deep-learning/</link>
       <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
@@ -170,6 +177,41 @@
       <description></description>
     </item>
     <item>
+      <title>BERT</title>
+      <link>http://localhost:1313/tags/bert/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bert/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Classification</title>
+      <link>http://localhost:1313/tags/classification/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/classification/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hate Speech</title>
+      <link>http://localhost:1313/tags/hate-speech/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/hate-speech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NLP</title>
+      <link>http://localhost:1313/tags/nlp/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/nlp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Android</title>
+      <link>http://localhost:1313/tags/android/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/android/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Data Science</title>
       <link>http://localhost:1313/tags/data-science/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
@@ -181,6 +223,48 @@
       <link>http://localhost:1313/tags/imbalanced-data/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/imbalanced-data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IOS</title>
+      <link>http://localhost:1313/tags/ios/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Laravel</title>
+      <link>http://localhost:1313/tags/laravel/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/laravel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mobile Backend</title>
+      <link>http://localhost:1313/tags/mobile-backend/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/mobile-backend/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PHP</title>
+      <link>http://localhost:1313/tags/php/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/php/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Repository Pattern</title>
+      <link>http://localhost:1313/tags/repository-pattern/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/repository-pattern/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>REST API</title>
+      <link>http://localhost:1313/tags/rest-api/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/rest-api/</guid>
       <description></description>
     </item>
     <item>
@@ -223,6 +307,41 @@
       <link>http://localhost:1313/tags/computational-social-science/</link>
       <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/computational-social-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ASP.NET</title>
+      <link>http://localhost:1313/tags/asp.net/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/asp.net/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C#</title>
+      <link>http://localhost:1313/tags/c%23/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/c%23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GRE</title>
+      <link>http://localhost:1313/tags/gre/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gre/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quiz</title>
+      <link>http://localhost:1313/tags/quiz/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/quiz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web App</title>
+      <link>http://localhost:1313/tags/web-app/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/web-app/</guid>
       <description></description>
     </item>
     <item>

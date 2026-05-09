@@ -16,6 +16,13 @@
       <description>This study presents a framework to detect the user accounts involved in coordinated attack on targets based on replies/comments.</description>
     </item>
     <item>
+      <title>Coordinated Reply Attacks: Characterization and Detection</title>
+      <link>http://localhost:1313/projects/coordinated_replies/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/coordinated_replies/</guid>
+      <description>Replication code for detecting and characterizing coordinated reply attacks in online influence operations on Twitter.</description>
+    </item>
+    <item>
       <title>How to Handle Extremely Imbalanced Datasets</title>
       <link>http://localhost:1313/blogs/imbalanced-dataset/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
