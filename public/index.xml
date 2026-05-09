@@ -1,447 +1,285 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Manita Pote</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Manita Pote</description>
-    <generator>Hugo -- 0.147.2</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Coordinated Campaigns and Information Integrity During the 2023 Israel-Hamas War on Twitter</title>
-      <link>http://localhost:1313/papers/paper7/</link>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper7/</guid>
-      <description>This study uncovers how coordinated campaigns shaped the information environment on Twitter during the 2023 Israel-Hamas War, analyzing 4.5 million tweets across 11 coordinated groups using multimodal methods.</description>
-    </item>
-    <item>
-      <title>Coordinated Reply Attacks in Influence Operations: Characterization and Detection</title>
-      <link>http://localhost:1313/papers/paper5/</link>
-      <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper5/</guid>
-      <description>This study presents a framework to detect the user accounts involved in coordinated attack on targets based on replies/comments.</description>
-    </item>
-    <item>
-      <title>Labeled Datasets for Research on Information Operations</title>
-      <link>http://localhost:1313/papers/paper6/</link>
-      <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper6/</guid>
-      <description>This paper presents labeled datasets covering 26 information operation campaigns to support development and benchmarking of IO detection algorithms.</description>
-    </item>
-    <item>
-      <title>Location</title>
-      <link>http://localhost:1313/location/</link>
-      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/location/</guid>
-      <description>Professor Dr von Igelfeld&amp;#39;s mailing and office addresses at the Institute of Romance Philology.</description>
-    </item>
-    <item>
-      <title>Office Hours</title>
-      <link>http://localhost:1313/officehours/</link>
-      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/officehours/</guid>
-      <description>Schedule and location for Professor Dr von Igelfeld&amp;#39;s office hours.</description>
-    </item>
-    <item>
-      <title>Survey on Embedding Models for Knowledge Graph and its Applications</title>
-      <link>http://localhost:1313/papers/paper4/</link>
-      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper4/</guid>
-      <description>A survey of knowledge graph embedding models covering translation-based and neural network-based approaches and their applications.</description>
-    </item>
-    <item>
-      <title>Computational Propaganda Theory and Bot Detection System: Critical Literature Review</title>
-      <link>http://localhost:1313/papers/paper3/</link>
-      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper3/</guid>
-      <description>A critical literature review of computational propaganda theory and bot detection systems on social media platforms.</description>
-    </item>
-    <item>
-      <title>How to Handle Extremely Imbalanced Datasets</title>
-      <link>http://localhost:1313/blogs/imbalanced-dataset/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/imbalanced-dataset/</guid>
-      <description>A guide to undersampling techniques for handling imbalanced datasets, including prototype generation, prototype selection, and cleaning methods.</description>
-    </item>
-    <item>
-      <title>A Multi-Platform Collection of Social Media Posts about the 2022 U.S. Midterm Elections</title>
-      <link>http://localhost:1313/papers/paper2/</link>
-      <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper2/</guid>
-      <description>This paper introduces MEIU22, a multi-platform dataset of social media posts about the 2022 U.S. Midterm Elections spanning Twitter, Facebook, Instagram, Reddit, and 4chan.</description>
-    </item>
-    <item>
-      <title>Manipulating Twitter Through Deletions</title>
-      <link>http://localhost:1313/papers/paper1/</link>
-      <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper1/</guid>
-      <description>Presents a method to estimate user deletion behavior on social media and investigates online manipulation tactics observed through deletion patterns, revealing coordinated inauthentic activity on Twitter.</description>
-    </item>
-    <item>
-      <title>List of Irregular Verbs Across Romance Languages</title>
-      <link>http://localhost:1313/data/data1/</link>
-      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/data/data1/</guid>
-      <description>This dataset contains all irregular verbs in known Romance languages.</description>
-    </item>
-    <item>
-      <title>Lectures at the Villa of Reduced Circumstances</title>
-      <link>http://localhost:1313/courses/course1/</link>
-      <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/course1/</guid>
-      <description>This graduate course presents classical results in Romance philology.</description>
-    </item>
-    <item>
-      <title>Portugese Irregular Verbs</title>
-      <link>http://localhost:1313/books/book1/</link>
-      <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/books/book1/</guid>
-      <description>This book discusses Portugese irregular verbs in great details.</description>
-    </item>
-    <item>
-      <title>Profanity in Early Irish</title>
-      <link>http://localhost:1313/courses/course2/</link>
-      <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/course2/</guid>
-      <description>This undergraduate course discusses profanity in Early Irish.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/publications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/</guid>
-      <description>&lt;!DOCTYPE html&gt;
-&lt;html lang=&#34;en&#34;&gt;
-&lt;head&gt;
-  &lt;meta charset=&#34;UTF-8&#34; /&gt;
-  &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34; /&gt;
-  &lt;title&gt;Publications&lt;/title&gt;
-  &lt;link rel=&#34;preconnect&#34; href=&#34;https://fonts.googleapis.com&#34; /&gt;
-  &lt;link rel=&#34;preconnect&#34; href=&#34;https://fonts.gstatic.com&#34; crossorigin /&gt;
-  &lt;link href=&#34;https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&amp;family=DM+Mono:wght@400;500&amp;family=Lato:wght@300;400;700&amp;display=swap&#34; rel=&#34;stylesheet&#34; /&gt;
-  &lt;style&gt;
-
-    .main {
-      max-width: 100% !important;
-      padding: 0 3rem !important;
-    }
-
-    :root {
-    --bg: #ffffff;
-    --surface: #f5f5f5;
-    --border: rgba(0,0,0,0.1);
-    --border-hover: rgba(0,0,0,0.25);
-    --text-primary: #1a1a1a;
-    --text-secondary: #555550;
-    --text-muted: #999990;
-    --accent: #8b6914;
-    --accent-dim: rgba(139,105,20,0.08);
-    --tag-bg: rgba(139,105,20,0.08);
-    --tag-color: #7a5c10;
-    --link: #1a5fa8;
-   }
-
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    body {
-      background: #ffffff;
-      color: var(--text-primary);
-      font-family: &#39;Nunito&#39;, sans-serif !important;
-      font-weight: 300 !important;
-      font-size: 16px !important;
-      line-height: 1.7 !important;
-      min-height: 100vh;
-    }
-
-    p, li, span, a {
-      font-size: 16px !important;
-    }
-
-    .paper-abstract {
-      font-size: 16px !important;
-    }
-
-    .paper-authors {
-      font-size: 14px !important;
-    }
-
-    .paper-title {
-      font-size: 1.4rem !important;
-    }
-
-    /* ── NAV ── */
-    nav {
-      border-bottom: 1px solid var(--border);
-      padding: 0 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      height: 56px;
-    }
-
-    .nav-brand {
-      font-family: &#39;DM Serif Display&#39;, serif;
-      font-size: 1.15rem;
-      color: var(--text-primary);
-      text-decoration: none;
-      letter-spacing: 0.01em;
-    }
-
-    .nav-links {
-      display: flex;
-      gap: 1.8rem;
-      list-style: none;
-    }
-
-    .nav-links a {
-      font-size: 0.82rem;
-      font-weight: 400;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--text-secondary);
-      text-decoration: none;
-      transition: color 0.2s;
-    }
-
-    .nav-links a:hover,
-    .nav-links a.active { color: var(--accent); }
-
-    /* ── MAIN LAYOUT ── */
-    main {
-      max-width: 780px;
-      margin: 0 auto;
-      padding: 4rem 2rem 6rem;
-    }
-
-    /* ── PAGE HEADER ── */
-    .page-header {
-      margin-bottom: 3.5rem;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 2rem;
-    }
-
-    .page-header h1 {
-      font-family: &#39;DM Serif Display&#39;, serif;
-      font-size: 2.6rem;
-      font-weight: 400;
-      line-height: 1.15;
-      color: var(--text-primary);
-      margin-bottom: 0.75rem;
-    }
-
-    .page-header p {
-      font-size: 0.95rem;
-      color: var(--text-secondary);
-      max-width: 520px;
-    }
-
-    .page-header p a {
-      color: var(--link);
-      text-decoration: none;
-      border-bottom: 1px solid transparent;
-      transition: border-color 0.2s;
-    }
-
-    .page-header p a:hover { border-color: var(--link); }
-
-    /* ── FILTER BAR ── */
-    .filter-bar {
-      display: flex;
-      gap: 0.5rem;
-      flex-wrap: wrap;
-      margin-bottom: 2.5rem;
-    }
-
-    .filter-btn {
-      font-size: 0.75rem;
-      font-family: &#39;DM Mono&#39;, monospace;
-      letter-spacing: 0.05em;
-      padding: 4px 14px;
-      border: 1px solid var(--border);
-      border-radius: 2px;
-      background: transparent;
-      color: var(--text-muted);
-      cursor: pointer;
-      transition: all 0.18s;
-    }
-
-    .filter-btn:hover { border-color: var(--border-hover); color: var(--text-primary); }
-    .filter-btn.active { border-color: var(--accent); color: var(--accent); background: var(--accent-dim); }
-
-    /* ── PAPER CARD ── */
-    .paper-list { display: flex; flex-direction: column; gap: 0; }
-
-    .paper-card {
-      padding: 1.75rem 0;
-      border-bottom: 1px solid var(--border);
-      display: grid;
-      grid-template-columns: 48px 1fr;
-      gap: 0 1.25rem;
-      transition: background 0.2s;
-    }
-
-    .paper-card:first-child { border-top: 1px solid var(--border); }
-
-    .paper-year {
-      font-family: &#39;DM Mono&#39;, monospace;
-      font-size: 0.72rem;
-      color: var(--text-muted);
-      padding-top: 4px;
-      letter-spacing: 0.05em;
-      text-align: right;
-    }
-
-    /* .paper-body {} */
-
-    .paper-venue-row {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      margin-bottom: 0.35rem;
-      flex-wrap: wrap;
-    }
-
-    .venue-tag {
-      font-size: 0.7rem;
-      font-family: &#39;DM Mono&#39;, monospace;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      padding: 2px 8px;
-      background: var(--tag-bg);
-      color: var(--tag-color);
-      border-radius: 2px;
-    }
-
-    .paper-title {
-      font-family: &#39;DM Serif Display&#39;, serif;
-      font-size: 1.15rem;
-      font-weight: 400;
-      color: var(--text-primary);
-      line-height: 1.3;
-      margin-bottom: 0.5rem;
-      text-decoration: none;
-      display: block;
-      transition: color 0.18s;
-    }
-
-    .paper-title:hover { color: var(--accent); }
-
-    .paper-authors {
-      font-size: 0.82rem;
-      color: var(--text-secondary);
-      margin-bottom: 0.6rem;
-      font-weight: 400;
-    }
-
-    .paper-authors strong {
-      color: var(--text-primary);
-      font-weight: 700;
-    }
-
-    .paper-abstract {
-      font-size: 0.875rem;
-      color: var(--text-secondary);
-      line-height: 1.65;
-      margin-bottom: 0.9rem;
-      max-width: 600px;
-    }
-
-    .paper-links {
-      display: flex;
-      gap: 1rem;
-      flex-wrap: wrap;
-    }
-
-    .paper-link {
-      font-size: 0.75rem;
-      font-family: &#39;DM Mono&#39;, monospace;
-      letter-spacing: 0.04em;
-      color: var(--text-muted);
-      text-decoration: none;
-      display: flex;
-      align-items: center;
-      gap: 4px;
-      border-bottom: 1px solid transparent;
-      padding-bottom: 1px;
-      transition: color 0.18s, border-color 0.18s;
-    }
-
-    .paper-link:hover { color: var(--link); border-color: var(--link); }
-
-    .paper-link svg {
-      width: 11px; height: 11px;
-      stroke: currentColor;
-      fill: none;
-      stroke-width: 2;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-      flex-shrink: 0;
-    }
-
-    /* ── FOOTER ── */
-    footer {
-      border-top: 1px solid var(--border);
-      text-align: center;
-      padding: 2rem;
-      font-size: 0.78rem;
-      color: var(--text-muted);
-    }
-
-    footer a { color: var(--text-muted); text-decoration: none; }
-    footer a:hover { color: var(--text-secondary); }
-
-    @media (max-width: 540px) {
-      nav { padding: 0 1rem; }
-      .nav-links { gap: 1rem; }
-      main { padding: 2.5rem 1rem 4rem; }
-      .page-header h1 { font-size: 2rem; }
-      .paper-card { grid-template-columns: 36px 1fr; gap: 0 0.75rem; }
-    }
-  &lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-
-&lt;!-- &lt;nav&gt;
-  &lt;a class=&#34;nav-brand&#34; href=&#34;https://manitapote.github.io/&#34;&gt;Manita Pote&lt;/a&gt;
-  &lt;ul class=&#34;nav-links&#34;&gt;
-    &lt;li&gt;&lt;a href=&#34;https://manitapote.github.io/news/&#34;&gt;News&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#&#34; class=&#34;active&#34;&gt;Papers&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;https://manitapote.github.io/projects/&#34;&gt;Projects&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;https://manitapote.github.io/blogs/&#34;&gt;Blogs&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/nav&gt; --&gt;
-
-&lt;main&gt;
-
-  &lt;header class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;Research &amp; Publications&lt;/h1&gt;
-  &lt;/header&gt;
-
-  &lt;div class=&#34;filter-bar&#34;&gt;
-    &lt;button class=&#34;filter-btn active&#34; onclick=&#34;filterPapers(&#39;all&#39;, this)&#34;&gt;All&lt;/button&gt;
-    &lt;button class=&#34;filter-btn&#34; onclick=&#34;filterPapers(&#39;social-media&#39;, this)&#34;&gt;Social Media&lt;/button&gt;
-    &lt;button class=&#34;filter-btn&#34; onclick=&#34;filterPapers(&#39;misinformation&#39;, this)&#34;&gt;Misinformation&lt;/button&gt;
-    &lt;button class=&#34;filter-btn&#34; onclick=&#34;filterPapers(&#39;network-science&#39;, this)&#34;&gt;Network Science&lt;/button&gt;
-    &lt;button class=&#34;filter-btn&#34; onclick=&#34;filterPapers(&#39;machine-learning&#39;, this)&#34;&gt;Machine Learning&lt;/button&gt;
-  &lt;/div&gt;
-
-  &lt;div class=&#34;paper-list&#34; id=&#34;paper-list&#34;&gt;
-    &lt;!-- PAPER 2 — placeholder, update with your real paper --&gt;
-    &lt;article class=&#34;paper-card&#34; style=&#34;font-size: 1rem;&#34; data-tags=&#34;network-science misinformation&#34;&gt;
-      &lt;div class=&#34;paper-year&#34;&gt;2026&lt;/div&gt;
-      &lt;div class=&#34;paper-body&#34;&gt;
-        &lt;div class=&#34;paper-venue-row&#34;&gt;
-          &lt;span class=&#34;venue-tag&#34;&gt;Under review, EPJ Data science&lt;/span&gt;
-        &lt;/div&gt;
-        &lt;a class=&#34;paper-title&#34; href=&#34;#&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-          Israel-Hamas War on X: A Case Study of Coordinated Campaigns and Information Integrity
-        &lt;/a&gt;
-        &lt;p class=&#34;paper-authors&#34;&gt;
-          Tuğrulcan Elmas, Filipi Nascimento Silva, &lt;u&gt;Manita Pote&lt;/u&gt;, Priyanka Dey, 
-          Keng-Chi Chang, Jinyi Ye, Luca Luceri, Cody Buntain, 
-          Emilio Ferrara, Alessandro Flammini, Fil Menczer
-        &lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Manita Pote</title><link>https://manitapote.github.io/</link><description>Recent content on Manita Pote</description><generator>Hugo -- 0.147.2</generator><language>en</language><lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://manitapote.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Coordinated Campaigns and Information Integrity During the 2023 Israel-Hamas War on Twitter</title><link>https://manitapote.github.io/papers/paper7/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><guid>https://manitapote.github.io/papers/paper7/</guid><description>This study uncovers how coordinated campaigns shaped the information environment on Twitter during the 2023 Israel-Hamas War, analyzing 4.5 million tweets across 11 coordinated groups using multimodal methods.</description></item><item><title>Coordinated Reply Attacks in Influence Operations: Characterization and Detection</title><link>https://manitapote.github.io/papers/paper5/</link><pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate><guid>https://manitapote.github.io/papers/paper5/</guid><description>This study presents a framework to detect the user accounts involved in coordinated attack on targets based on replies/comments.</description></item><item><title>Labeled Datasets for Research on Information Operations</title><link>https://manitapote.github.io/papers/paper6/</link><pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate><guid>https://manitapote.github.io/papers/paper6/</guid><description>This paper presents labeled datasets covering 26 information operation campaigns to support development and benchmarking of IO detection algorithms.</description></item><item><title>Location</title><link>https://manitapote.github.io/location/</link><pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate><guid>https://manitapote.github.io/location/</guid><description>Professor Dr von Igelfeld&amp;#39;s mailing and office addresses at the Institute of Romance Philology.</description></item><item><title>Office Hours</title><link>https://manitapote.github.io/officehours/</link><pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate><guid>https://manitapote.github.io/officehours/</guid><description>Schedule and location for Professor Dr von Igelfeld&amp;#39;s office hours.</description></item><item><title>Survey on Embedding Models for Knowledge Graph and its Applications</title><link>https://manitapote.github.io/papers/paper4/</link><pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate><guid>https://manitapote.github.io/papers/paper4/</guid><description>A survey of knowledge graph embedding models covering translation-based and neural network-based approaches and their applications.</description></item><item><title>Computational Propaganda Theory and Bot Detection System: Critical Literature Review</title><link>https://manitapote.github.io/papers/paper3/</link><pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate><guid>https://manitapote.github.io/papers/paper3/</guid><description>A critical literature review of computational propaganda theory and bot detection systems on social media platforms.</description></item><item><title>How to Handle Extremely Imbalanced Datasets</title><link>https://manitapote.github.io/blogs/imbalanced-dataset/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://manitapote.github.io/blogs/imbalanced-dataset/</guid><description>A guide to undersampling techniques for handling imbalanced datasets, including prototype generation, prototype selection, and cleaning methods.</description></item><item><title>A Multi-Platform Collection of Social Media Posts about the 2022 U.S. Midterm Elections</title><link>https://manitapote.github.io/papers/paper2/</link><pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate><guid>https://manitapote.github.io/papers/paper2/</guid><description>This paper introduces MEIU22, a multi-platform dataset of social media posts about the 2022 U.S. Midterm Elections spanning Twitter, Facebook, Instagram, Reddit, and 4chan.</description></item><item><title>Manipulating Twitter Through Deletions</title><link>https://manitapote.github.io/papers/paper1/</link><pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate><guid>https://manitapote.github.io/papers/paper1/</guid><description>Presents a method to estimate user deletion behavior on social media and investigates online manipulation tactics observed through deletion patterns, revealing coordinated inauthentic activity on Twitter.</description></item><item><title>List of Irregular Verbs Across Romance Languages</title><link>https://manitapote.github.io/data/data1/</link><pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate><guid>https://manitapote.github.io/data/data1/</guid><description>This dataset contains all irregular verbs in known Romance languages.</description></item><item><title>Lectures at the Villa of Reduced Circumstances</title><link>https://manitapote.github.io/courses/course1/</link><pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate><guid>https://manitapote.github.io/courses/course1/</guid><description>This graduate course presents classical results in Romance philology.</description></item><item><title>Portugese Irregular Verbs</title><link>https://manitapote.github.io/books/book1/</link><pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate><guid>https://manitapote.github.io/books/book1/</guid><description>This book discusses Portugese irregular verbs in great details.</description></item><item><title>Profanity in Early Irish</title><link>https://manitapote.github.io/courses/course2/</link><pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate><guid>https://manitapote.github.io/courses/course2/</guid><description>This undergraduate course discusses profanity in Early Irish.</description></item><item><title/><link>https://manitapote.github.io/publications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://manitapote.github.io/publications/</guid><description>&lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;head>
+&lt;meta charset="UTF-8" />
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0" />
+&lt;title>Publications&lt;/title>
+&lt;link rel="preconnect" href="https://fonts.googleapis.com" />
+&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+&lt;link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&amp;family=DM+Mono:wght@400;500&amp;family=Lato:wght@300;400;700&amp;display=swap" rel="stylesheet" />
+&lt;style>
+.main {
+max-width: 100% !important;
+padding: 0 3rem !important;
+}
+:root {
+--bg: #ffffff;
+--surface: #f5f5f5;
+--border: rgba(0,0,0,0.1);
+--border-hover: rgba(0,0,0,0.25);
+--text-primary: #1a1a1a;
+--text-secondary: #555550;
+--text-muted: #999990;
+--accent: #8b6914;
+--accent-dim: rgba(139,105,20,0.08);
+--tag-bg: rgba(139,105,20,0.08);
+--tag-color: #7a5c10;
+--link: #1a5fa8;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+background: #ffffff;
+color: var(--text-primary);
+font-family: 'Nunito', sans-serif !important;
+font-weight: 300 !important;
+font-size: 16px !important;
+line-height: 1.7 !important;
+min-height: 100vh;
+}
+p, li, span, a {
+font-size: 16px !important;
+}
+.paper-abstract {
+font-size: 16px !important;
+}
+.paper-authors {
+font-size: 14px !important;
+}
+.paper-title {
+font-size: 1.4rem !important;
+}
+/* ── NAV ── */
+nav {
+border-bottom: 1px solid var(--border);
+padding: 0 2rem;
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 56px;
+}
+.nav-brand {
+font-family: 'DM Serif Display', serif;
+font-size: 1.15rem;
+color: var(--text-primary);
+text-decoration: none;
+letter-spacing: 0.01em;
+}
+.nav-links {
+display: flex;
+gap: 1.8rem;
+list-style: none;
+}
+.nav-links a {
+font-size: 0.82rem;
+font-weight: 400;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+color: var(--text-secondary);
+text-decoration: none;
+transition: color 0.2s;
+}
+.nav-links a:hover,
+.nav-links a.active { color: var(--accent); }
+/* ── MAIN LAYOUT ── */
+main {
+max-width: 780px;
+margin: 0 auto;
+padding: 4rem 2rem 6rem;
+}
+/* ── PAGE HEADER ── */
+.page-header {
+margin-bottom: 3.5rem;
+border-bottom: 1px solid var(--border);
+padding-bottom: 2rem;
+}
+.page-header h1 {
+font-family: 'DM Serif Display', serif;
+font-size: 2.6rem;
+font-weight: 400;
+line-height: 1.15;
+color: var(--text-primary);
+margin-bottom: 0.75rem;
+}
+.page-header p {
+font-size: 0.95rem;
+color: var(--text-secondary);
+max-width: 520px;
+}
+.page-header p a {
+color: var(--link);
+text-decoration: none;
+border-bottom: 1px solid transparent;
+transition: border-color 0.2s;
+}
+.page-header p a:hover { border-color: var(--link); }
+/* ── FILTER BAR ── */
+.filter-bar {
+display: flex;
+gap: 0.5rem;
+flex-wrap: wrap;
+margin-bottom: 2.5rem;
+}
+.filter-btn {
+font-size: 0.75rem;
+font-family: 'DM Mono', monospace;
+letter-spacing: 0.05em;
+padding: 4px 14px;
+border: 1px solid var(--border);
+border-radius: 2px;
+background: transparent;
+color: var(--text-muted);
+cursor: pointer;
+transition: all 0.18s;
+}
+.filter-btn:hover { border-color: var(--border-hover); color: var(--text-primary); }
+.filter-btn.active { border-color: var(--accent); color: var(--accent); background: var(--accent-dim); }
+/* ── PAPER CARD ── */
+.paper-list { display: flex; flex-direction: column; gap: 0; }
+.paper-card {
+padding: 1.75rem 0;
+border-bottom: 1px solid var(--border);
+display: grid;
+grid-template-columns: 48px 1fr;
+gap: 0 1.25rem;
+transition: background 0.2s;
+}
+.paper-card:first-child { border-top: 1px solid var(--border); }
+.paper-year {
+font-family: 'DM Mono', monospace;
+font-size: 0.72rem;
+color: var(--text-muted);
+padding-top: 4px;
+letter-spacing: 0.05em;
+text-align: right;
+}
+/* .paper-body {} */
+.paper-venue-row {
+display: flex;
+align-items: center;
+gap: 0.5rem;
+margin-bottom: 0.35rem;
+flex-wrap: wrap;
+}
+.venue-tag {
+font-size: 0.7rem;
+font-family: 'DM Mono', monospace;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+padding: 2px 8px;
+background: var(--tag-bg);
+color: var(--tag-color);
+border-radius: 2px;
+}
+.paper-title {
+font-family: 'DM Serif Display', serif;
+font-size: 1.15rem;
+font-weight: 400;
+color: var(--text-primary);
+line-height: 1.3;
+margin-bottom: 0.5rem;
+text-decoration: none;
+display: block;
+transition: color 0.18s;
+}
+.paper-title:hover { color: var(--accent); }
+.paper-authors {
+font-size: 0.82rem;
+color: var(--text-secondary);
+margin-bottom: 0.6rem;
+font-weight: 400;
+}
+.paper-authors strong {
+color: var(--text-primary);
+font-weight: 700;
+}
+.paper-abstract {
+font-size: 0.875rem;
+color: var(--text-secondary);
+line-height: 1.65;
+margin-bottom: 0.9rem;
+max-width: 600px;
+}
+.paper-links {
+display: flex;
+gap: 1rem;
+flex-wrap: wrap;
+}
+.paper-link {
+font-size: 0.75rem;
+font-family: 'DM Mono', monospace;
+letter-spacing: 0.04em;
+color: var(--text-muted);
+text-decoration: none;
+display: flex;
+align-items: center;
+gap: 4px;
+border-bottom: 1px solid transparent;
+padding-bottom: 1px;
+transition: color 0.18s, border-color 0.18s;
+}
+.paper-link:hover { color: var(--link); border-color: var(--link); }
+.paper-link svg {
+width: 11px; height: 11px;
+stroke: currentColor;
+fill: none;
+stroke-width: 2;
+stroke-linecap: round;
+stroke-linejoin: round;
+flex-shrink: 0;
+}
+/* ── FOOTER ── */
+footer {
+border-top: 1px solid var(--border);
+text-align: center;
+padding: 2rem;
+font-size: 0.78rem;
+color: var(--text-muted);
+}
+footer a { color: var(--text-muted); text-decoration: none; }
+footer a:hover { color: var(--text-secondary); }
+@media (max-width: 540px) {
+nav { padding: 0 1rem; }
+.nav-links { gap: 1rem; }
+main { padding: 2.5rem 1rem 4rem; }
+.page-header h1 { font-size: 2rem; }
+.paper-card { grid-template-columns: 36px 1fr; gap: 0 0.75rem; }
+}
+&lt;/style>
+&lt;/head>
+&lt;body>
+&lt;!-- &lt;nav>
+&lt;a class="nav-brand" href="https://manitapote.github.io/">Manita Pote&lt;/a>
+&lt;ul class="nav-links">
+&lt;li>&lt;a href="https://manitapote.github.io/news/">News&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#" class="active">Papers&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://manitapote.github.io/projects/">Projects&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://manitapote.github.io/blogs/">Blogs&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav> -->
+&lt;main>
+&lt;header class="page-header">
+&lt;h1>Research &amp; Publications&lt;/h1>
+&lt;/header>
+&lt;div class="filter-bar">
+&lt;button class="filter-btn active" onclick="filterPapers('all', this)">All&lt;/button>
+&lt;button class="filter-btn" onclick="filterPapers('social-media', this)">Social Media&lt;/button>
+&lt;button class="filter-btn" onclick="filterPapers('misinformation', this)">Misinformation&lt;/button>
+&lt;button class="filter-btn" onclick="filterPapers('network-science', this)">Network Science&lt;/button>
+&lt;button class="filter-btn" onclick="filterPapers('machine-learning', this)">Machine Learning&lt;/button>
+&lt;/div>
+&lt;div class="paper-list" id="paper-list">
+&lt;!-- PAPER 2 — placeholder, update with your real paper -->
+&lt;article class="paper-card" style="font-size: 1rem;" data-tags="network-science misinformation">
+&lt;div class="paper-year">2026&lt;/div>
+&lt;div class="paper-body">
+&lt;div class="paper-venue-row">
+&lt;span class="venue-tag">Under review, EPJ Data science&lt;/span>
+&lt;/div>
+&lt;a class="paper-title" href="#" target="_blank" rel="noopener">
+Israel-Hamas War on X: A Case Study of Coordinated Campaigns and Information Integrity
+&lt;/a>
+&lt;p class="paper-authors">
+Tuğrulcan Elmas, Filipi Nascimento Silva, &lt;u>Manita Pote&lt;/u>, Priyanka Dey,
+Keng-Chi Chang, Jinyi Ye, Luca Luceri, Cody Buntain,
+Emilio Ferrara, Alessandro Flammini, Fil Menczer
+&lt;/p></description></item></channel></rss>
