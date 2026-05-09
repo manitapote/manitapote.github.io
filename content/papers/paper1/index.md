@@ -2,9 +2,9 @@
 title: "Manipulating Twitter Through Deletions" 
 date: 2022-05-31
 tags: ["social media","network science","behavioral signal","computational social science"]
-author: ["Christopher Torres-Lugo, Manita Pote, Alexander C. Nwala, Filippo Menczer"]
-description: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013." 
-summary: "This paper presents a method to estimate the deletion behavior of social media user and also investigates different online manipulation tactics observed through deletion pattern." 
+author: ["Christopher Torres-Lugo*, Manita Pote*, Alexander C. Nwala, Filippo Menczer"]
+description: "Presents a method to estimate user deletion behavior on social media and investigates online manipulation tactics observed through deletion patterns, revealing coordinated inauthentic activity on Twitter." 
+summary: "Presents a method to estimate user deletion behavior on social media and investigates online manipulation tactics observed through deletion patterns, revealing coordinated inauthentic activity on Twitter." 
 cover:
     image: "compliance-fav-coord.png"
     alt: "coordination-manipulation"
@@ -12,6 +12,7 @@ cover:
 editPost:
     URL: "https://doi.org/10.1609/icwsm.v16i1.19355"
     Text: "ICWSM, AAAI"
+# venue: "ICWSM 2022"
 
 ---
 

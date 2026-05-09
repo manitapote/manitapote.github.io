@@ -49,3 +49,16 @@ body, p, li, span {
   max-width: 900px !important;
   padding: 0 2rem !important;
 }
+
+
+.venue-tag {
+  display: inline-block;
+  background: rgba(139, 105, 20, 0.08);
+  color: #7a5c10;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: 3px;
+  margin-bottom: 0.4rem;
+  letter-spacing: 0.03em;
+}

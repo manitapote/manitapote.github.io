@@ -58,8 +58,8 @@ params:
               url: news/
             - name: Publications
               url: publications/
-            # - name: Papers
-            #   url: papers/
+            - name: Papers
+              url: papers/
             - name: Projects
               url: projects/
             - name: Blogs
@@ -88,8 +88,8 @@ params:
     assets:
         disableScrollBarStyle: true
     cover:
-        hiddenInList: false
-        hiddenInSingle: true
+        hiddenInList: true
+        hiddenInSingle: false
     label:
       text: "Manita Pote"
       icon: profile.png
