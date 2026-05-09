@@ -58,6 +58,13 @@
       <description>A critical literature review of computational propaganda theory and bot detection systems on social media platforms.</description>
     </item>
     <item>
+      <title>Targeted Hate Speech Classification on Social Media</title>
+      <link>http://localhost:1313/projects/hatespeech/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/hatespeech/</guid>
+      <description>Fine-tuned BERT model for hate speech detection on social media posts.</description>
+    </item>
+    <item>
       <title>How to Handle Extremely Imbalanced Datasets</title>
       <link>http://localhost:1313/blogs/imbalanced-dataset/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
