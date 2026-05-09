@@ -6,8 +6,15 @@
     <description>Recent content in Network Science on Manita Pote</description>
     <generator>Hugo -- 0.147.2</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 31 May 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/network-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Survey on Embedding Models for Knowledge Graph and its Applications</title>
+      <link>http://localhost:1313/papers/paper4/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/paper4/</guid>
+      <description>A survey of knowledge graph embedding models covering translation-based and neural network-based approaches and their applications.</description>
+    </item>
     <item>
       <title>Manipulating Twitter Through Deletions</title>
       <link>http://localhost:1313/papers/paper1/</link>

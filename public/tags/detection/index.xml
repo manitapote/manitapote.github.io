@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/tags/detection/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coordinated Reply Attacks in Influence Operations: Characterization and Detection</title>
-      <link>http://localhost:1313/papers/paper2/</link>
+      <link>http://localhost:1313/papers/paper5/</link>
       <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper2/</guid>
+      <guid>http://localhost:1313/papers/paper5/</guid>
       <description>This study presents a framework to detect the user accounts involved in coordinated attack on targets based on replies/comments.</description>
     </item>
   </channel>

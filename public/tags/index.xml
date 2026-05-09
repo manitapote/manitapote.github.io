@@ -6,8 +6,57 @@
     <description>Recent content in Tags on Manita Pote</description>
     <generator>Hugo -- 0.147.2</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conflict</title>
+      <link>http://localhost:1313/tags/conflict/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/conflict/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coordinated Behavior</title>
+      <link>http://localhost:1313/tags/coordinated-behavior/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/coordinated-behavior/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Influence Operations</title>
+      <link>http://localhost:1313/tags/influence-operations/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/influence-operations/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Misinformation</title>
+      <link>http://localhost:1313/tags/misinformation/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/misinformation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multimodal Analysis</title>
+      <link>http://localhost:1313/tags/multimodal-analysis/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/multimodal-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Twitter</title>
+      <link>http://localhost:1313/tags/twitter/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/twitter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Benchmarking</title>
+      <link>http://localhost:1313/tags/benchmarking/</link>
+      <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/benchmarking/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Characterization</title>
       <link>http://localhost:1313/tags/characterization/</link>
@@ -16,10 +65,24 @@
       <description></description>
     </item>
     <item>
+      <title>Datasets</title>
+      <link>http://localhost:1313/tags/datasets/</link>
+      <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/datasets/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Detection</title>
       <link>http://localhost:1313/tags/detection/</link>
       <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/detection/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Information Operations</title>
+      <link>http://localhost:1313/tags/information-operations/</link>
+      <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/information-operations/</guid>
       <description></description>
     </item>
     <item>
@@ -37,10 +100,73 @@
       <description></description>
     </item>
     <item>
+      <title>Social Media</title>
+      <link>http://localhost:1313/tags/social-media/</link>
+      <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/social-media/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>User Behavior</title>
       <link>http://localhost:1313/tags/user-behavior/</link>
       <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/user-behavior/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deep Learning</title>
+      <link>http://localhost:1313/tags/deep-learning/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Embedding Models</title>
+      <link>http://localhost:1313/tags/embedding-models/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/embedding-models/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Knowledge Graph</title>
+      <link>http://localhost:1313/tags/knowledge-graph/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/knowledge-graph/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Network Science</title>
+      <link>http://localhost:1313/tags/network-science/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/network-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Survey</title>
+      <link>http://localhost:1313/tags/survey/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/survey/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bot Detection</title>
+      <link>http://localhost:1313/tags/bot-detection/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bot-detection/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Computational Propaganda</title>
+      <link>http://localhost:1313/tags/computational-propaganda/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/computational-propaganda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Literature Review</title>
+      <link>http://localhost:1313/tags/literature-review/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/literature-review/</guid>
       <description></description>
     </item>
     <item>
@@ -58,6 +184,34 @@
       <description></description>
     </item>
     <item>
+      <title>Dataset</title>
+      <link>http://localhost:1313/tags/dataset/</link>
+      <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/dataset/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Elections</title>
+      <link>http://localhost:1313/tags/elections/</link>
+      <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/elections/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multi-Platform</title>
+      <link>http://localhost:1313/tags/multi-platform/</link>
+      <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/multi-platform/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reddit</title>
+      <link>http://localhost:1313/tags/reddit/</link>
+      <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/reddit/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Behavioral Signal</title>
       <link>http://localhost:1313/tags/behavioral-signal/</link>
       <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
@@ -69,62 +223,6 @@
       <link>http://localhost:1313/tags/computational-social-science/</link>
       <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/computational-social-science/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Network Science</title>
-      <link>http://localhost:1313/tags/network-science/</link>
-      <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/network-science/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Social Media</title>
-      <link>http://localhost:1313/tags/social-media/</link>
-      <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/social-media/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Academia</title>
-      <link>http://localhost:1313/tags/academia/</link>
-      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/academia/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Experimental Psychology</title>
-      <link>http://localhost:1313/tags/experimental-psychology/</link>
-      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/experimental-psychology/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Inner Hedgehog</title>
-      <link>http://localhost:1313/tags/inner-hedgehog/</link>
-      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/inner-hedgehog/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Invasive Thoughts</title>
-      <link>http://localhost:1313/tags/invasive-thoughts/</link>
-      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/invasive-thoughts/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Social Psychology</title>
-      <link>http://localhost:1313/tags/social-psychology/</link>
-      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/social-psychology/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dataset</title>
-      <link>http://localhost:1313/tags/dataset/</link>
-      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/dataset/</guid>
       <description></description>
     </item>
     <item>

@@ -56,8 +56,8 @@ params:
           buttons:
             - name: Latest News
               url: news/
-            - name: Publications
-              url: publications/
+            # - name: Publications
+            #   url: publications/
             - name: Papers
               url: papers/
             - name: Projects
