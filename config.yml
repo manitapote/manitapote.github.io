@@ -64,8 +64,8 @@ params:
               url: projects/
             - name: Blogs
               url: blogs/
-            - name: Tags
-              url: tags/
+            # - name: Tags
+            #   url: tags/
             - name: Archive
               url: archive/
     assets:
