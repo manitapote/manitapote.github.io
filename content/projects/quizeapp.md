@@ -1,6 +1,6 @@
 ---
 title: "GRE Quiz App"
-date: 2024-01-01
+date: 2017-01-01
 tags: ["C#", "quiz", "GRE", "web app", "ASP.NET"]
 author: ["Manita Pote"]
 description: "A web-based quiz application built with C# and ASP.NET to help students practice GRE vocabulary and questions."
