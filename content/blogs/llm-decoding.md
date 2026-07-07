@@ -26,7 +26,7 @@ Steps:
 4) Repeat until all sequence hit an end token or max length.
 5) Return the highest scoring completed sequence
 
-**Example for beam width = 2:**
+<!-- **Example for beam width = 2**
 
 **Step 1:** Start with top 2 candidates
 | Sequence | Probability |
@@ -46,7 +46,7 @@ Steps:
 Keep top 2 overall: **"The cat" (0.20)**, **"A man" (0.18)**
 
 **Step 3:** Expand those two surviving candidates, keep top 2 again... and so on.
-The score at the end is cumulative log-probability of sequence.
+The score at the end is cumulative log-probability of sequence. -->
 
 # Stochastic sampling strategies
 These are methods that introduce randomness into how a language model picks the next token.
