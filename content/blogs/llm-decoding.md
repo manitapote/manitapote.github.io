@@ -26,20 +26,27 @@ Steps:
 4) Repeat until all sequence hit an end token or max length.
 5) Return the highest scoring completed sequence
 
-Example for beam width=2:
+**Example for beam width = 2:**
 
-Step 1: ["The" (0.4), "A" (0.3)]         ← keep top 2
+**Step 1:** Start with top 2 candidates
+| Sequence | Probability |
+|---|---|
+| "The" | 0.4 |
+| "A"   | 0.3 |
 
-Step 2: expand both:
-  "The cat" (0.4 × 0.5 = 0.20)
-  "The dog" (0.4 × 0.3 = 0.12)
-  "A man"   (0.3 × 0.6 = 0.18)
-  "A cat"   (0.3 × 0.2 = 0.06)
-  
-  → keep top 2 overall: "The cat" (0.20), "A man" (0.18)
+**Step 2:** Expand both candidates
 
-Step 3: expand those two, keep top 2 again... and so on
+| Sequence | Calculation | Probability |
+|---|---|---|
+| "The cat" | 0.4 × 0.5 | 0.20 |
+| "The dog" | 0.4 × 0.3 | 0.12 |
+| "A man"   | 0.3 × 0.6 | 0.18 |
+| "A cat"   | 0.3 × 0.2 | 0.06 |
 
+→ Keep top 2 overall: **"The cat" (0.20)**, **"A man" (0.18)**
+
+**Step 3:** Expand those two surviving candidates, keep top 2 again... and so on.
+The score at the end is cumulative log-probability of sequence.
 
 # Stochastic sampling strategies
 ## Tok-k sampling
