@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "LLM Decoding Strategies"
 date: 2026-7-06
 description: "General explanation of different LLM decoding strategies"
@@ -26,7 +26,17 @@ Steps:
 4) Repeat until all sequence hit an end token or max length.
 5) Return the highest scoring completed sequence
 
-<!-- **Example for beam width = 2**
+**Example for beam width = 2**
+**Step 1:** Start with top 2 candidates
+| Sequence | Probability |
+|---|---|
+| "The" | 0.4 |
+| "A"   | 0.3 |
+
+**Step 2:** Expand both candidates
+
+| Sequence | Calculation | Probability |
+|---|---|---|*Example for beam width = 2**
 
 **Step 1:** Start with top 2 candidates
 | Sequence | Probability |
@@ -46,18 +56,42 @@ Steps:
 Keep top 2 overall: **"The cat" (0.20)**, **"A man" (0.18)**
 
 **Step 3:** Expand those two surviving candidates, keep top 2 again... and so on.
-The score at the end is cumulative log-probability of sequence. -->
+The score at the end is cumulative log-proba
+| "The cat" | 0.4 × 0.5 | 0.20 |
+| "The dog" | 0.4 × 0.3 | 0.12 |
+| "A man"   | 0.3 × 0.6 | 0.18 |
+| "A cat"   | 0.3 × 0.2 | 0.06 |
+
+Keep top 2 overall: **"The cat" (0.20)**, **"A man" (0.18)**
+
+**Step 3:** Expand those two surviving candidates, keep top 2 again... and so on.
+The score at the end is cumulative log-probability of sequence.
 
 # Stochastic sampling strategies
 These are methods that introduce randomness into how a language model picks the next token.
 Randomness is needed so that the outputs are not repetitive or get stuck in loops of the same tokens like (I think that..  I think that ..).
+At each step, model produces a probability distribution over its entire vocabulary.
+Instead of taking the armax, stochastic sampling draws a token randomly from that distribution but the shape of that distribution is manipulated first to control hwo safe the randomness is.
 
+## Temperature sampling
+```
+P(x_i) = \frac{exp(z_i/T)}{\sum_j{exp(z_j/T)}}
+```
+
+- If T=1, unchanged distribution
+- T < 1, distribution is sharper/peakier, high-probability tokens become even more likely, low probability ones suppressed. Output becomes more deterministed.
+- If T>1, distribution gets flatter. Output becomes more random/creative.
 
 ## Tok-k sampling
+Instead of considering the entire vocabulary, it restricts sampling to only the k-most likerly tokens, then renormalize and sample from just that subset.
+
+- k=1, identical to greedy decoding
+- k = 50, sampling among 50 candidates only.
+
 ## Top-p (nucleus) sampling
 ## Min-p sampling
 
 ## Typical sampling
 ## Contrastive search
 ## Repetition/frequency penalties
-## Speculative decoding
+## Speculative decoding -->
