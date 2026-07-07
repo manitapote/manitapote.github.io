@@ -43,12 +43,15 @@ Steps:
 | "A man"   | 0.3 × 0.6 | 0.18 |
 | "A cat"   | 0.3 × 0.2 | 0.06 |
 
-→ Keep top 2 overall: **"The cat" (0.20)**, **"A man" (0.18)**
+Keep top 2 overall: **"The cat" (0.20)**, **"A man" (0.18)**
 
 **Step 3:** Expand those two surviving candidates, keep top 2 again... and so on.
 The score at the end is cumulative log-probability of sequence.
 
 # Stochastic sampling strategies
+These are methods that introduce randomness into how a language model picks the next token.
+Randomness is needed
+
 ## Tok-k sampling
 ## Top-p (nucleus) sampling
 ## Min-p sampling
