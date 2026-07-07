@@ -50,7 +50,8 @@ The score at the end is cumulative log-probability of sequence.
 
 # Stochastic sampling strategies
 These are methods that introduce randomness into how a language model picks the next token.
-Randomness is needed
+Randomness is needed so that the outputs are not repetitive or get stuck in loops of the same tokens like (I think that..  I think that ..).
+
 
 ## Tok-k sampling
 ## Top-p (nucleus) sampling
