@@ -4,9 +4,11 @@ title: "Latest News"
 draft: false
 layout: single
 ---
+#### 2026
+🎊 I crossed 100 citations in google scholar.
 
 ##### April 2026
-🎊 Paper **"Israel-Hamas War on X: A Case Study of Coordinated Campaigns and Information Integrity"** submitted to EPJ data science 2026.
+🎊 Paper **"Israel-Hamas War on X: A Case Study of Coordinated Campaigns and Information Integrity"** submitted to EPJ data science 2026,[PDF](https://arxiv.org/abs/2604.10566).
 
 #### September 2025
 🌟 Presented poster at Trust and Safety conference, Standford University, [Banner](https://drive.google.com/file/d/1f030JJk0XNn1ebqwzgHP6ILDyf4urpF2/view?usp=sharing)[Poster](https://drive.google.com/file/d/1HjF_Glj6qCB_zlUtj7tbLGG10OIXljYj/view?usp=sharing).
