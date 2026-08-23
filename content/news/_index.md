@@ -4,8 +4,12 @@ title: "Latest News"
 draft: false
 layout: single
 ---
-#### 2026
+#### July, 2026
 🎊 I crossed 100 citations in google scholar. [(Image)](https://drive.google.com/file/d/1lGSJjxq4mrlAiDnRDDR07EGsXnIHli42/view?usp=sharing), [(Google Scholar)](https://scholar.google.com/citations?user=ukS-vPcAAAAJ&hl=en&oi=ao)
+
+#### June 2nd, 2026
+🎊 I passed my dissertation proposal.
+
 
 ##### April 2026
 🎊 Paper **"Israel-Hamas War on X: A Case Study of Coordinated Campaigns and Information Integrity"** submitted to EPJ data science 2026,[(PDF)](https://arxiv.org/abs/2604.10566).
