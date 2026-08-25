@@ -1,3 +1,10 @@
+---
+title: "Pre-training evaluation metrics"
+date: 2026-8-25
+description: "Evaluation metrics for pretraining."
+tags: ["LLM", "AI", "algorithms"]
+---
+
 ### Pretraining evaluation metrics
 #### Cross entropy
 How different the predicted distribution is from the original distribuiton weighted by true probability.
