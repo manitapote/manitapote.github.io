@@ -5,8 +5,6 @@ description: "General explanation of different LLM decoding strategies"
 tags: ["LLM", "decoding", "algorithms"]
 ---
 
-# LLM Decoding Strategies
-
 Decoding stragties are the methods that is used to choose the next token prediction in LLMs.
 
 # Deterministic strategies
