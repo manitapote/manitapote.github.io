@@ -1,3 +1,10 @@
+---
+title: "Notes on AI Engineering"
+date: 2026-8-25
+description: "Notes from AI Engineering by Chip Huyen"
+tags: ["LLM", "AI", "algorithms"]
+---
+
 #### Stopping condition
 
 For LLM applications, we can ask model to stop generating when it encounters the end-of-sequence token.
