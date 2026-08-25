@@ -1,6 +1,6 @@
 ---
 title: "LLM Decoding Strategies"
-date: 2026-7-06
+date: 2026-07-06
 description: "General explanation of different LLM decoding strategies"
 tags: ["LLM", "decoding", "algorithms"]
 ---

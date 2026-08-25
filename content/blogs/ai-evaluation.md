@@ -1,6 +1,6 @@
 ---
 title: "Pre-training evaluation metrics"
-date: 2026-8-25
+date: 2026-08-25
 description: "Evaluation metrics for pretraining."
 tags: ["LLM", "AI", "algorithms"]
 ---

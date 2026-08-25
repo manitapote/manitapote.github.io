@@ -1,6 +1,6 @@
 ---
 title: "Notes on AI Engineering"
-date: 2026-8-25
+date: 2026-08-25
 description: "Notes from AI Engineering by Chip Huyen"
 tags: ["LLM", "AI", "algorithms"]
 ---
