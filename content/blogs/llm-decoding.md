@@ -1,4 +1,4 @@
-<!-- ---
+---
 title: "LLM Decoding Strategies"
 date: 2026-7-06
 description: "General explanation of different LLM decoding strategies"
@@ -88,10 +88,33 @@ Instead of considering the entire vocabulary, it restricts sampling to only the 
 - k=1, identical to greedy decoding
 - k = 50, sampling among 50 candidates only.
 
+This reduce the softmax compuation load for entire output.
+
 ## Top-p (nucleus) sampling
+Instead of selecting exact k tokens, this number should change depending on the situation. In top-p sampling, the model sums the probabilities of the most likely next values in descending order and stops when the sum reaches p.
+Only the values within this cumulative probability are considered. Common values of p ranges from 0.9 to 0.95.
+It focuses only on the set of most relevant values for each context, it allows outputs to be more contextually appropriate.
+
+
 ## Min-p sampling
+This sets the minimum probability that a token must reach to be considered during sampling.
+
+## Speculative decoding
+Instead of making Larger LLM to decode, a smaller model decodes k tokens. The input is appended with these k tokens and passed to LLM. LLM's token generation for the position of these k tokens is compared with the k tokens itself. When mismatch occurs, choose the token from Larger LLM. This reduces the computation or latency.
 
 ## Typical sampling
+Typical Sampling is a decoding strategy (an alternative to top-k, top-p/nucleus sampling) that selects tokens based on how close their probability is to the expected information content of the distribution (related to entropy), rather than just picking from the highest-probability tokens. The idea is to filter out both very low-probability tokens (as top-p does) and very high-probability/overly predictable tokens in certain cases, aiming to keep generations that are "typical" of what a human would produce avoiding both incoherent randomness and overly repetitive/generic text.
+
+
 ## Contrastive search
+This balances between greedy decoding and degenerate penalty (generating similar token).
+At each step, instead of picking maximum probability token, it selects top-k most probable candidate tokens and re-ranks them using a combined score:
+
+```
+score(token) = (1 - α) × model_probability(token) − α × similarity_penalty(token)
+```
+model_probability: how likey the model thinks this token is
+similarity_penalty: measures how similar this candidate token's hidden state representation is to the token generated before.
+\alpha is tunable weight.
+
 ## Repetition/frequency penalties
-## Speculative decoding -->

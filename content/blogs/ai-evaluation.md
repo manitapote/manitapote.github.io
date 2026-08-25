@@ -20,7 +20,7 @@ Where:
 This measures how certain the model is in predicting next token. Lower value means it is certain while higher value means there are more equally likely options.
 
 $$\text{Perplexity} = \exp\left(-\frac{1}{N}\sum_{i=1}^{N} \log q(x_i)\right)$$
-$$\text{Perplexity} = 2{-\frac{1}{N}\sum_{i=1}^{N} \log_2 q(x_i)}$$
+<!-- $$\text{Perplexity} = 2^{-\frac{1}{N}\sum_{i=1}^{N} \log_2 q(x_i)}$$ -->
 
 ##### Relationship to cross-entropy
 
