@@ -51,7 +51,11 @@ This measures the word-level alignment between candidate and reference but it ac
 **TER**(Translation Edit Rate):
 It measures the minimum number of edits(insertions, deletions, substitutions or shifts of word sequences) needed to transform the generated text into the reference text, normalized by reference length.
 
-TER
+$$
+\text{TER} = \frac{\text{number of edits}}{\text{average number of reference words}}
+$$
+
+
 **CIDEr** (Consensus-based Image Description Evaluation): Similarity between a generated caption and a set of multiple reference captions, weighting n-grams by TF-IDF.
 
 - Represent both candidate and each reference caption as TF-IDF weighted n-gram vectors
