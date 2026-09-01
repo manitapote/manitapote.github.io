@@ -40,6 +40,8 @@ Evaluation:
 
 ### Memory
 **Internal knowledge**: Modle's own knowledge from the data it was trained on.
+
 **Short-term memory**: Model's context or input to the model.
+
 **Long-term memory**: External data sources that a model can access via retrieval.
 
