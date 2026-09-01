@@ -22,4 +22,24 @@ AI agents plans the steps itself for task completion. Drawback of autoregressive
 
 ### Agent Failure Modes
 **Planning failures**: This is tool use failure. _Invalid tool, valid tool invalid parameters, valid tool incorrect parameter values, goal failure (agent fails to achieve the goal or solves the problem but without following the constraints)_
-**Tool failures**: 
+
+Evaluation:
+- Out of all generated plans, how many are valid?
+- For a given task, how many plans does the agent have to generate, on average to get a valid plan?
+- Out of all tool calls, how many are valid?
+- How often are invalid tools called?
+- How often are valid tools called with invalid parameters?
+- How often are valid tools called with incorrect parameter values?
+
+**Tool failures**: Correct tool but wrong tool output, no access to right tool
+
+**Evaluate efficiency of agent**
+- How many steps does the agent need, on average, to complete a task?
+- How much does the agent cost, on average, to complete a task?
+- How long does each action typically take? Are there any actions that are especially time-consuming or expensive?
+
+### Memory
+**Internal knowledge**: Modle's own knowledge from the data it was trained on.
+**Short-term memory**: Model's context or input to the model.
+**Long-term memory**: External data sources that a model can access via retrieval.
+
