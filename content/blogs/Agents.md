@@ -1,6 +1,6 @@
 ---
 title: "Agents & Tools"
-date: 2026-09-1
+date: 2026-09-01
 description: "Agents"
 tags: ["LLM", "AI", "Agents", "Tools"]
 ---
