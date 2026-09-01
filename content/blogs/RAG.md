@@ -1,6 +1,6 @@
 ---
 title: "Retrieval Augmented Generation"
-date: 2026-08-25
+date: 2026-08-31
 description: "Retrieval Augmented Generation"
 tags: ["LLM", "AI", "RAG"]
 ---

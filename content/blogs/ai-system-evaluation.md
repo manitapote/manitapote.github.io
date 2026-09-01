@@ -24,4 +24,50 @@ Usually for open ended systems, MCQ or classification kind of evluation methods 
 Textual entailment is the task of determining the relationship between two statements. Given premise (context), it determines which category a hypothesis falls into entailment, contradicton, neutral.
 
 ### Instruction-following capability
+A model is considered to successfully follow an instruction if its output meets all the criteria for this instruction.
+
+Benchmarks to evaluate the capacity to follow instructions
+- count key words in texts
+- count frequency etc.
+
+Task of instruction following: Role playing
+
 ### Cost and latency
+Latency is measured using:
+-"Time to first token (P90)" on Internal user prompt dataset benchmark < 200ms
+-"Time per total query (P90)" on Internal user prompt dataset < 1m
+
+
+### Evaluation harness
+- Tool to help evaluate a model on multiple benchmarks. EleutherAI's lm-evaluation-harness supports 400 benchmarks.
+
+### Handling data contamination
+**N-gram overlapping**: Sample n-gram from test and train, see how much is overlap.
+**Perplexity**: If perplexity is unusually low, the model has seen the test data.
+
+### Simpson's paradox
+
+### Prompt test
+
+- Effectiveness of prompt
+- Length of prompt
+
+### Defensive prompt engineering
+- Prompt extraction
+- Jailbreaking and prompt injection
+- Information extraction
+- Remote code or tool execution
+- Data leaks
+- Social harms
+- Misinformation
+- Brand risk
+- Automated attacks
+- Indirect prompt injection through tools
+- Active injection: attackers proactively send threats to each target.
+
+
+### Level of hierarchy of prompts in LLMs
+- system prompt
+- user prompt
+- model output
+- tool output
