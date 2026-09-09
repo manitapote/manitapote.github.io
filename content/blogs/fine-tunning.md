@@ -28,5 +28,5 @@ When to use:
 **Choosing RAG or prompt is whether the model's failures are information-based or behavior-based.**
 
 ### Memory calculation for training
-Model inference: N x M where N=no. of parameters, M is the memory needed for each parameter
+**Model inference:** N x M where N=no. of parameters, M is the memory needed for each parameter
 
