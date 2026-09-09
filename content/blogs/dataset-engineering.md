@@ -5,69 +5,74 @@ description: "Dataset Engineering"
 tags: ["LLM", "AI", "Dataset Engineering"]
 ---
 
-_The content of this blog is taken from book: AI Engineering by Chip Huyen_
+When building AI systems, data quality means different things at different stages.
+During **pre-training**, quality is measured by the number of tokens processed.
+During **post-training**, it shifts to the number of well-crafted examples.
 
-**Pre-training** data quality is measured in number of tokens.
+Three dimensions matter most when thinking about data:
+- Quality — is the data accurate and clean?
+- Coverage — does it span the problem space?
+- Quantity — is there enough of it?
 
-**Post-training** data quality is measured in number of examples.
+**What makes a dataset high quality?**
 
-Data characteristics needed for better modeling:
-- Data Quality
-- Data Coverage
-- Data Quantity
+**Relevance** — examples need to match the actual task the model is being trained for. Off-topic data adds noise, not signal.
 
-Characteristics of high quality dataset:
+**Task alignment** — annotations need to reflect what the task actually requires, not just what's technically correct. The "right" answer depends on context.
 
-**Relevant**: The training examples should be relevant to the task we are training the model to do.
+**Consistency** — different annotators should arrive at similar labels. A clear, unambiguous rubric is essential to make this happen.
 
-**Aligned with task requirements**: Annotation should be aligned to task. Sometimes correct or accurate may not be the required answer.
+**Correct formatting** — every example should follow the exact input/output format the model expects. Inconsistencies here cause silent failures.
 
-**Consistent**: Annotations should be consistent across examples and annotators. So the rubric for annotation should be clear and concise.
+**Diversity** — a dataset full of near-identical examples teaches the model very little. Variety across examples is what drives generalization.
 
-**Correctly formatted**: All examples should follow the format expected by the model.
+**Compliance** — data must respect legal and organizational policies. This is easy to overlook and expensive to fix later.
 
-**Sufficiently unique**: Data should content diverse examples.
+How much data you need depends on:
+- Which finetuning technique you're using
+- How complex the task is
+- How well the base model already performs on similar tasks
 
-**Compliant**: Data should be compliant with all relevant internal and external policies (laws and regulations).
+A good first experiment before scaling data collection: check whether even a small set of high-quality examples moves the needle on the metric you care about.
 
-Data quantity depends on following factors:
-- Finetuning techniques
-- Task complexity
-- Base model's performance
+---
 
-First step to finetuning: check if even high quality examples improve the desirable performance.
+**Synthetic Data**
 
+When real data is scarce, synthetic data is a practical alternative:
+- For images: affine transformations (rotation, scaling, flipping) can expand a dataset cheaply
+- For text: synonym substitution, AI-generated paraphrases, or token-level perturbations
+- General approach: adding controlled noise to existing examples to create new variations
 
+Some publicly available synthetic datasets worth knowing:
+- [Cosmopedia](https://huggingface.co/datasets/HuggingFaceTB/cosmopedia) (Allal et al., 2024)
+- [Mixtral-8x7B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1) (Jiang et al., 2024)
 
-**Synthetic data generation**:
-- For images: Affine transformation in the images could be a way.
-- For texts: Changing the tokens or replacing the words with synonyms, AI rephrase or paraphrase
-- Perturbation: If we add noise to exisiting data to generate new data.
+**Simple heuristics for filtering bad data:**
+- Remove repetitive examples
+- Drop instructions that are unusually short or long
+- Eliminate cases where the same instruction maps to contradictory responses
+- Remove examples where the output simply echoes the input
 
-Sources for synthetic datasets:
-- (Allal et al. 2024), [Cosmopedia](https://huggingface.co/datasets/HuggingFaceTB/cosmopedia), 
-- (Jiang et al., 2024) [Mixtral-8x7B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1)
+**Known limitations of AI-generated data:**
 
-**Heuristics to filter out data**:
-- Repetitive examples
-- Instructions that are too long or too short
-- Examples with the same instruction but different responses
-- Examples where the output is repetition of the input
+1. **Quality is hard to measure** — there's no simple metric that reliably tells you if synthetic data is actually good.
+2. **Surface-level imitation** — a model trained on AI-generated data may look capable but fail to generalize beyond what it has seen.
+3. **Model collapse risk** — iteratively training on AI-generated outputs can cause gradual performance degradation. Biases also tend to get amplified rather than corrected.
+4. **Murky data lineage** — when many models share the same synthetic training data, tracing what came from where becomes difficult, and data leakage risks increase.
 
-**Limitations of AI-generated data**:
-1) _Quality control_: Coming up with metrics to evaluate the quality of data is hard.
-2) _Superficial imitation_: Model might mimick the teacher model well but lack of generalization outside the training data.
-3) _Potential model collapse_: Interatively training models on AI generated data could cause performance degrade. AI-generated data might also perpetuate biases.
-4) _Obscure data lineage_: Data leakage if many different models are trained on same set of data examples.
+**Model Distillation** is a related technique where a smaller model (the student) is trained to replicate the behavior of a larger, more capable model (the teacher). One practical approach: fine-tune the student on synthetic instruction data generated by the teacher model.
 
-**Model Distillation**: Method in which a small model (student) is trained to mimic a larger model (teacher). A small model can be fintuned on the synthetic instruction data generated by other larger models.
+---
 
-**Preprocessing steps**:
-- Pair of words
-- Sequence length
-- Deduplicate the data
-    - _Pairwise comparison_: Compute the similarity score between each example pairs.
-    - _Hashing_: Hash examples into the different buckess and check only among the examples that fall into the same bucket.
-    - _Dimensionality reduction_: Use dimensionality reduction technique to first reduce the dimensions of the data then do pairwise comparison.
-- Clean and filter data
-- Right format expected by the model (system prompt, user prompt), (instruction, response).
+**Data Preprocessing**
+
+Before any training, raw data needs to go through several cleaning steps:
+
+- Analyze token pairs and sequence lengths to understand the data's structure
+- **Deduplicate** — near-duplicate examples waste compute and can skew training:
+  - *Pairwise comparison*: compute similarity scores between all pairs (expensive but thorough)
+  - *Hashing*: bucket examples by hash value, then only compare within buckets (faster)
+  - *Dimensionality reduction*: compress examples into lower-dimensional space first, then run pairwise comparison (good balance of speed and accuracy)
+- Clean and filter based on quality heuristics
+- Format everything correctly — typically as (system prompt, user prompt) or (instruction, response) pairs
