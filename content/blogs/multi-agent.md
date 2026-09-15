@@ -2,7 +2,7 @@
 title: "Multi-Agent System"
 date: 2026-09-15
 description: "Multi-Agent System"
-tags: ["LLM", "AI", "Multi-Agent System""]
+tags: ["LLM", "AI", "Multi-Agent System"]
 ---
 
 
