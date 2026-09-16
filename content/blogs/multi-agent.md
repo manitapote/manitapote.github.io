@@ -69,3 +69,9 @@ Control flow:
 
 - LLM-Based Delegation: relies on agent reasoning to determine escalation needs.
 - Rule-Based Delegation: uses explicit triggers defined in code.
+
+#### UX design for multiagent system
+- This is important as it acts as the human intervention point.
+- Interruptibility, help understand what user can do, communicate the cost of agent actions, allow suers to decide when agents can act
+- Observability and provenance: ensure users can observe/trace agent actions.
+
