@@ -22,7 +22,8 @@ This is deterministic pattern where the behavior is predictable. The pattern is 
 
 #### Autonomous Patterns (Emergent Control)
 The flow of control is driven by the AI model and dynamically determined at runtime.
--**Plan-Based Orchestration Pattern**: A single orchestrator agent manage entire taske execution through explicit plan creation, dynamic task assignment and centralized progress monitoring. 
+- **Plan-Based Orchestration Pattern**: A single orchestrator agent manage entire taske execution through explicit plan creation, dynamic task assignment and centralized progress monitoring. 
+Control flow:
     - Plan management: Orchestrator maintains explicit task plans with assignments and dependencies.
     - Visibility: Orchestrator sees all context; other agents receive only relevant information
     - Task assignment: work distribution based on plan
@@ -30,7 +31,41 @@ The flow of control is driven by the AI model and dynamically determined at runt
 
 - **Handsoff Pattern**: This is peer to peer delegation based on local knowledge. Agents make local decisions about when and to whom they should transfer control based on their understanding of the task and knowledge of other available agents.
 Control flow:
-    - Visibility:
-    - Turn-taking:
-    - Decision making:
-    - State management:
+    - Visibility: Each agent knows only a subset of other agents and their capabilities.
+    - Turn-taking: Direct handoff
+    - Decision making: Local decisions based on task needs and known agents
+    - State management: Explicitly passed between agents during handoff
+- **Conversation-driven Pattern (Group chat)**: All agents participate in a shared conversation where ochestration emerges by taking turns as part of dialogue rather than explicit plans or structured handoffs.
+Control flow:
+    - Visibility: All agents observe all messages in the shared conversation
+    - Turn-taking: round-robin, random
+    - Decision making: next speaker selected based on conversation context, not predetermined plans
+    - State managment: Implicit in the conversation history
+
+    - **Round-robin conversation**: agents take turns in fixed repeating order, until some termination condition is met.
+    - **AI-driven conversation pattern**: AI models selects the agent to make the next turn based on current conversation context.
+
+    Selection criteria for different patterns:
+    - Task characteristics:
+        - Well-defined, repeatable processes -> workflow patterns
+        - Dynamic, exploratory tasks -> Autonomous patterns
+        - Complex planning required -> Plan-Based Orchestration
+        - Domain expertise required -> Handoff patterns
+
+    - System requirements:
+        - High predictability needed -> Workflow patterns
+        - Maximum autonomy required -> AI-Driven conversation
+        - Resource constraints -> Handoff patterns
+        - Scalability concerns -> Parallel workflows or handoff patterns
+
+    - Implementation consideration:
+        - Developer resources available -> workflow patterns
+        - Rapid prototyping needed -> Conversation-driven patterns
+        - Production reliability critical -> workflow patterns with explicit task management
+        - Human oversight required -> Any pattern + Human delegation
+
+
+#### Human Delegation Patterns
+
+- LLM-Based Delegation: relies on agent reasoning to determine escalation needs.
+- Rule-Based Delegation: uses explicit triggers defined in code.
