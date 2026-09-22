@@ -75,3 +75,11 @@ Control flow:
 - Interruptibility, help understand what user can do, communicate the cost of agent actions, allow suers to decide when agents can act
 - Observability and provenance: ensure users can observe/trace agent actions.
 
+#### Agent execution loop
+- Prepare context: combine task + instructions + memory + conversation history
+- Call model: send context to LLM and get response
+- Handle Response: Process text response or execute tool calls
+- Iterate: if tools were called, add results to context and repeat from call model
+- Return: Provide final response and update memory
+
+
