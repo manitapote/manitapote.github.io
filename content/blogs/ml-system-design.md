@@ -78,4 +78,26 @@ Stream processing is used to compute features that change quickly, information t
 
 ## Training Data
 
+#### Sampling
+**Nonprobability Sampling**:
+- Convenience sampling: samples of data are selected based on their availability.
+- Snowball sampling: future samples are selected based on existing samples
+- Judgment sampleing: Experts decide what samples to include
+- Quota sampling: Samples are selected based on quotas for certain slices of data without randomization. Example: in survey, 100 people in age 30-40, 20 people below 19 age etc.
 
+**Probability based sampling**:
+- **Simple Random Sampling**: Each sample points get equal probability. Easy to implement but may not include rare class samples.
+- **Stratified Sampling**: The sample is divided into groups and each groups is separately sampled. This makes sure that rare groups or class are included.
+- **Weighted Sampling**: Each sample is given a weight, which determines the probability of it being selected.
+- **Reservior Sampling**: This is useful to deal with streaming data in production. We can't fit all data for training so we need to sample in the stream.
+- Step 1: select a reservior size to consider or data to consider, example: k = 4
+- Step 2: For each incoming nth element, generate a random number, i between 1 <= i  <= n.
+- Step 3: If 1 <= i <= k: replace the ith element in the reservior with the nth element else do nothing. Each incoming nth element has probability of k/n.
+
+- **Importance Sampling**: This allows sampling from one distribution when we have only access to another distribution. We need to sample x from P(x) but P(x) is slow, expensive or infeasible to sample from. If we have Q(x) that is easier to sample from. Q(x) if proposal distribution or the importance distribution. 
+
+```
+E_p(x) [x] = E_q(x) [x \frac{P(x)}{Q(x)}]
+```
+
+#### Labeling
