@@ -5,6 +5,7 @@ description: "Agents"
 tags: ["ML", "System", "Design"]
 ---
 
+## ML Problems
 For what kind of problems ML will be better:
 - **Repetition**: If the task if repetitive with same kind of pattern.
 - **Wrong predicition is cheap**: The cost of wrong predicitons is cheap.
@@ -65,6 +66,16 @@ Databases are optimized for two types of workloads:
 **Modes of Dataflow**: Passing data from one process to another.
 - Data passing through databases
 - Data passing through services using requests such as the requests provided by REST and RPC APIs. RPCs are like calling functions in the program to make a request to remote network service.
-- Data passing through a real-time transport like Apache Kafka, amazon kinesis
+- Data passing through a real-time transport like Apache Kafka, amazon kinesis. Two types of real-time tansport: pubsub (publish subscribe) and message queue. In pubsub, any service can publish to different topics in a real-time transport and it does not care who consumes it. Old data are removed. In case of message queue, there is a specific intended consumers example: RocketMQ, RabbitMQ etc.
+
+**Batch processing vs stream processing**
+- **Batch processing**: When the historical data is processed in batch jobs. They are processed once a day.
+- **Stream processing**: Computation in streaming data periodically, within time shorter than priods of batch jobs.
+
+Batch processing is usually used to compute features that change less often, batch features.
+
+Stream processing is used to compute features that change quickly, information that change with time example: number of drivers nearby. These are dynamic features.
+
+## Training Data
 
 
