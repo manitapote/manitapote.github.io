@@ -101,3 +101,17 @@ E_p(x) [x] = E_q(x) [x \frac{P(x)}{Q(x)}]
 ```
 
 #### Labeling
+- **Hand Labels**: Data privacy issue, Expensive if require expert labeler, Slow process
+- **Label Multiplicity**: Data from different sources can have different labels for same row. **Data lineage** means keeping track of sources, labels and versions of the data so that we can track the source of error later.
+- **Natural Labels**
+- **Feedback loop length**: Time it takes from when a prediction is served until when the feedback on it is provided. Recommender system have short feedback loops. Shorter time means we can evaluate our models faster and find the issue with it. Long feedback is observed in fraud detection. The model performance can be reported in the quaterly report.
+- **Handling the Lack of Labels**: 
+    - **Weak supervision**: In this we label the data based on heuristic function that is created by expert. This might not cover all the labels but a model can be trained on weakly supervised model and made to predict on new data.
+    - **Semi-supervision**: It starts with few hand labeled data, model is trained to predit these labels. The trained model makes prediction on new data points. These new data points are used as input to make prediciton on new, so it is self supervision.
+    - **Transfer learning**: This process uses a general model trained on large amount of generic data to label the data points.
+    - **Active learning**: The model is trained on the examples that we are sure of its label or less uncertainty.  
+
+#### Class imbalance
+
+
+#### Data Augmentation
