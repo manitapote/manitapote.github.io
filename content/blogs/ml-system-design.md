@@ -112,6 +112,90 @@ E_p(x) [x] = E_q(x) [x \frac{P(x)}{Q(x)}]
     - **Active learning**: The model is trained on the examples that we are sure of its label or less uncertainty.  
 
 #### Class imbalance
+Class imbalance is especially affect the deep learning models for following reasongs.
+- Lack of examples means insufficient signal for the model, the label might not exist for model.
+- Class imbalance makes it easier for the model to get stuck in a nonoptimal solution by exploiting simple heuristic instead of learning anything useful about the underlying pattern of the data.
+- Asymmetric costs of error, the cost of wrong prediction on a sample of the rare class might be much higher than a wrong prediciton on a sample of the majority class.
 
+Handling class imbalance:
+- **Choosing right metric**: F1, precision, recall, AUC-ROC, AUC-ROC
+- **Data-level methods**: Undersampling, oversampling, dynamic sampling (oversample the low-performing classes and undersample the high performing classes during the training process)
+- **Algorithm-level methods**: Cost sensitive loss where each wrong example is weighted, Weighted class-balanced loss (W_i = N/(number of samples of class i)), **Focal Loss** 
+$$
+FL(p_t) = -(1-p_t)^\gamma log(p_t)
+$$
 
 #### Data Augmentation
+
+**Simple Label-Preserving Transformations**: This means the original data is changed but label is preserved. In case of images, the images are rotated, flipped, cropped, iverted etc. In case of text, words are changed with synomys assuming the replacement wouldn't change the meaning or the sentiment of the sentence. Embedding of words can be used to.
+
+**Perturbation**: Adding noisy samples to training data so that model recognize the weak spots in their learned decision boundary and imporve their performance. This is also called 'adversarial augmentation'.
+
+**Data Synthesis**: In NLP, the templates are used to generate training data.
+
+## Feature Engineering
+
+**Learned features vs engineered features**: Deep learning is learned features. Engineered features is where domain knowledge is important.
+**Common features engineering operations**:
+- Missing data
+    - Missing not at random (MNAR): Missing values is missing due to a reason.
+    - Missing at random (MAR): Missing value if due to another observed variable
+    - Missing completely at random (MCAR): There is no pattern in when the value is missing.
+
+- Deletion: remove the column itself, row deletion, 
+- Imputation: Default value, mean, median or mode, bias or noise or data leakage may be injected when imputation
+- Scaling: 
+$$
+x\cap(a) = \frac{x-min(x)}{max(x) - min(x)}
+$$ this makes in range of [0, 1].
+
+$$
+x' = a + \frac{(x-min(x))(b-a)}{max(x) - min(x)}
+$$ this makes in range of [a, b].
+
+$$
+x' = \frac{x-mean(x)}{\delta}
+$$ this is standardization.
+
+
+- Discretization: process of turning a continuous features into discrete feature, binning.
+- Encoding: Categories can be numerous. So the way to work with it is to use hash function. For example: if hash space is 18 bits which corresponds to $2^18=262,144$ possible hashed values all the categories even unseen will be encoded. There will be collisions.
+- Feature crossing: combining two or more features to generate new features to model non-linear relations. 
+- Discrete and continuous positional embedding: Fourier series can take any discrete and continuous value.
+
+**Data Leakage**: Some form of labels are leaked to training data. Causes of data leakage:
+- Splitting time-correlated data randomly instead of time: 
+- Scaling before splitting: The scaling should happen after the split and mean and std should come from train split.
+- Filling in missing data with statistics from the test split: The missing values should come from summary statistics from the train split.
+- Poor handling of data duplication before splitting: The data duplication should happen after splitting the data into test and train.
+- Group leakage: A group of examples have strongly correlated labels but are divided into splits. Like example: a patient with lung cancer has many samples of test results. If divided into test and train, some samples with common features will end up in both train and test.
+- Leakage from data generation process: If there are different data from different sources, the good performance could be due to the generation process difference itself.
+
+
+To detect data leakage, check the predicition of each features as well as combination so that we can find if there is high correlation between feature and labels.
+
+**Engineering good features**:
+- Too many features, the more opportunities for data leakage.
+- Too many features, chances of overfitting
+- Increase in memory requirement.
+- Increase inference latency
+- Useless features becomes technical debts. As there is change in data pipeline, all affected features needs to be adjusted.
+
+**Feature importance**:
+- Built-in feature importance functions implemented by XGBoost.
+- SHAP (SHapley Additive exPlanations) is model agnostic  methods.
+- InterpretML
+
+**Feature generalization**:
+- More coverage the feature has more generalization. Coverage means the percentage of samples that have the features.
+
+
+## Model development and offline evaluation
+**Modeling development and training**:
+**Model offline evaluation**:
+
+## Model deployment and prediciton service
+## Data distribution shifts and monitoring
+## Continual learning and test in production
+## Infrastructure and tooling for MLOps
+## The human side of machine learning
