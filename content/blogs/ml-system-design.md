@@ -192,7 +192,67 @@ To detect data leakage, check the predicition of each features as well as combin
 
 ## Model development and offline evaluation
 **Modeling development and training**:
+- Avoid the state-of-the-art-trap
+- Start with simplest models
+- Avoid human biases in selecting models
+- Evaluate good performance now vs good performance later: Look into the learning curve and get a sense if the adding data helps.
+- Evaluate trade-offs: false positive vs false negative, GPU vs CPU needed.
+- Understand model's assumptions: Prediction assumption, IID, smoothness, Tractability, Boundaries, Conditional independence, Normally distributed
+
+**Ensembles**: Use ensemble of different models to make final predicitons.
+
+**Bagging** (Bootstrap Aggregating): Random Forest
+
+**Boosting**: Iterative ensemble algorithms that convert weak learners to strong ones.
+
+**Stacking**: Results from base models are used to train meta learners to give final predicition.
+
+**Experiment tracking**:
+- Loss curve corresponding to the train split and each of the eval splits
+- The model performance metrics that you care about on allnontest splits, such as accuracy, F1, perplexity.
+- Log of corresponding sample, prediction, ground truth label.
+- Speed of the model, evaluated by the number of steps per second
+- System performance metrics such as memory usage, CPU/GPU utilization
+- The values over time of any parameter and hyperparameter whose changes can affect the model's performance.
+
+**Versioning**:
+Data versioning system
+
+Debugging:
+- Start simple and gradually add more components
+- Overfit a single batch
+- Set a random seed
+
+
+**Distributed Training**:
+- Data parallelism: Difficulty is how to update the gradient collected from different machines. The accumulations will have to wait for all the gradient to be available.
+- Model parallelism: It is actually not parallel if the different layers are in different machines. If the same weight matrix is split into parts, then it can be parallel.
+- Pipeline parallelism: 
+
+**AutoML**
+- soft AutoML: parameter, hyperparameter search
+- hard AutoML: architecture search and learned optimizer
+    - Search space
+    - Performance estimation strategy
+    - Search strategy
+
 **Model offline evaluation**:
+- Random baseline
+- Simple heuristic like chronological order
+- Zero rule baseline (predicts most common class)
+- Human baseline: if the goal beat prediction done by human
+- Existing solutions: We are replacing existing method, it is useful.
+
+**Evaluation methods**
+- Perturbation tests: To test how model performs in case of noisy data, we can test by making small changes to the test split to see how these changes affect the model's performance
+- Invariance tests: Test if removing some features leads to difference in the result. This will help to find biases in the data.
+- Directional expectation tests: If we know if any of the feature change leads to similar direction change in output, we can test if this works or not.
+- Model calibration: 
+- Confidence measurement: Usefulness threshold for each individual prediction.
+- Slice-based evaluation: Use metrics in different slices of the data. Simpson's paradox: a phenomenon in which a trend appears in several groups of data but disappears or reverse when the groups combined.
+    - Heuristic-based: Domain knowledge (mobile vs web traffic)
+    - Error analysis: Manually go through misclassified examples and find patterns among them
+    - Slice finder: Generating slice candidates with algorithms such as beam search, clustering, or decision.
 
 ## Model deployment and prediciton service
 ## Data distribution shifts and monitoring
